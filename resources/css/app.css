@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+@import "../_src/css/bootstrap.min.css";
+@import "../_src/css/fontawesome.min.css";
+@import "../_src/css/magnific-popup.min.css";
+@import "../_src/css/swiper-bundle.css";
+@import "../_src/css/animate.min.css";
+@import "../_src/css/style.css";
