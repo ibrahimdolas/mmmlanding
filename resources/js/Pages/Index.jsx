@@ -7,6 +7,7 @@ import Sessions from "@/Components/Sessions.jsx";
 import Programs from "@/Components/Programs.jsx";
 import Gallery from "@/Components/Gallery.jsx";
 import Facilities from "@/Components/Facilities.jsx";
+import Feedback from "@/Components/Feedback.jsx";
 
 const Index = () => {
 	return (
@@ -21,6 +22,7 @@ const Index = () => {
 			<Gallery/>
 			<Programs/>
 			<Facilities/>
+			<Feedback/>
 			
 		</Layout>
 	);
