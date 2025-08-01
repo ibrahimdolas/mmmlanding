@@ -10,7 +10,7 @@ import {servicePageData} from "@/ServiceItems.js";
 const Services = () => {
 	
 	return (
-		<section className="vs-service--area animation-active z-index-common space overflow-hidden" style={{backgroundImage: `url(${servicePageData.bg})`}}>
+		<section className="vs-service--area animation-active z-index-common space overflow-hidden background-image" style={{backgroundImage: `url(${servicePageData.bg})`}}>
 			
 			<img src={servicePageData.ele1} alt="Service Ele 1" className="vs-service--ele1 wow animate__fadeInLeft" data-wow-delay="0.25s"/>
 			<img src={servicePageData.ele2} alt="Service Ele 2" className="vs-service--ele2 wow animate__fadeInRight" data-wow-delay="0.45s"/>
@@ -62,7 +62,6 @@ const Services = () => {
 									spaceBetween: 24
 								}
 							}}
-							spaceBetween={24}
 						>
 							
 							{

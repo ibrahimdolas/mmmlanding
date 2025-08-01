@@ -5,7 +5,7 @@ import {Link} from "@inertiajs/react";
 const About = () => {
 	const [activeTab, setActiveTab] = useState('history')
 	return (
-		<section className="vs-about--section space space-extra-bottom z-index-common parallax-wrap overflow-hidden" style={{backgroundImage: `url(${aboutPageData.bg})`}}>
+		<section className="vs-about--section space space-extra-bottom z-index-common parallax-wrap overflow-hidden background-image" style={{backgroundImage: `url(${aboutPageData.bg})`}}>
 			<img src={aboutPageData.palm} alt="Palm" className="vs-about--ele1 wow animate__fadeInUp" data-wow-delay="0.35s"/>
 			<div className="container">
 				<div className="row align-items-center">
