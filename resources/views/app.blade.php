@@ -40,7 +40,21 @@
         @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
         @inertiaHead
     </head>
-    <body class="font-sans antialiased" id="page_root">
-        @inertia
+    <body class="font-sans antialiased">
+    
+    <script>
+        @if(file_exists((base_path('lang/'.app()->getLocale().'.json'))))
+            window.translations = @json(json_decode(file_get_contents(base_path('lang/'.app()->getLocale().'.json'))))
+        @else
+            window.translations = {}
+        @endif
+        
+        window.locale = "{{ app()->getLocale() }}"
+    </script>
+    
+    
+        <div id="page_root">
+            @inertia
+        </div>
     </body>
 </html>

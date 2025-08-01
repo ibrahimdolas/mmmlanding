@@ -4,8 +4,21 @@ import './bootstrap';
 import { createInertiaApp } from '@inertiajs/react';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createRoot } from 'react-dom/client';
+import {lang} from "@/commonFunctions.js";
 
-const appName = import.meta.env.VITE_APP_NAME || 'Laravel';
+import moment from "moment-timezone";
+import 'moment/dist/locale/tr'
+
+const cookies = document.cookie.split('; ').reduce((acc, cookie) => {
+    const [name, value] = cookie.split('=')
+    acc[name] = value
+    return acc
+}, {})
+
+const locale = cookies['Accept-Language'] || 'en'
+moment.locale(locale)
+
+const appName = lang(import.meta.env.VITE_APP_NAME) || 'Laravel';
 
 createInertiaApp({
     title: (title) => `${title} - ${appName}`,

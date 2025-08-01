@@ -2772,7 +2772,7 @@ a.text-theme:hover,
   margin-right: 12px;
   font-family: var(--vs-title-font);
 }
-.social-style a {
+.social-style a, .social-style span.lang {
   --icon-size: 32px;
   background-color: rgba(255, 255, 255, 0.4);
   border: 3px dashed rgba(255, 255, 255, 0.4);
@@ -2786,11 +2786,15 @@ a.text-theme:hover,
   font-size: 14px;
   margin-right: 7px;
   transition: all ease 0.4s;
+  cursor: pointer;
 }
-.social-style a:last-child {
+.social-style a:last-child, .social-style span:last-child {
   margin-right: 0;
 }
-.social-style a:hover {
+.social-style span.active {
+  background-color: var(--vs-theme-color2);
+}
+.social-style a:hover, .social-style span:hover {
   background-color: var(--vs-theme-color2);
 }
 .social-style--version2 a {
