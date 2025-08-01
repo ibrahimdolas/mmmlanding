@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Loader from "@/Components/Loader.jsx";
 import MobileMenu from "@/Components/MobileMenu.jsx";
 import Offcanvas from "@/Components/Offcanvas.jsx";
@@ -6,6 +6,7 @@ import Header from "@/Components/Header.jsx";
 import {Head} from "@inertiajs/react";
 
 const Layout = ({title, children}) => {
+	
 	return (
 		<>
 			
