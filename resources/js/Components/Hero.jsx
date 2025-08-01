@@ -1,19 +1,19 @@
 import React from 'react';
 
-import Star from "../../_src/img/heroElements/star.svg"
+
 
 import {Link} from "@inertiajs/react";
 import {Swiper} from "swiper/react";
 import {SwiperSlide} from "swiper/react";
 import {Navigation, Pagination, EffectFade} from "swiper/modules";
-import {banners} from "@/HeroItems.js";
+import {bannerPageData} from "@/HeroItems.js";
 
 
 const Hero = () => {
 	return (
 		<section className="vs-hero overflow-hidden z-index-common parallax-wrap">
 			<div className="vs-hero__ele1">
-				<img src={Star} alt="Star"/>
+				<img src={bannerPageData.star} alt="Star"/>
 			</div>
 			<div className="swiper vs-hero__active--zoom">
 				
@@ -44,7 +44,7 @@ const Hero = () => {
 					}}
 				>
 					{
-						banners.map(banner => (
+						bannerPageData.banners.map(banner => (
 							<SwiperSlide
 								className="swiper-slide"
 								key={banner.id}
