@@ -17,4 +17,9 @@
 		{
 			return Inertia::render('About');
 		}
+		
+		public function partners()
+		{
+			return Inertia::render('Partners');
+		}
 	}
