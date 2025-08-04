@@ -3,9 +3,8 @@ import React from 'react';
 import Grass from "../../_src/img/footerElements/footer-element-1.png"
 import Scissors from "../../_src/img/footerElements/footer-element-2.png"
 import Bus from "../../_src/img/footerElements/footer-element-3.png"
-import Balls from "../../_src/img/footerElements/footer-element-4.svg"
 
-import FooterLogo from "../../_src/img/logo-version-2.svg"
+import FooterLogo from "../../_src/img/logo.svg"
 
 import {Link} from "@inertiajs/react";
 import {footerMenuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
@@ -27,7 +26,7 @@ const Footer = () => {
 							<div className="vs-footer__widget">
 								<div className="vs-footer__logo text-center text-md-start mb-25">
 									<Link to="/" className="vs-footer__logo-link">
-										<img src={FooterLogo} alt="Math Magic in Motion"/>
+										<img src={FooterLogo} alt="Math Magic in Motion" height="60"/>
 									</Link>
 								</div>
 								<p className="vs-footer__desc text-center text-md-start">
