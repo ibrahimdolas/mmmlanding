@@ -4,6 +4,8 @@ import MobileMenu from "@/Components/MobileMenu.jsx";
 import Offcanvas from "@/Components/Offcanvas.jsx";
 import Header from "@/Components/Header.jsx";
 import {Head} from "@inertiajs/react";
+import Footer from "@/Components/Footer.jsx";
+import BackToTop from "@/Components/BackToTop.jsx";
 
 const Layout = ({title, children}) => {
 	
@@ -21,6 +23,9 @@ const Layout = ({title, children}) => {
 				{children}
 			</main>
 			
+			<Footer/>
+			
+			<BackToTop/>
 			
 		</>
 	);

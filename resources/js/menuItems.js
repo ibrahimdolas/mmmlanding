@@ -66,3 +66,47 @@ export const socialMediaAccounts = [
 		abbr: '/mathmagicinmotion'
 	}
 ]
+
+
+export const footerMenuItems = [
+	[
+		{
+			title: 'Blog',
+			path: '/blog'
+		},
+		{
+			title: 'About The Project',
+			path: '/about-the-project'
+		},
+		{
+			title: 'Contact',
+			path: '/contact'
+		},
+		{
+			title: 'Help Center',
+			path: '/help-center'
+		},
+		{
+			title: 'Become A Guide',
+			path: '/become-a-guide'
+		}
+	],
+	[
+		{
+			title: 'Join or Renew',
+			path: '/join-or-renew'
+		},
+		{
+			title: 'Membership',
+			path: '/membership'
+		},
+		{
+			title: 'Options',
+			path: '/options'
+		},
+		{
+			title: 'Families',
+			path: '/families'
+		}
+	]
+]

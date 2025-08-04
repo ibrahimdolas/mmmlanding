@@ -8,6 +8,7 @@ import Programs from "@/Components/Programs.jsx";
 import Gallery from "@/Components/Gallery.jsx";
 import Facilities from "@/Components/Facilities.jsx";
 import Feedback from "@/Components/Feedback.jsx";
+import News from "@/Components/News.jsx";
 
 const Index = () => {
 	return (
@@ -23,6 +24,7 @@ const Index = () => {
 			<Programs/>
 			<Facilities/>
 			<Feedback/>
+			<News/>
 			
 		</Layout>
 	);
