@@ -1,27 +1,23 @@
-import React from 'react';
-import {Link} from "@inertiajs/react";
+import React, {useEffect} from 'react';
+import {Link, usePage} from "@inertiajs/react";
 
 import Logo from "../../_src/img/logo.svg"
 import {address, mailAddress, menuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
+import {toggleMobileMenu} from "@/commonFunctions.js";
 
 const MobileMenu = () => {
+	
+	
 	return (
-		<div className="vs-menu-wrapper">
-			<div className="vs-menu-area text-center">
+		<div className="vs-menu-wrapper" onClick={toggleMobileMenu}>
+			<div className="vs-menu-area text-center" onClick={e => e.stopPropagation()}>
 				
 				<div className="mobile-logo">
 					<Link href="/">
-						<img src={Logo} alt="Math Magic in Motion" className="logo"/>
+						<img src={Logo} alt="Math Magic in Motion" className="logo" height="60"/>
 					</Link>
-					<button className="vs-menu-toggle" tabIndex="-1">
+					<button className="vs-menu-toggle" tabIndex="-1" onClick={() => toggleMobileMenu()}>
 						<i className="fa-solid fa-xmark"/>
-					</button>
-				</div>
-				
-				<div className="vs-header__right pt-4">
-					<button className="searchBoxTggler" type="button">
-						language buttons goes here
-						{/*solve*/}
 					</button>
 				</div>
 				
@@ -30,9 +26,10 @@ const MobileMenu = () => {
 						{
 							menuItems.map(item => (
 								<li key={item.path}>
-									<Link href={item.path} className="vs-svg-assets">
+									<Link href={item.path} className="vs-svg-assets" onClick={toggleMobileMenu}>
 										{item.title}
 										{/*solve: lang options*/}
+										{/*solve: error on page change*/}
 										<svg xmlns="http://www.w3.org/2000/svg" style={{width: 'calc(100% + 20px)'}} height="31" viewBox="0 0 87 31" fill="none">
 											<path d="M0 4.14031C0 1.87713 1.87602 0.0646902 4.13785 0.142684L83.1379 2.86682C85.2921 2.94111 87 4.70896 87 6.86445V25.0909C87 27.2642 85.2647 29.0399 83.0919 29.0898L4.09193 30.9059C1.84739 30.9575 0 29.1521 0 26.907V4.14031Z" fill="#70167E"/>
 										</svg>

@@ -27,7 +27,7 @@ const News = () => {
 					<Swiper
 						className="swiper-wrapper"
 						modules={[Navigation, Autoplay]}
-						loop={true}
+						loop={false}
 						autoplay={{
 							delay: 5000
 						}}
@@ -49,7 +49,7 @@ const News = () => {
 						{
 							newsPageData.news.map(news => (
 								<SwiperSlide
-									className="col-lg-4 swiper-slide wow animate__fadeInUp"
+									className="col-lg-4 swiper-slide wow" data-animate="fadeInUp"
 									data-wow-delay={news.delay}
 									key={news.id}
 								>

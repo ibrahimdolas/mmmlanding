@@ -12,8 +12,8 @@ const Services = () => {
 	return (
 		<section className="vs-service--area animation-active z-index-common space overflow-hidden background-image" style={{backgroundImage: `url(${servicePageData.bg})`}}>
 			
-			<img src={servicePageData.ele1} alt="Service Ele 1" className="vs-service--ele1 wow animate__fadeInLeft" data-wow-delay="0.25s"/>
-			<img src={servicePageData.ele2} alt="Service Ele 2" className="vs-service--ele2 wow animate__fadeInRight" data-wow-delay="0.45s"/>
+			<img src={servicePageData.ele1} alt="Service Ele 1" className="vs-service--ele1 wow animate__fadeInLeft" data-animate="fadeInLeft" data-wow-delay="0.25s"/>
+			<img src={servicePageData.ele2} alt="Service Ele 2" className="vs-service--ele2 wow animate__fadeInRight" data-animate="fadeInRight" data-wow-delay="0.45s"/>
 			
 			<div className="container">
 				<div className="row">
@@ -67,7 +67,7 @@ const Services = () => {
 							{
 								servicePageData.services.map(service => (
 									<SwiperSlide className="col-lg-4 col-md-6 swiper-slide" key={service.id}>
-										<div className="vs-service wow animate__fadeInUp" data-wow-delay={service.delay}>
+										<div className="vs-service wow animate__fadeInUp" data-animate="fadeInUp" data-wow-delay={service.delay}>
 											<div className="vs-service__figure">
 												<Link to={service.path} className="vs-service__image--link">
 													<img src={service.image} alt={service.title} className="vs-service__image"/>

@@ -1,15 +1,43 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 
 
 import {Link} from "@inertiajs/react";
 import {Swiper} from "swiper/react";
 import {SwiperSlide} from "swiper/react";
-import {Navigation, Pagination, EffectFade} from "swiper/modules";
+import {Navigation, Pagination, EffectFade, Autoplay} from "swiper/modules";
 import {bannerPageData} from "@/HeroItems.js";
 
 
 const Hero = () => {
+	
+	const applyHeroAnimations = () => {
+		const slides = document.querySelectorAll('.vs-hero__active--zoom .swiper-slide-active:not(.swiper-slide-duplicate)')
+		
+		slides.forEach(el => {
+			el.classList.remove('manimated')
+			el.style.animationDelay = ''
+		})
+		
+		const activeSlide = document.querySelector('.vs-hero__active--zoom .swiper-slide-active:not(.swiper-slider-duplicate)')
+		
+		const animElements = activeSlide.querySelectorAll('.vs-hero__anim')
+		animElements.forEach((el, index) => {
+			const delay = 1.1 + index * 0.2
+			el.style.animationDelay = `${delay}s`
+			
+			void el.offsetWidth
+			
+			el.classList.add('manimated')
+		})
+	}
+	
+	useEffect(() => {
+		setTimeout(() => {
+			applyHeroAnimations()
+		}, 100)
+	}, []);
+	
 	return (
 		<section className="vs-hero overflow-hidden z-index-common parallax-wrap">
 			<div className="vs-hero__ele1">
@@ -19,7 +47,7 @@ const Hero = () => {
 				
 				<Swiper
 					className="swiper-wrapper"
-					modules={[Navigation, Pagination, EffectFade]}
+					modules={[Navigation, Pagination, EffectFade, Autoplay]}
 					spaceBetween={0}
 					slidesPerView={1}
 					speed={1500}
@@ -29,7 +57,7 @@ const Hero = () => {
 					}}
 					loop={true}
 					autoplay={{
-						waitForTransition: false
+						delay: 6000
 					}}
 					navigation={{
 						nextEl: '.vs-swiper-button-next',
@@ -42,6 +70,7 @@ const Hero = () => {
 							return `<span class="${className}"><i class="fas fa-star"></i></span>`
 						}
 					}}
+					onSlideChangeTransitionStart={applyHeroAnimations}
 				>
 					{
 						bannerPageData.banners.map(banner => (
@@ -58,7 +87,7 @@ const Hero = () => {
 												<img src={banner.star} alt="Star Icon"/>
 												{banner.starTitle}
 											</span>
-											<h1 className="vs-hero__title--main vs-hero__main">
+											<h1 className="vs-hero__title--main vs-hero__anim">
 												{banner.title} <span>{banner.span}</span>
 											</h1>
 											<p className="vs-hero__desc vs-hero__anim">

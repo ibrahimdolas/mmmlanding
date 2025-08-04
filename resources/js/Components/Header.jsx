@@ -1,10 +1,60 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useRef} from 'react';
 import {menuItems, socialMediaAccounts} from "@/menuItems.js";
 import {Link, usePage} from "@inertiajs/react";
 
 import Logo from "../../_src/img/logo.svg"
+import {toggleMobileMenu} from "@/commonFunctions.js";
+import Languages from "@/Components/Languages.jsx";
 
 const Header = () => {
+	
+	const stickyWrapperRef = useRef(null);
+	const stickyActiveRef = useRef(null);
+	const lastScrollTopRef = useRef(0);
+	
+	
+	useEffect(() => {
+		const handleScroll = () => {
+			const scrollTop = window.scrollY || document.documentElement.scrollTop;
+			
+			const header = stickyActiveRef.current
+			const wrapper = stickyWrapperRef.current
+			
+			if (!header || !wrapper) return
+			
+			const height = header.offsetHeight
+			wrapper.style.minHeight = `${height}px`
+			
+			if (scrollTop > 800) {
+				wrapper.classList.add('will-sticky')
+				
+				if (scrollTop < lastScrollTopRef.current) {
+					header.classList.add('active')
+				} else {
+					header.classList.remove('active')
+				}
+			} else {
+				wrapper.classList.remove('will-sticky')
+				header.classList.remove('active')
+				wrapper.style.minHeight = ''
+			}
+			
+			const scrollToTopBtn = document.getElementById('backToTop')
+			if (scrollToTopBtn) {
+				if (scrollTop > 500) {
+					scrollToTopBtn.classList.add('show')
+				} else {
+					scrollToTopBtn.classList.remove('show')
+				}
+			}
+			
+			lastScrollTopRef.current = scrollTop <= 0 ? 0 : scrollTop
+		}
+		
+		window.addEventListener('scroll', handleScroll)
+		return () => window.removeEventListener('scroll', handleScroll)
+	}, []);
+	
 	
 	useEffect(() => {
 		renderAllStrips()
@@ -46,15 +96,7 @@ const Header = () => {
 		}
 	}
 	
-	const {locale, locales} = usePage().props
-	const currentLocale = locales.find(l => l.code === locale) || locales[0]
 	
-	const changeLanguage = (language) => {
-		if (currentLocale.code === language) return
-		
-		document.cookie = `Accept-Language=${language}; path=/; max-age=31536000`
-		location.reload()
-	}
 	
 	
 	return (
@@ -84,27 +126,20 @@ const Header = () => {
 						</div>
 						{/*solve: fill with languages*/}
 						<div className="col-lg-auto">
-							<div className="social-style">
-								<span className={`lang cursor-pointer ${locale === 'en' ? 'active' : ''}`} onClick={() => changeLanguage('en')}>
-									<img src="/storage/flags/en.svg" alt="English" className="rounded-circle" style={{height: '20px', width: '20px'}}/>
-								</span>
-								<span className={`lang cursor-pointer ${locale === 'tr' ? 'active' : ''}`} onClick={() => changeLanguage('tr')}>
-									<img src="/storage/flags/tr.svg" alt="Turkish" className="rounded-circle" style={{height: '20px', width: '20px'}}/>
-								</span>
-							</div>
+							<Languages/>
 						</div>
 					</div>
 				</div>
 			</div>
 			
-			<div className="sticky-wrapper">
-				<div className="sticky-active">
+			<div className="sticky-wrapper" ref={stickyWrapperRef}>
+				<div className="sticky-active" ref={stickyActiveRef}>
 					<div className="container container--custom">
 						<div className="row justify-content-between align-items-center">
 							<div className="col">
 								<div className="vs-header__logo">
 									<Link href="/">
-										<img src={Logo} alt="Math Magic in Motion" className="logo"/>
+										<img src={Logo} alt="Math Magic in Motion" className="logo" height="60"/>
 									</Link>
 								</div>
 							</div>
@@ -135,16 +170,7 @@ const Header = () => {
 											{/*solve: lang*/}
 										</a>
 									</div>
-									<div className="d-none d-lg-inline-flex align-items-center">
-										<button className="sideMenuToggler" tabIndex="-1">
-											<svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M2.9165 4.5H28.4165C29.6594 4.5 30.6665 3.49292 30.6665 2.25C30.6665 1.00708 29.6594 0 28.4165 0H2.9165C1.67358 0 0.666504 1.00708 0.666504 2.25C0.666504 3.49292 1.67358 4.5 2.9165 4.5Z" fill="currentColor" />
-												<path d="M28.4165 9H2.9165C1.67358 9 0.666504 10.0071 0.666504 11.25C0.666504 12.4929 1.67358 13.5 2.9165 13.5H28.4165C29.6594 13.5 30.6665 12.4929 30.6665 11.25C30.6665 10.0071 29.6594 9 28.4165 9Z" fill="currentColor" />
-												<path d="M28.4165 18H2.9165C1.67358 18 0.666504 19.0071 0.666504 20.25C0.666504 21.4929 1.67358 22.5 2.9165 22.5H28.4165C29.6594 22.5 30.6665 21.4929 30.6665 20.25C30.6665 19.0071 29.6594 18 28.4165 18Z" fill="currentColor" />
-											</svg>
-										</button>
-									</div>
-									<button className="vs-menu-toggle style2 d-inline-block d-lg-none" tabIndex="-1">
+									<button className="vs-menu-toggle style2 d-inline-block d-lg-none" tabIndex="-1" onClick={() => toggleMobileMenu()}>
 										<i className="fal fa-bars"/>
 									</button>
 								</div>

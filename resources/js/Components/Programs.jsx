@@ -76,7 +76,7 @@ const Programs = () => {
 									programPageData.grades.map(grade => (
 										<SwiperSlide
 											key={grade.id}
-											className="swiper-slide wow animate__fadeInUp"
+											className="swiper-slide wow" data-animate="fadeInUp"
 											data-wow-delay={grade.delay}
 										>
 											<div className="vs-pro">

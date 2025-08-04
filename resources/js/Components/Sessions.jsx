@@ -18,7 +18,7 @@ const Sessions = () => {
 			<div className="container">
 				
 				<div className="row justify-content-center">
-					<div className="col-lg-7 wow animate__fadeInUp" data-wow-delay="0.15s">
+					<div className="col-lg-7 wow" data-animate="fadeInUp" data-wow-delay="0.15s">
 						<div className="vs-title text-center title-anime animation-style2">
 							<div className="title-anime__wrap">
 								<span className="vs-title__sub text-white">{sessionPageData.topTitle}</span>
@@ -30,7 +30,7 @@ const Sessions = () => {
 						<div className="row gx-30">
 							{
 								sessionPageData.sessions.map(session => (
-									<div className="col-lg-6 wow animate__fadeInUp" data-wow-delay={session.delay} key={session.id}>
+									<div className="col-lg-6 wow" data-animate="fadeInUp" data-wow-delay={session.delay} key={session.id}>
 										<div className="vs-session">
 											<img className="vs-session__bg" src={sessionPageData.shape} alt="Session Shape"/>
 											<div className="vs-session__content">

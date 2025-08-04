@@ -57,7 +57,7 @@ const Facilities = () => {
 						>
 							{
 								facilitiesPageData.classes.map(facility => (
-									<SwiperSlide className="swiper-slide wow animate__fadeInUp" data-wow-delay={facility.delay} key={facility.id}>
+									<SwiperSlide className="swiper-slide wow" data-animate="fadeInUp" data-wow-delay={facility.delay} key={facility.id}>
 										<div className="vs-class">
 											<div className="vs-class__figure">
 												<Link to={facility.path} className="vs-class__figure--link">

@@ -12,7 +12,7 @@ const Feedback = () => {
 			
 			<div className="feedback-image background-image" style={{backgroundImage: `url(${feedbackPageData.feedbackImage})`}}/>
 			<div className="feedback-image--right background-image" style={{backgroundImage: `url(${feedbackPageData.bg})`}}/>
-			<img className="feedback--ele1 wow animate__fadeInRight" data-wow-delay="0.35s" src={feedbackPageData.cloud} alt="Cloud"/>
+			<img className="feedback--ele1 wow" data-animate="fadeInRight" data-wow-delay="0.35s" src={feedbackPageData.cloud} alt="Cloud"/>
 			
 			<div className="container">
 				<div className="row justify-content-end">

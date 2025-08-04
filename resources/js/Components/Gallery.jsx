@@ -18,7 +18,7 @@ const Gallery = () => {
 				<div className="vs-gallery--row">
 					{
 						galleryPageData.images.map(image => (
-							<div className={`vs-gallery vs-gallery--col${image.id} wow animate__fadeInUp`} data-wow-delay={image.delay} key={image.id}>
+							<div className={`vs-gallery vs-gallery--col${image.id} wow`} data-animate="fadeInUp" data-wow-delay={image.delay} key={image.id}>
 								<div className="vs-gallery__figure">
 									<img src={image.image} alt={`Gallery Image ${image.id}`} loading="lazy" className="vs-gallery__image"/>
 								</div>

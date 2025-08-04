@@ -15,15 +15,15 @@ const Footer = () => {
 		<div className="vs-footer bg-title">
 		
 			<div className="vs-footer__top z-index-common space-extra-top space-extra-bottom">
-				<img src={Grass} alt="Grass" className="vs-footer__ele1 wow animate__fadeInLeft" data-wow-delay="0.25s"/>
+				<img src={Grass} alt="Grass" className="vs-footer__ele1 wow" data-animate="fadeInLeft" data-wow-delay="0.25s"/>
 				<img src={Scissors} alt="Scissors" className="vs-footer__ele2"/>
-				<img src={Bus} alt="Bus" className="vs-footer__ele3 wow animate__fadeInRight" data-wow-delay="0.35s"/>
+				<img src={Bus} alt="Bus" className="vs-footer__ele3 wow" data-animate="fadeInRight" data-wow-delay="0.35s"/>
 				<div className="vs-balls vs-balls--screen" data-balls-top="-6px" data-balls-color="#ffffff"/>
 				
 				<div className="container">
 					<div className="row gy-4 gx-xxl-5">
 						
-						<div className="col-md-6 wow animate__fadeInUp" data-wow-delay="0.25s">
+						<div className="col-md-6 wow" data-animate="fadeInUp" data-wow-delay="0.25s">
 							<div className="vs-footer__widget">
 								<div className="vs-footer__logo text-center text-md-start mb-25">
 									<Link to="/" className="vs-footer__logo-link">
@@ -55,7 +55,7 @@ const Footer = () => {
 							</div>
 						</div>
 						
-						<div className="col-md-6 wow animate__fadeInUp" data-wow-delay="0.35s">
+						<div className="col-md-6 wow" data-animate="fadeInUp" data-wow-delay="0.35s">
 							<div className="vs-footer__widget">
 								<div className="vs-footer__title">Explore</div>
 								<div className="vs-footer__menu">
