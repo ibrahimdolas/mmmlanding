@@ -166,7 +166,7 @@ const Header = () => {
 									<div className="d-none d-xxl-inline-flex">
 										<a href="https://portal.mathmagicinmotion.com" className="vs-btn">
 											<span className="vs-btn__border"/>
-											Go To Panel
+											Portal
 											{/*solve: lang*/}
 										</a>
 									</div>

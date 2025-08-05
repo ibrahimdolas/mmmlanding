@@ -22,4 +22,19 @@
 		{
 			return Inertia::render('Partners');
 		}
+		
+		public function results()
+		{
+			return Inertia::render('Results');
+		}
+		
+		public function documents()
+		{
+			return Inertia::render('Documents');
+		}
+		
+		public function contact()
+		{
+			return Inertia::render('Contact');
+		}
 	}

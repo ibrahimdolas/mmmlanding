@@ -70,9 +70,7 @@ export default function useGsapWow() {
 					trigger: el,
 					start: "top 99%",
 					end: "bottom 1%",
-					toggleActions: "restart none restart none",
-					onLeave: () => gsap.set(el, { opacity: 0, visibility: "hidden" }),
-					onLeaveBack: () => gsap.set(el, { opacity: 0, visibility: "hidden" }),
+					toggleActions: "play none play none",
 				},
 			});
 		});

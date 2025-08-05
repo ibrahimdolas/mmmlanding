@@ -9516,17 +9516,17 @@ blockquote.vs-quote .quote-author {
     padding-left: 0;
   }
 }
-.vs-event__btn::before {
-  position: absolute;
-  content: "";
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 1px;
-  height: 55px;
-  background-color: rgba(var(--vs-title-color-rgb), 0.3);
-  /* Small devices */
-}
+/*.vs-event__btn::before {*/
+/*  position: absolute;*/
+/*  content: "";*/
+/*  top: 50%;*/
+/*  transform: translateY(-50%);*/
+/*  left: 0;*/
+/*  width: 1px;*/
+/*  height: 55px;*/
+/*  background-color: rgba(var(--vs-title-color-rgb), 0.3);*/
+/*  !* Small devices *!*/
+/*}*/
 @media (max-width: 767px) {
   .vs-event__btn::before {
     display: none;

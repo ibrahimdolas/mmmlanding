@@ -16,8 +16,8 @@ export const menuItems = [
 		path: '/results'
 	},
 	{
-		title: 'News',
-		path: '/news'
+		title: 'Documents',
+		path: '/documents'
 	},
 	{
 		title: 'Contact',

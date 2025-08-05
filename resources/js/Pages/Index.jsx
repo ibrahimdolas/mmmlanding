@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from "@/Layouts/Layout.jsx";
-import Hero from "@/Components/Hero.jsx";
 import Services from "@/Components/Services.jsx";
 import About from "@/Components/About.jsx";
 import Sessions from "@/Components/Sessions.jsx";
@@ -9,6 +8,9 @@ import Gallery from "@/Components/Gallery.jsx";
 import Facilities from "@/Components/Facilities.jsx";
 import Feedback from "@/Components/Feedback.jsx";
 import News from "@/Components/News.jsx";
+import HeroBase from "@/Components/Home/Hero/HeroBase.jsx";
+import GuideBase from "@/Components/Home/Guide/GuideBase.jsx";
+import AboutBase from "@/Components/Home/About/AboutBase.jsx";
 
 const Index = () => {
 	return (
@@ -16,15 +18,15 @@ const Index = () => {
 			title="Homepage"
 		>
 		
-			<Hero/>
-			<Services/>
-			<About/>
-			<Sessions/>
-			<Gallery/>
-			<Programs/>
-			<Facilities/>
-			<Feedback/>
-			<News/>
+			<HeroBase/>
+			<GuideBase/>
+			<AboutBase/>
+			{/*<Sessions/>*/}
+			{/*<Gallery/>*/}
+			{/*<Programs/>*/}
+			{/*<Facilities/>*/}
+			{/*<Feedback/>*/}
+			{/*<News/>*/}
 			
 		</Layout>
 	);

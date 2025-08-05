@@ -17,7 +17,6 @@ const Footer = () => {
 				<img src={Grass} alt="Grass" className="vs-footer__ele1 wow" data-animate="fadeInLeft" data-wow-delay="0.25s"/>
 				<img src={Scissors} alt="Scissors" className="vs-footer__ele2"/>
 				<img src={Bus} alt="Bus" className="vs-footer__ele3 wow" data-animate="fadeInRight" data-wow-delay="0.35s"/>
-				<div className="vs-balls vs-balls--screen" data-balls-top="-6px" data-balls-color="#ffffff"/>
 				
 				<div className="container">
 					<div className="row gy-4 gx-xxl-5">
