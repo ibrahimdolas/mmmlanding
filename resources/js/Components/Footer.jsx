@@ -29,7 +29,7 @@ const Footer = () => {
 									</Link>
 								</div>
 								<p className="vs-footer__desc text-center text-md-start">
-									Pre-school has open door and also offer free trial session in child.
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 								</p>
 								<div className="icon-call justify-content-center justify-content-md-start pt-10 mb-10">
 									<span className="icon-call__icon"><i className="fa-solid fa-phone-rotary"/></span>
