@@ -8,7 +8,7 @@ import {usePage} from "@inertiajs/react";
 
 const About = () => {
 	const {
-		parallaxBg, pageTitle, crumbs, palm, lines, bg, collage, description,
+		parallaxBg, pageTitle, palm, lines, bg, collage, description,
 		summary, direct, indirect
 	} = aboutPageData
 	

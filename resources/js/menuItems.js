@@ -2,49 +2,63 @@ export const menuItems = [
 	{
 		title: {
 			en: 'About',
-			tr: 'Hakkında'
+			tr: 'Hakkında',
+			it: 'Informazioni',
+			ro: 'Despre',
 		},
 		path: '/'
 	},
 	{
 		title: {
 			en: 'Partners',
-			tr: 'Ortaklar'
+			tr: 'Ortaklar',
+			it: 'Partner',
+			ro: 'Parteneri',
 		},
 		path: '/partners'
 	},
 	{
 		title: {
 			en: 'Work Packages',
-			tr: 'Çalışma Paketleri'
+			tr: 'Çalışma Paketleri',
+			it: 'Pacchetti di lavoro',
+			ro: 'Pachete de lucru',
 		},
 		path: '/work-packages'
 	},
 	{
 		title: {
 			en: 'News',
-			tr: 'Haberler'
+			tr: 'Haberler',
+			it: 'Notizie',
+			ro: 'Ştiri'
 		},
 		path: '/news'
 	},
 	{
 		title: {
 			en: 'Results',
-			tr: 'Sonuçlar'
+			tr: 'Sonuçlar',
+			it: 'Risultati',
+			ro: 'Rezultate',
 		},
 		path: '/results'
 	},
 	{
 		title: {
 			en: 'Documents',
-			tr: 'Belgeler'
+			tr: 'Belgeler',
+			it: 'Documenti',
+			ro: 'Documente',
 		},
 		path: '/documents'
 	},
 	{
 		title: {
 			en: 'Contact',
-			tr: 'İletişim'
+			tr: 'İletişim',
+			it: 'Contatti',
+			ro: 'Contact',
 		},
 		path: '/contact'
 	}
@@ -139,5 +153,7 @@ export const footerMenuItems = [
 
 export const copyright = {
 	en: 'All rights reserved.',
-	tr: 'Her hakkı saklıdır.'
+	tr: 'Her hakkı saklıdır.',
+	it: 'Tutti i diritti riservati.',
+	ro: 'Toate drepturile rezervate.',
 }

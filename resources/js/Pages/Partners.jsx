@@ -11,7 +11,7 @@ const coordinator = {
 	tr: 'Koordinatör'
 }
 
-const partner = {
+const part = {
 	en: 'Partner',
 	tr: 'Ortak'
 }
@@ -51,7 +51,7 @@ const Partners = () => {
 											</span>
 										</figure>
 										<div className="vs-time__content">
-											<h3 className="vs-time__heading">
+											<h3 className="vs-time__heading" style={{minHeight: '90px'}}>
 												<a href={partner.url} target="_blank">
 													{partner.title}
 												</a>
@@ -70,7 +70,7 @@ const Partners = () => {
 													}
 													{
 														!partner.isCoordinator &&
-														<span className="vs-time__content p-0">{partner[locale] ?? partner.en}</span>
+														<span className="vs-time__teacher--link">{part[locale] ?? part.en}</span>
 													}
 												</div>
 											</div>

@@ -14,7 +14,9 @@ const WorkPackages = () => {
 	
 	const expected = {
 		en: 'Expected Results:',
-		tr: 'Hedeflenen Sonuçlar:'
+		tr: 'Hedeflenen Sonuçlar:',
+		it: 'Risultati attesi',
+		ro: '',
 	}
 	
 	const {locale} = usePage().props
