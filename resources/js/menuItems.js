@@ -1,15 +1,15 @@
 export const menuItems = [
 	{
-		title: 'Home',
-		path: '/',
-	},
-	{
 		title: 'About the Project',
-		path: '/about-the-project'
+		path: '/'
 	},
 	{
 		title: 'Partners',
 		path: '/partners'
+	},
+	{
+		title: 'Work Packages',
+		path: '/work-packages'
 	},
 	{
 		title: 'Results',

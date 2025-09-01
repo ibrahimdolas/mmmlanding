@@ -18,6 +18,11 @@
 			return Inertia::render('About');
 		}
 		
+		public function workPackages()
+		{
+			return Inertia::render('WorkPackages');
+		}
+		
 		public function partners()
 		{
 			return Inertia::render('Partners');

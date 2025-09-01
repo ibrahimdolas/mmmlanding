@@ -7,7 +7,9 @@ import Casuta from "../_src/img/partnerElements/casuta.jpg"
 
 export const partnerPageData = {
 	parallaxBG: PartnersBG,
-	title: 'Partners',
+	title: {
+		en: 'Partners'
+	},
 	partners: [
 		{
 			id: 1,

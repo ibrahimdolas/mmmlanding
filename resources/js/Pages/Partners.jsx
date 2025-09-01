@@ -17,7 +17,7 @@ const Partners = () => {
 			
 			<ParallaxPageTitle
 				image={partnerPageData.parallaxBG}
-				title={partnerPageData.title}
+				title={partnerPageData.title[locale ?? 'en']}
 			/>
 			
 			<div className="vs-class--area bg-color6 space space-extra-bottom overflow-hidden">
@@ -65,7 +65,7 @@ const Partners = () => {
 												</div>
 											</div>
 											<hr className="vs-time__divider mt-3"/>
-											<div className="vs-time__content p-0" dangerouslySetInnerHTML={{__html: partner.descriptions[locale]}}/>
+											<div className="vs-time__content p-0" dangerouslySetInnerHTML={{__html: partner.descriptions[locale ?? 'en']}}/>
 										</div>
 									</div>
 								</div>

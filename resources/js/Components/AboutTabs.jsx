@@ -12,7 +12,7 @@ const AboutTabs = () => {
 			<div className="vs-title title-anime animation-style2">
 				<div className="title-anime__wrap">
 					<span className="vs-title__sub">{aboutPageData.topTitle}</span>
-					<h2 className="vs-title__main" dangerouslySetInnerHTML={{__html: aboutPageData.title[locale]}}/>
+					<h2 className="vs-title__main" dangerouslySetInnerHTML={{__html: aboutPageData.title[locale ?? 'en']}}/>
 				</div>
 			</div>
 			<div className="vs-about--story">

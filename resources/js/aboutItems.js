@@ -30,11 +30,10 @@ export const aboutPageData = {
 		tr: '<span>3M Projesi</span> nedir?'
 	},
 	parallaxBg: AboutPageBG,
-	crumbs: [
-		{title: 'Home', path: '/'},
-		{title: 'About The Project', path: '/about-the-project'}
-	],
-	pageTitle: 'About The Project',
+	pageTitle: {
+		en: 'About The Project',
+		tr: 'Proje Hakkında'
+	},
 	paragraphs: [
 		{
 			en: `
