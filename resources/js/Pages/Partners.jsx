@@ -3,10 +3,14 @@ import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {partnerPageData} from "@/partnerItems.js";
 import useHoverEffect from "@/hooks/useHoverEffect.js";
+import {usePage} from "@inertiajs/react";
+import {lang} from "@/commonFunctions.js";
 
 const Partners = () => {
 	
 	useHoverEffect()
+	
+	const {locale} = usePage().props
 	
 	return (
 		<Layout title="Partners">
@@ -44,22 +48,24 @@ const Partners = () => {
 											</h3>
 											<div className="vs-time__features">
 												<ul>
-													<li><span><i className="fa fa-location-dot"/>{partner.address}</span></li>
 													<li><span><i className="fab fa-chrome"/><a href={partner.url} target="_blank">{partner.url}</a></span></li>
-													<li><span><i className="fa fa-question-circle"/><b>Type: </b>{partner.type}</span></li>
 												</ul>
 											</div>
 											<hr className="vs-time__divider"/>
-											<div className="vs-time__footer">
+											<div className="vs-time__footer ">
 												<div className="vs-time__teacher">
-													<span className="vs-time__teacher--link">
-														{partner.isCoordinator ? 'Coordinator' : ''}
-													</span>
-													<span className="vs-time__topic">
-														{partner.isCoordinator ? '' : 'Partner'}
-													</span>
+													{
+														partner.isCoordinator &&
+														<span className="vs-time__teacher--link">{lang('Coordinator')}</span>
+													}
+													{
+														!partner.isCoordinator &&
+														<span className="vs-time__content p-0">{lang('Partner')}</span>
+													}
 												</div>
 											</div>
+											<hr className="vs-time__divider mt-3"/>
+											<div className="vs-time__content p-0" dangerouslySetInnerHTML={{__html: partner.descriptions[locale]}}/>
 										</div>
 									</div>
 								</div>

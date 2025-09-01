@@ -53,9 +53,9 @@ const HeroBase = () => {
 										Math <span>Magic</span> In Motion
 									</h1>
 									<p className="vs-hero__desc vs-hero__anim">
-										{lang("Kids gonna love it!")}
+										{lang("Learn math while have fun!")}
 									</p>
-									<Link to="/results" className="vs-btn vs-hero__btn vs-hero__anim">
+									<Link href="/results" className="vs-btn vs-hero__btn vs-hero__anim">
 										<span className="vs-btn__border"/>
 										{lang("Watch Now")}
 									</Link>

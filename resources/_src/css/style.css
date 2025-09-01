@@ -2163,7 +2163,7 @@ input[type=email]::placeholder {
   font-weight: 900;
   font-size: 18px;
   color: var(--vs-title-color);
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   font-family: var(--vs-title-font);
   padding-left: 39px;
 }
