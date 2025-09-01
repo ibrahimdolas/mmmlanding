@@ -20,6 +20,12 @@ const Languages = () => {
 			<span className={`lang cursor-pointer ${locale === 'tr' ? 'active' : ''}`} onClick={() => changeLanguage('tr')}>
 				<img src="/storage/flags/tr.svg" alt="Turkish" className="rounded-circle" style={{height: '20px', width: '20px'}}/>
 			</span>
+			<span className={`lang cursor-pointer ${locale === 'ro' ? 'active' : ''}`} onClick={() => changeLanguage('ro')}>
+				<img src="/storage/flags/ro.svg" alt="Romanian" className="rounded-circle" style={{height: '20px', width: '20px'}}/>
+			</span>
+			<span className={`lang cursor-pointer ${locale === 'it' ? 'active' : ''}`} onClick={() => changeLanguage('it')}>
+				<img src="/storage/flags/it.svg" alt="Italian" className="rounded-circle" style={{height: '20px', width: '20px'}}/>
+			</span>
 		</div>
 	);
 };

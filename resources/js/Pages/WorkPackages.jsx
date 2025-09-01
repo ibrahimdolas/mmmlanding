@@ -19,7 +19,7 @@ const WorkPackages = () => {
 			
 			<ParallaxPageTitle
 				image={parallaxBg}
-				title={pageTitle[locale ?? 'en']}
+				title={pageTitle[locale] ?? pageTitle.en}
 			/>
 			
 			<section className="vs-about--section pt-30 space space-extra-bottom z-index-common overflow-hidden background-image" style={{backgroundImage: `url(${bg})`}}>
@@ -35,12 +35,12 @@ const WorkPackages = () => {
 								<div className="col-12 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.25s" key={pack.id}>
 									<div className="vs-title text-center title-anime animation-style2">
 										<div className="title-anime__wrap">
-											<h2 className="vs-title__main">{pack.title[locale ?? 'en']}</h2>
+											<h2 className="vs-title__main">{pack.title[locale] ?? pack.title.en}</h2>
 										</div>
 									</div>
 									{
 										pack.paragraphs.map((paragraph, index) => (
-											<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale ?? 'en']}}/>
+											<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale] ?? paragraph.en}}/>
 										))
 									}
 									
@@ -51,7 +51,7 @@ const WorkPackages = () => {
 											<ul className="vs-list pt-15 mb-35">
 													{
 														pack.results.map((item, index) => (
-															<li key={index} className="fw-normal text-start" dangerouslySetInnerHTML={{__html: item[locale ?? 'en']}}/>
+															<li key={index} className="fw-normal text-start" dangerouslySetInnerHTML={{__html: item[locale] ?? item.en}}/>
 														))
 													}
 												</ul>

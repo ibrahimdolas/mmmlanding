@@ -7,6 +7,7 @@ import {toggleMobileMenu} from "@/commonFunctions.js";
 
 const MobileMenu = () => {
 	
+	const {locale} = usePage().props;
 	
 	return (
 		<div className="vs-menu-wrapper" onClick={toggleMobileMenu}>
@@ -27,7 +28,7 @@ const MobileMenu = () => {
 							menuItems.map(item => (
 								<li key={item.path}>
 									<Link href={item.path} className="vs-svg-assets" onClick={toggleMobileMenu}>
-										{item.title}
+										{item.title[locale] ?? item.title.en}
 										{/*solve: lang options*/}
 										{/*solve: error on page change*/}
 										<svg xmlns="http://www.w3.org/2000/svg" style={{width: 'calc(100% + 20px)'}} height="31" viewBox="0 0 87 31" fill="none">

@@ -23,6 +23,11 @@
 			return Inertia::render('WorkPackages');
 		}
 		
+		public function news()
+		{
+			return Inertia::render('News');
+		}
+		
 		public function partners()
 		{
 			return Inertia::render('Partners');

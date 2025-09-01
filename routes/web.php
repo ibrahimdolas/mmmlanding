@@ -10,6 +10,7 @@
 	Route::get('/', [SiteController::class, 'about'])->name('about');
 	Route::get('/partners', [SiteController::class, 'partners'])->name('partners');
 	Route::get('/work-packages', [SiteController::class, 'workPackages'])->name('work-packages');
+	Route::get('/news', [SiteController::class, 'news'])->name('news');
 	Route::get('/results', [SiteController::class, 'results'])->name('results');
 	Route::get('/documents', [SiteController::class, 'documents'])->name('documents');
 	Route::get('/contact', [SiteController::class, 'contact'])->name('contact');

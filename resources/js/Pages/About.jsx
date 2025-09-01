@@ -19,7 +19,7 @@ const About = () => {
 			
 			<ParallaxPageTitle
 				image={parallaxBg}
-				title={pageTitle[locale ?? 'en']}
+				title={pageTitle[locale] ?? pageTitle.en}
 			/>
 			
 			<section className="vs-about--section pt-30 space space-extra-bottom z-index-common overflow-hidden background-image" style={{backgroundImage: `url(${bg})`}}>
@@ -69,26 +69,26 @@ const About = () => {
 						<div className="col-12 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.45s">
 							<div className="vs-title text-center title-anime animation-style2">
 								<div className="title-anime__wrap">
-									<h2 className="vs-title__main">{description.title[locale ?? 'en']}</h2>
+									<h2 className="vs-title__main">{description.title[locale] ?? description.title.en}</h2>
 								</div>
 							</div>
 							{
 								description.paragraphs.map((paragraph, index) => (
-									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale ?? 'en']}}/>
+									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale] ?? paragraph.en}}/>
 								))
 							}
 							<ul className="vs-list pt-15 mb-35">
 								{
 									description.list.map((item, index) => (
 										<li key={index} className="fw-normal text-start">
-											<strong>{item.title[locale ?? 'en']}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale ?? 'en']}}/>
+											<strong>{item.title[locale] ?? item.title.en}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale] ?? item.cont.en}}/>
 										</li>
 									))
 								}
 							</ul>
 							{
 								description.footerParagraphs.map((paragraph, index) => (
-									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale ?? 'en']}}/>
+									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale] ?? paragraph.en}}/>
 								))
 							}
 						</div>
@@ -96,12 +96,12 @@ const About = () => {
 						<div className="col-12 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.45s">
 							<div className="vs-title text-center title-anime animation-style2">
 								<div className="title-anime__wrap">
-									<h2 className="vs-title__main">{summary.title[locale ?? 'en']}</h2>
+									<h2 className="vs-title__main">{summary.title[locale] ?? summary.title.en}</h2>
 								</div>
 							</div>
 							{
 								summary.paragraphs.map((paragraph, index) => (
-									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale ?? 'en']}}/>
+									<p className="vs-about__text vs-text text-start" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale] ?? paragraph.en}}/>
 								))
 							}
 						</div>
@@ -110,14 +110,14 @@ const About = () => {
 						<div className="col-12 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.45s">
 							<div className="vs-title text-center title-anime animation-style2">
 								<div className="title-anime__wrap">
-									<h2 className="vs-title__main">{direct.title[locale ?? 'en']}</h2>
+									<h2 className="vs-title__main">{direct.title[locale] ?? direct.title.en}</h2>
 								</div>
 							</div>
 							<ul className="vs-list pt-15 mb-35">
 								{
 									direct.list.map((item, index) => (
 										<li key={index} className="fw-normal text-start">
-											<strong>{item.title[locale ?? 'en']}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale ?? 'en']}}/>
+											<strong>{item.title[locale] ?? item.title.en}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale] ?? item.cont.en}}/>
 										</li>
 									))
 								}
@@ -127,14 +127,14 @@ const About = () => {
 						<div className="col-12 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.45s">
 							<div className="vs-title text-center title-anime animation-style2">
 								<div className="title-anime__wrap">
-									<h2 className="vs-title__main">{indirect.title[locale ?? 'en']}</h2>
+									<h2 className="vs-title__main">{indirect.title[locale] ?? indirect.title.en}</h2>
 								</div>
 							</div>
 							<ul className="vs-list pt-15 mb-35">
 								{
 									indirect.list.map((item, index) => (
 										<li key={index} className="fw-normal text-start">
-											<strong>{item.title[locale ?? 'en']}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale ?? 'en']}}/>
+											<strong>{item.title[locale] ?? item.title.en}:</strong> <span dangerouslySetInnerHTML={{__html: item.cont[locale] ?? item.cont.en}}/>
 										</li>
 									))
 								}

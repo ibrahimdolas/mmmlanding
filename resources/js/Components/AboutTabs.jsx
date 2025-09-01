@@ -12,7 +12,7 @@ const AboutTabs = () => {
 			<div className="vs-title title-anime animation-style2">
 				<div className="title-anime__wrap">
 					<span className="vs-title__sub">{aboutPageData.topTitle}</span>
-					<h2 className="vs-title__main" dangerouslySetInnerHTML={{__html: aboutPageData.title[locale ?? 'en']}}/>
+					<h2 className="vs-title__main" dangerouslySetInnerHTML={{__html: aboutPageData.title[locale] ?? aboutPageData.title.en}}/>
 				</div>
 			</div>
 			<div className="vs-about--story">
@@ -20,7 +20,7 @@ const AboutTabs = () => {
 					<div className="tab-pane fade show active" tabIndex="-1">
 						{
 							aboutPageData.paragraphs.map((paragraph, index) => (
-								<p className="vs-about__text vs-text" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale ?? 'en']}}/>
+								<p className="vs-about__text vs-text" key={index} dangerouslySetInnerHTML={{__html: paragraph[locale] ?? paragraph.en}}/>
 							))
 						}
 						{/*{*/}

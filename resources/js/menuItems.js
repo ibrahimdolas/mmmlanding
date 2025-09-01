@@ -1,33 +1,58 @@
 export const menuItems = [
 	{
-		title: 'About the Project',
+		title: {
+			en: 'About The Project',
+			tr: 'Proje Hakkında'
+		},
 		path: '/'
 	},
 	{
-		title: 'Partners',
+		title: {
+			en: 'Partners',
+			tr: 'Ortaklar'
+		},
 		path: '/partners'
 	},
 	{
-		title: 'Work Packages',
+		title: {
+			en: 'Work Packages',
+			tr: 'Çalışma Paketleri'
+		},
 		path: '/work-packages'
 	},
 	{
-		title: 'Results',
+		title: {
+			en: 'News',
+			tr: 'Haberlr'
+		},
+		path: '/news'
+	},
+	{
+		title: {
+			en: 'Results',
+			tr: 'Sonuçlar'
+		},
 		path: '/results'
 	},
 	{
-		title: 'Documents',
+		title: {
+			en: 'Documents',
+			tr: 'Belgeler'
+		},
 		path: '/documents'
 	},
 	{
-		title: 'Contact',
+		title: {
+			en: 'Contact',
+			tr: 'İletişim'
+		},
 		path: '/contact'
 	}
 ]
 
-export const phoneNumber = '+90 555 123 45 67'
+export const phoneNumber = '+90 416 223 38 00'
 export const mailAddress = 'mathmagicinmotion@gmail.com'
-export const address = 'Adıyaman Üniversitesi, 02070, Adıyaman/Türkiye'
+export const address = 'Adıyaman Üniversitesi, Atatürk Bulvarı No:1, 02040, Adıyaman/Türkiye'
 
 export const socialMediaAccounts = [
 	{

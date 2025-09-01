@@ -97,6 +97,8 @@ const Header = () => {
 	}
 	
 	
+	const {locale} = usePage().props;
+	
 	
 	
 	return (
@@ -150,7 +152,7 @@ const Header = () => {
 											menuItems.map(item => (
 												<li key={item.path}>
 													<Link href={item.path} className="vs-svg-assets">
-														{item.title}
+														{item.title[locale] ?? item.title.en}
 														<svg xmlns="http://www.w3.org/2000/svg" style={{width: 'calc(100% + 20px)'}} height="31" preserveAspectRatio="none" viewBox="0 0 87 31" fill="none">
 															<path d="M0 4.14031C0 1.87713 1.87602 0.0646902 4.13785 0.142684L83.1379 2.86682C85.2921 2.94111 87 4.70896 87 6.86445V25.0909C87 27.2642 85.2647 29.0399 83.0919 29.0898L4.09193 30.9059C1.84739 30.9575 0 29.1521 0 26.907V4.14031Z" fill="#70167E"/>
 														</svg>
@@ -166,7 +168,7 @@ const Header = () => {
 									<div className="d-none d-xxl-inline-flex">
 										<a href="https://portal.mathmagicinmotion.com" className="vs-btn">
 											<span className="vs-btn__border"/>
-											Portal
+											Web Portal
 											{/*solve: lang*/}
 										</a>
 									</div>

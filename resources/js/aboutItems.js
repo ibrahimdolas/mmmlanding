@@ -24,7 +24,7 @@ export const aboutPageData = {
 		number: '21+',
 		text: 'Years of Experience'
 	},
-	topTitle: 'Math Magic in Motion',
+	topTitle: 'Math Magıc In Motıon',
 	title: {
 		en: 'What is <span>the 3M Project</span>?',
 		tr: '<span>3M Projesi</span> nedir?'
