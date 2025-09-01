@@ -3,13 +3,21 @@ import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {resultsPageData} from "@/resultItems.js";
 import SingleResult from "@/Components/SingleResult.jsx";
+import {usePage} from "@inertiajs/react";
 
 const Results = () => {
+	const {locale} = usePage().props
+	
+	const notFound = {
+		tr: 'Sonuç bulunamadı!',
+		en: 'No results found!'
+	}
+	
 	return (
 		<Layout title="Results">
 			
 			<ParallaxPageTitle
-				title={resultsPageData.parallaxTitle}
+				title={resultsPageData.parallaxTitle[locale] ?? resultsPageData.parallaxTitle.en}
 				image={resultsPageData.bg}
 			/>
 			
@@ -18,13 +26,13 @@ const Results = () => {
 				<img src={resultsPageData.element2} className="vs-room__ele2 parallax-element" alt="Result Element 2" data-move="60"/>
 				
 				<div className="container">
-					
-					{
-						resultsPageData.results.map(result => (
-							<SingleResult key={result.id} result={result}/>
-						))
-					}
-					
+					<div className="row align-items-center mb-30 wow">
+						<div className="vs-title text-center title-anime animation-style2">
+							<div className="title-anime__wrap">
+								<h2 className="vs-title__main">{notFound[locale] ?? notFound.en}</h2>
+							</div>
+						</div>
+					</div>
 				</div>
 				
 			</section>

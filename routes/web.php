@@ -14,3 +14,5 @@
 	Route::get('/results', [SiteController::class, 'results'])->name('results');
 	Route::get('/documents', [SiteController::class, 'documents'])->name('documents');
 	Route::get('/contact', [SiteController::class, 'contact'])->name('contact');
+	Route::get('/privacy', [SiteController::class, 'privacy'])->name('privacy');
+	Route::get('/terms', [SiteController::class, 'terms'])->name('terms');

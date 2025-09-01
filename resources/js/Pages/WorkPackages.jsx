@@ -12,6 +12,11 @@ const WorkPackages = () => {
 		parallaxBg, pageTitle, packages
 	} = wpPageData
 	
+	const expected = {
+		en: 'Expected Results:',
+		tr: 'Hedeflenen Sonuçlar:'
+	}
+	
 	const {locale} = usePage().props
 	
 	return (
@@ -47,7 +52,7 @@ const WorkPackages = () => {
 									{
 										pack.results.length &&
 										<>
-										<h4 className="vs-about--story__title">{lang("Expected Results:")}</h4>
+										<h4 className="vs-about--story__title">{expected[locale] ?? expected.en}</h4>
 											<ul className="vs-list pt-15 mb-35">
 													{
 														pack.results.map((item, index) => (

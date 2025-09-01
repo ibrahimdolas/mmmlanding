@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {Link, usePage} from "@inertiajs/react";
 
 import Logo from "../../_src/img/logo.svg"
-import {address, mailAddress, menuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
+import {address, copyright, mailAddress, menuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
 import {toggleMobileMenu} from "@/commonFunctions.js";
 
 const MobileMenu = () => {
@@ -73,7 +73,7 @@ const MobileMenu = () => {
 					</div>
 					
 					<p className="sidemenu-text sidemenu-text--footer text-center mb-0">
-						Copyright &copy; 2025 <span className="vs-theme-color">Math Magic In Motion</span>. All rights reserved.
+						2025{new Date().getFullYear() > 2025 ? ` - ${new Date().getFullYear()}` : ''} &copy; <span className="vs-theme-color">Math Magic In Motion</span>. {copyright[locale] ?? copyright[en]}
 						{/*solve: language options*/}
 					</p>
 				</div>

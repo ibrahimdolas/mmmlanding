@@ -1,8 +1,8 @@
 export const menuItems = [
 	{
 		title: {
-			en: 'About The Project',
-			tr: 'Proje Hakkında'
+			en: 'About',
+			tr: 'Hakkında'
 		},
 		path: '/'
 	},
@@ -23,7 +23,7 @@ export const menuItems = [
 	{
 		title: {
 			en: 'News',
-			tr: 'Haberlr'
+			tr: 'Haberler'
 		},
 		path: '/news'
 	},
@@ -135,3 +135,9 @@ export const footerMenuItems = [
 		}
 	]
 ]
+
+
+export const copyright = {
+	en: 'All rights reserved.',
+	tr: 'Her hakkı saklıdır.'
+}

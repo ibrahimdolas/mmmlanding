@@ -6,10 +6,34 @@ import Bus from "../../_src/img/footerElements/footer-element-3.png"
 
 import FooterLogo from "../../_src/img/logo.svg"
 
-import {Link} from "@inertiajs/react";
-import {footerMenuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
+import {Link, usePage} from "@inertiajs/react";
+import {copyright, footerMenuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
+
+const footerLinks = {
+	terms: {
+		en: 'Terms & Conditions',
+		tr: 'Kullanım Şartları'
+	},
+	privacy: {
+		en: 'Privacy Policy',
+		tr: 'Gizlilik Politikası'
+	}
+}
+
+const contact = {
+	en: 'Contact Us',
+	tr: 'Bize Ulaşın'
+}
+
+const follow = {
+	en: 'Follow Us:',
+	tr: 'Takip Edin:'
+}
 
 const Footer = () => {
+	
+	const {locale} = usePage().props;
+	
 	return (
 		<div className="vs-footer bg-title">
 		
@@ -28,20 +52,20 @@ const Footer = () => {
 										<img src={FooterLogo} alt="Math Magic in Motion" height="60"/>
 									</Link>
 								</div>
-								<p className="vs-footer__desc text-center text-md-start">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-								</p>
+								{/*<p className="vs-footer__desc text-center text-md-start">*/}
+								{/*	Lorem ipsum dolor sit amet, consectetur adipiscing elit.*/}
+								{/*</p>*/}
 								<div className="icon-call justify-content-center justify-content-md-start pt-10 mb-10">
 									<span className="icon-call__icon"><i className="fa-solid fa-phone-rotary"/></span>
 									<div className="icon-call__contact">
-										<span className="icon-call__title">call support</span>
+										<span className="icon-call__title">{contact[locale] ?? contact.en}</span>
 										<Link to={`tel:${phoneNumber.replace(/ /g, '')}`} className="icon-call__number">
 											{phoneNumber}
 										</Link>
 									</div>
 								</div>
 								<div className="social-style social-style--version2 w-100 justify-content-center justify-content-md-start pt-25">
-									<span className="social-style__label">Follow us:</span>
+									<span className="social-style__label">{follow[locale] ?? follow.en}</span>
 									{
 										socialMediaAccounts.map(account => (
 											<a key={account.type} href={account.url} target="_blank">
@@ -54,26 +78,26 @@ const Footer = () => {
 						</div>
 						
 						<div className="col-md-6 wow" data-animate="fadeInUp" data-wow-delay="0.35s">
-							<div className="vs-footer__widget">
-								<div className="vs-footer__title">Explore</div>
-								<div className="vs-footer__menu">
-									{
-										footerMenuItems.map((list, index) => (
-											<ul className="vs-footer__menu--list" key={index}>
-												{
-													list.map(item => (
-														<li key={item.path}>
-															<Link to={item.path}>
-																{item.title}
-															</Link>
-														</li>
-													))
-												}
-											</ul>
-										))
-									}
-								</div>
-							</div>
+							{/*<div className="vs-footer__widget">*/}
+							{/*	<div className="vs-footer__title">Explore</div>*/}
+							{/*	<div className="vs-footer__menu">*/}
+							{/*		{*/}
+							{/*			footerMenuItems.map((list, index) => (*/}
+							{/*				<ul className="vs-footer__menu--list" key={index}>*/}
+							{/*					{*/}
+							{/*						list.map(item => (*/}
+							{/*							<li key={item.path}>*/}
+							{/*								<Link to={item.path}>*/}
+							{/*									{item.title}*/}
+							{/*								</Link>*/}
+							{/*							</li>*/}
+							{/*						))*/}
+							{/*					}*/}
+							{/*				</ul>*/}
+							{/*			))*/}
+							{/*		}*/}
+							{/*	</div>*/}
+							{/*</div>*/}
 						</div>
 						
 					</div>
@@ -88,13 +112,13 @@ const Footer = () => {
 					<div className="row gy-3 gx-5 align-items-center justify-content-center justify-content-lg-between flex-column-reverse flex-lg-row">
 						<div className="col-md-auto">
 							<p className="vs-footer__copyright mb-0">
-								Copyright &copy; 2025 <span className="vs-theme-color">Math Magic In Motion</span>. All rights reserved.
+								2025{new Date().getFullYear() > 2025 ? ` - ${new Date().getFullYear()}` : ''} &copy; <span className="vs-theme-color">Math Magic In Motion</span>. {copyright[locale] ?? copyright.en}
 							</p>
 						</div>
 						<div className="col-md-auto">
 							<ul className="vs-footer__bottom--menu">
-								<li><Link to="/terms">Terms & Conditions</Link></li>
-								<li><Link to="/privacy">Privacy Policy</Link></li>
+								<li><Link href="/terms">{footerLinks.terms[locale] ?? footerLinks.terms.en}</Link></li>
+								<li><Link href="/privacy">{footerLinks.privacy[locale] ?? footerLinks.privacy.en}</Link></li>
 							</ul>
 						</div>
 					</div>

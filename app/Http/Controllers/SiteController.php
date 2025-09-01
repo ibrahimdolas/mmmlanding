@@ -47,4 +47,14 @@
 		{
 			return Inertia::render('Contact');
 		}
+		
+		public function privacy()
+		{
+			return Inertia::render('Privacy');
+		}
+		
+		public function terms()
+		{
+			return Inertia::render('Terms');
+		}
 	}

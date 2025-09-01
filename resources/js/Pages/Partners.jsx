@@ -6,6 +6,16 @@ import useHoverEffect from "@/hooks/useHoverEffect.js";
 import {usePage} from "@inertiajs/react";
 import {lang} from "@/commonFunctions.js";
 
+const coordinator = {
+	en: 'Coordinator',
+	tr: 'Koordinatör'
+}
+
+const partner = {
+	en: 'Partner',
+	tr: 'Ortak'
+}
+
 const Partners = () => {
 	
 	useHoverEffect()
@@ -56,11 +66,11 @@ const Partners = () => {
 												<div className="vs-time__teacher">
 													{
 														partner.isCoordinator &&
-														<span className="vs-time__teacher--link">{lang('Coordinator')}</span>
+														<span className="vs-time__teacher--link">{coordinator[locale] ?? coordinator.en}</span>
 													}
 													{
 														!partner.isCoordinator &&
-														<span className="vs-time__content p-0">{lang('Partner')}</span>
+														<span className="vs-time__content p-0">{partner[locale] ?? partner.en}</span>
 													}
 												</div>
 											</div>
