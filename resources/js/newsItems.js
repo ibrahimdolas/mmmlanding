@@ -7,7 +7,9 @@ export const newsPageData = {
 	bg: ResultsBG,
 	parallaxTitle: {
 		en: 'News',
-		tr: 'Haberler'
+		tr: 'Haberler',
+		it: 'Notizia',
+		ro: 'Ştiri'
 	},
 	
 	sectionBG: RoomBG,

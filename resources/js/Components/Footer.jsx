@@ -12,22 +12,30 @@ import {copyright, footerMenuItems, phoneNumber, socialMediaAccounts} from "@/me
 const footerLinks = {
 	terms: {
 		en: 'Terms & Conditions',
-		tr: 'Kullanım Şartları'
+		tr: 'Kullanım Şartları',
+		it: 'Termini e Condizioni',
+		ro: 'Termeni și condiții'
 	},
 	privacy: {
 		en: 'Privacy Policy',
-		tr: 'Gizlilik Politikası'
+		tr: 'Gizlilik Politikası',
+		it: 'Politica Sulla Riservatezza',
+		ro: 'Politica de Confidențialitate'
 	}
 }
 
 const contact = {
 	en: 'Contact Us',
-	tr: 'Bize Ulaşın'
+	tr: 'Bize Ulaşın',
+	it: 'Contattaci',
+	ro: 'Contactaţi-ne'
 }
 
 const follow = {
 	en: 'Follow Us:',
-	tr: 'Takip Edin:'
+	tr: 'Takip Edin:',
+	it: 'Seguici:',
+	ro: 'Urmați-ne:'
 }
 
 const Footer = () => {

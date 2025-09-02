@@ -10,33 +10,47 @@ import {usePage} from "@inertiajs/react";
 
 const title = {
 	tr: 'İletişim',
-	en: 'Contact'
+	en: 'Contact',
+	it: 'Contatti',
+	ro: 'Contact'
 }
 
 const data = {
 	topTitle: {
 		en: 'Contact Us',
-		tr: 'Bize Ulaşın'
+		tr: 'Bize Ulaşın',
+		it: 'Contattaci',
+		ro: 'Contactaţi-ne'
 	},
 	title: {
 		en: 'Get In Touch',
-		tr: 'İletişime Geçin'
+		tr: 'İletişime Geçin',
+		it: 'Contattaci',
+		ro: 'Contactaţi-ne'
 	},
 	address: {
 		en: 'Address: ',
-		tr: 'Adres: '
+		tr: 'Adres: ',
+		it: 'Indirizzo: ',
+		ro: 'Adresa :'
 	},
 	phone: {
 		en: 'Phone: ',
-		tr: 'Telefon: '
+		tr: 'Telefon: ',
+		it: 'Telefono: ',
+		ro: 'Telefon: '
 	},
 	email: {
 		en: 'Email: ',
-		tr: 'E-posta: '
+		tr: 'E-posta: ',
+		it: 'Email: ',
+		ro: 'Email: '
 	},
 	follow: {
-		en: 'Follow Us: ',
-		tr: 'Takip Edin: '
+		en: 'Follow Us:',
+		tr: 'Takip Edin:',
+		it: 'Seguici:',
+		ro: 'Urmați-ne:'
 	}
 }
 

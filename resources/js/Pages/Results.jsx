@@ -10,7 +10,9 @@ const Results = () => {
 	
 	const notFound = {
 		tr: 'Sonuç bulunamadı!',
-		en: 'No results found!'
+		en: 'No results found!',
+		it: 'Nessun risultato trovato!',
+		ro: 'Nu s-au găsit rezultate!'
 	}
 	
 	return (

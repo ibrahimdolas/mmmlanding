@@ -9,12 +9,16 @@ import {usePage} from "@inertiajs/react";
 
 const notFound = {
 	tr: 'Belge bulunamadı!',
-	en: 'No documents found!'
+	en: 'No documents found!',
+	it: 'Nessun documento trovato!',
+	ro: 'Nu s-au găsit documente!'
 }
 
 const title = {
 	tr: 'Belgeler',
-	en: 'Documents'
+	en: 'Documents',
+	it: 'Documenti',
+	ro: 'Documente'
 }
 
 const Documents = () => {

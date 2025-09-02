@@ -9,7 +9,9 @@ export const resultsPageData = {
 	bg: ResultsBG,
 	parallaxTitle: {
 		en: 'Results',
-		tr: 'Sonuçlar'
+		tr: 'Sonuçlar',
+		it: 'Risultati',
+		ro: 'Rezultate'
 	},
 	
 	sectionBG: RoomBG,

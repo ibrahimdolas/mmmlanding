@@ -99,6 +99,12 @@ const Header = () => {
 	
 	const {locale} = usePage().props;
 	
+	const follow = {
+		en: 'Follow Us:',
+		tr: 'Takip Edin:',
+		it: 'Seguici:',
+		ro: 'Urmați-ne:'
+	}
 	
 	
 	return (
@@ -111,7 +117,7 @@ const Header = () => {
 					<div className="row align-items-center justify-content-between gy-1 text-center text-lg-start">
 						<div className="col-lg-auto d-none d-lg-block">
 							<div className="social-style">
-								<span className="social-style__label">Follow us: </span>
+								<span className="social-style__label" style={{cursor: 'pointer'}}>{follow[locale] ?? follow.en}</span>
 								{/*solve: lang*/}
 								{
 									socialMediaAccounts.map(account => (

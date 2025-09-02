@@ -10,7 +10,9 @@ const News = () => {
 	
 	const notFound = {
 		tr: 'Haber bulunamadı!',
-		en: 'No news found!'
+		en: 'No news found!',
+		it: 'Nessuna notiz trovata!',
+		ro: 'Nu s-au găsit știri!'
 	}
 	
 	return (

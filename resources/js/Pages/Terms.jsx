@@ -3,8 +3,10 @@ import Layout from "@/Layouts/Layout.jsx";
 import {usePage} from "@inertiajs/react";
 
 const title = {
-	en: 'Terms and Conditions',
-	tr: 'Kullanım Şartları'
+	en: 'Terms & Conditions',
+	tr: 'Kullanım Şartları',
+	it: 'Termini e Condizioni',
+	ro: 'Termeni și condiții'
 }
 
 

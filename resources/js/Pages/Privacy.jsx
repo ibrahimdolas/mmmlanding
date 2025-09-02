@@ -3,8 +3,10 @@ import Layout from "@/Layouts/Layout.jsx";
 import {usePage} from "@inertiajs/react";
 
 const title = {
+	en: 'Privacy Policy',
 	tr: 'Gizlilik Politikası',
-	en: 'Privacy Policy'
+	it: 'Politica Sulla Riservatezza',
+	ro: 'Politica de Confidențialitate'
 }
 
 const Privacy = () => {
