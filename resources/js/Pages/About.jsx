@@ -76,7 +76,14 @@ const About = () => {
 							
 							<div
 								className="vs-about--image style2 rounded-5 d-flex justify-center items-center cursor-pointer"
-								style={{backgroundImage: `url(${collage})`, width: '100%', aspectRatio: '1 / 1', cursor: 'pointer'}}
+								style={{
+									backgroundImage: `url(${collage})`,
+									width: '100%',
+									aspectRatio: '1 / 1',
+									cursor: 'pointer',
+									objectFit: 'cover',
+									objectPosition: 'center'
+							}}
 								onClick={openModal}
 							>
 								<div className="d-flex flex-column align-items-center justify-content-center gap-1.5 mx-auto my-auto">

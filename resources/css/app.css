@@ -30,7 +30,7 @@
     background: white;
     padding: 0;
     width: 90%;
-    height: 90%;
+    aspect-ratio: 16/9;
     max-height: 90vh;
     overflow: auto;
     border-radius: 12px;
