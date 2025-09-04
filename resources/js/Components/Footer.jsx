@@ -13,13 +13,13 @@ const footerLinks = {
 	terms: {
 		en: 'Terms & Conditions',
 		tr: 'Kullanım Şartları',
-		it: 'Termini e Condizioni',
-		ro: 'Termeni și condiții'
+		it: 'Termini di Utilizzo',
+		ro: 'Termeni de Utilizare'
 	},
 	privacy: {
 		en: 'Privacy Policy',
 		tr: 'Gizlilik Politikası',
-		it: 'Politica Sulla Riservatezza',
+		it: 'Informativa Sulla Privacy',
 		ro: 'Politica de Confidențialitate'
 	}
 }
