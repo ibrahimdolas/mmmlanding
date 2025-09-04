@@ -1,12 +1,27 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 
 import {aboutPageData} from "@/aboutItems.js";
 import AboutTabs from "@/Components/AboutTabs.jsx";
 import {usePage} from "@inertiajs/react";
+import Modal from "react-modal";
+
+Modal.setAppElement('#page_root')
+
+const videoText = {
+	en: 'Watch Video',
+	tr: 'Videoyu İzleyin',
+	it: 'Guarda il Video',
+	ro: 'Vezi Video',
+}
 
 const About = () => {
+	
+	const [isOpen, setIsOpen] = useState(false);
+	const openModal = () => setIsOpen(true);
+	const closeModal = () => setIsOpen(false);
+	
 	const {
 		parallaxBg, pageTitle, palm, lines, bg, collage, description,
 		summary, direct, indirect
@@ -58,9 +73,30 @@ const About = () => {
 					
 					<div className="row align-items-center pt-30 gx-50">
 						<div className="col-lg-6 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.25s">
-							<div className="vs-about--image style2">
-								<img src={collage} alt="About The Project"/>
+							
+							<div
+								className="vs-about--image style2 rounded-5 d-flex justify-center items-center cursor-pointer"
+								style={{backgroundImage: `url(${collage})`, width: '100%', aspectRatio: '1 / 1', cursor: 'pointer'}}
+								onClick={openModal}
+							>
+								<div className="d-flex flex-column align-items-center justify-content-center gap-1.5 mx-auto my-auto">
+									<a tabIndex="-1" className="vs-room--play popup-video" id="videoPopupLink" onClick={openModal}>
+										<i className="fa-solid fa-play"/>
+									</a>
+									<span className="text-white mx-auto my-auto vs-title text-center">
+										<h3 className="vs-title__main">
+											<span className="text-white">
+												{videoText[locale] ?? videoText.en}
+											</span>
+										</h3>
+									</span>
+									
+									
+								</div>
 							</div>
+							
+							
+							
 						</div>
 						<div className="col-lg-6 mb-30 wow" data-animate="fadeInUp" data-wow-delay="0.25s">
 							<AboutTabs/>
@@ -147,6 +183,27 @@ const About = () => {
 				</div>
 			
 			</section>
+			
+			<Modal
+				isOpen={isOpen}
+				onRequestClose={closeModal}
+				contentLabel={videoText[locale] ?? videoText.en}
+				className="popup-content"
+				overlayClassName="popup-overlay"
+				shouldCloseOnOverlayClick={true}
+				ariaHideApp={false}
+			>
+				<span className="video-container">
+					<iframe
+						src="https://www.youtube.com/embed/9I4pTy0paX4?si=MWCJLkc8-dLUIU4R"
+						title="Math Magic in Motion"
+						allow="autoplay; encrypted-media; picture-in-picture"
+						allowFullScreen
+						width="100%"
+						height="100%"
+					/>
+				</span>
+			</Modal>
 			
 		</Layout>
 	);
