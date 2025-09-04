@@ -16,34 +16,57 @@ import {CookieConsent} from "react-cookie-consent";
 const titleTranslation = {
 	About: {
 		en: 'About The Project',
-		tr: 'Proje Hakkında'
+		tr: 'Proje Hakkında',
+		it: 'Informazioni sul progetto',
+		ro: 'Despre Proiectul'
 	},
 	Partners: {
-		tr: 'Ortaklar'
+		tr: 'Ortaklar',
+		it: 'Partner',
+		ro: 'Parteneri',
+		en: 'Partners'
 	},
 	"Work Packages": {
-		tr: 'İş Paketleri'
+		tr: 'İş Paketleri',
+		en: 'Work Packages',
+		it: 'Pakchetti di lavoro',
+		ro: 'Pachete de lucru'
 	},
 	News: {
-		tr: 'Haberler'
+		tr: 'Haberler',
+		en: 'News',
+		it: 'Notizie',
+		ro: 'Ştiri'
 	},
 	Results: {
-		tr: 'Sonuçlar'
+		tr: 'Sonuçlar',
+		en: 'Results',
+		it: 'Risultati',
+		ro: 'Rezultate'
 	},
 	Documents: {
-		tr: 'Belgeler'
+		tr: 'Belgeler',
+		en: 'Documents',
+		it: 'Documenti',
+		ro: 'Documente'
 	},
 	Contact: {
 		en: 'Contact Us',
-		tr: 'Bize Ulaşın'
+		tr: 'Bize Ulaşın',
+		it: 'Contattaci',
+		ro: 'Contact'
 	},
 	Privacy: {
 		en: 'Privacy Policy',
-		tr: 'Gizlilik Politikası'
+		tr: 'Gizlilik Politikası',
+		it: 'Politica Sulla Riservatezza',
+		ro: 'Politica de Confidențialitate'
 	},
 	Terms: {
-		en: 'Terms and Conditions',
-		tr: 'Kullanım Koşulları'
+		en: 'Terms & Conditions',
+		tr: 'Kullanım Şartları',
+		it: 'Termini e Condizioni',
+		ro: 'Termeni și condiții'
 	}
 }
 
