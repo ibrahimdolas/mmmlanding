@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {resultsPageData} from "@/resultItems.js";
-import SingleResult from "@/Components/SingleResult.jsx";
 import {usePage} from "@inertiajs/react";
 
 const Results = () => {

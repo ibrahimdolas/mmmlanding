@@ -1,11 +1,11 @@
 import AboutBG from "../_src/img/aboutElements/bg.png";
-import Palm from "../_src/img/aboutElements/palm.png";
+import Palm from "../_src/img/characters/ch5.png";
 import TopLeft from "../_src/img/aboutElements/image-top-left.jpg";
 import BottomRight from "../_src/img/aboutElements/image-bottom-right.jpg";
 import Plane from "../_src/img/aboutElements/plane.svg";
 import Balloons from "../_src/img/aboutElements/balloons.svg";
 import Lines from "../_src/img/aboutElements/lines.png";
-import AboutPageBG from "../_src/img/bg/breadcrumb-bg-2.jpg";
+import AboutPageBG from "../_src/img/bg/breadcrumb-bg-3.jpg";
 
 export const wpPageData = {
 	bg: AboutBG,

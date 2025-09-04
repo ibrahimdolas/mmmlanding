@@ -4,16 +4,19 @@ import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {partnerPageData} from "@/partnerItems.js";
 import useHoverEffect from "@/hooks/useHoverEffect.js";
 import {usePage} from "@inertiajs/react";
-import {lang} from "@/commonFunctions.js";
 
 const coordinator = {
 	en: 'Coordinator',
-	tr: 'Koordinatör'
+	tr: 'Koordinatör',
+	it: 'Coordinatore',
+	ro: 'Coordonator'
 }
 
 const part = {
 	en: 'Partner',
-	tr: 'Ortak'
+	tr: 'Ortak',
+	it: 'Partner',
+	ro: 'Partener'
 }
 
 const Partners = () => {

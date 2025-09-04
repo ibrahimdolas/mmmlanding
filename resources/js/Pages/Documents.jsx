@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 
-import ParallaxBG from "../../_src/img/resultElements/bg.jpg"
+import ParallaxBG from "../../_src/img/bg/breadcrumb-bg-6.jpg"
 import Ele1 from "../../_src/img/elements/events-page-ele1.png"
 import Ele2 from "../../_src/img/elements/events-page-ele2.png"
 import {usePage} from "@inertiajs/react";

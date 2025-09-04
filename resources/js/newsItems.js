@@ -1,7 +1,7 @@
-import ResultsBG from "../_src/img/resultElements/bg.jpg";
+import ResultsBG from "../_src/img/bg/breadcrumb-bg-4.jpg";
 import RoomBG from "../_src/img/resultElements/bg.png";
-import ResultElement1 from "../_src/img/resultElements/ele1.png";
-import ResultElement2 from "../_src/img/resultElements/ele2.png";
+import ResultElement1 from "../_src/img/characters/ch3.png";
+import ResultElement2 from "../_src/img/characters/ch2.png";
 
 export const newsPageData = {
 	bg: ResultsBG,

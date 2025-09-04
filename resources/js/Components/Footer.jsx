@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Grass from "../../_src/img/footerElements/footer-element-1.png"
+import Grass from "../../_src/img/characters/ch8.png"
 import Scissors from "../../_src/img/footerElements/footer-element-2.png"
-import Bus from "../../_src/img/footerElements/footer-element-3.png"
+import Bus from "../../_src/img/characters/ch7.png"
 
 import FooterLogo from "../../_src/img/logo.svg"
 
 import {Link, usePage} from "@inertiajs/react";
-import {copyright, footerMenuItems, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
+import {copyright, footerMenuItems, mailAddress, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
 
 const footerLinks = {
 	terms: {
@@ -69,6 +69,14 @@ const Footer = () => {
 										<span className="icon-call__title">{contact[locale] ?? contact.en}</span>
 										<Link to={`tel:${phoneNumber.replace(/ /g, '')}`} className="icon-call__number">
 											{phoneNumber}
+										</Link>
+									</div>
+								</div>
+								<div className="icon-call justify-content-center justify-content-md-start pt-10 mb-10">
+									<span className="icon-call__icon"><i className="fa-solid fa-envelope"/></span>
+									<div className="icon-call__contact">
+										<Link to={`mailto:${mailAddress}`} className="icon-call__number">
+											{mailAddress}
 										</Link>
 									</div>
 								</div>

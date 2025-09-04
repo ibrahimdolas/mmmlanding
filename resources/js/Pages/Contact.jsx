@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ParallaxBG from "../../_src/img/resultElements/bg.jpg"
+import ParallaxBG from "../../_src/img/bg/breadcrumb-bg-7.jpg"
 import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {address, mailAddress, phoneNumber, socialMediaAccounts} from "@/menuItems.js";

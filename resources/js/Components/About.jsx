@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {aboutPageData} from "@/aboutItems.js";
-import {Link} from "@inertiajs/react";
 import AboutTabs from "@/Components/AboutTabs.jsx";
 
 const About = () => {

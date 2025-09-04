@@ -1,7 +1,7 @@
-import ResultsBG from "../_src/img/resultElements/bg.jpg"
+import ResultsBG from "../_src/img/bg/breadcrumb-bg-5.jpg"
 import RoomBG from "../_src/img/resultElements/bg.png"
-import ResultElement1 from "../_src/img/resultElements/ele1.png"
-import ResultElement2 from "../_src/img/resultElements/ele2.png"
+import ResultElement1 from "../_src/img/characters/ch4.png"
+import ResultElement2 from "../_src/img/characters/ch5.png"
 
 import Result1Cover from "../_src/img/resultElements/result1.jpg"
 

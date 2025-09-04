@@ -73,36 +73,22 @@ export const socialMediaAccounts = [
 		type: 'facebook',
 		icon: 'facebook-f',
 		title: 'Facebook',
-		url: 'https://facebook.com/mathmagicinmotion',
-		abbr: '/mathmagicinmotion'
+		url: 'https://www.facebook.com/share/17ZTCtB6ci/',
+		abbr: '/Math-Magic-in-Motion-3M'
 	},
 	{
 		type: 'instagram',
 		icon: 'instagram',
 		title: 'Instagram',
-		url: 'https://instagram.com/mathmagicinmotion',
-		abbr: '@mathmagicinmotion'
-	},
-	{
-		type: 'x',
-		icon: 'x-twitter',
-		title: 'X',
-		url: 'https://x.com/mathmagicinmotion',
-		abbr: '@mathmagicinmotion'
-	},
-	{
-		type: 'tiktok',
-		icon: 'tiktok',
-		title: 'TikTok',
-		url: 'https://tiktok.com/mathmagicinmotion',
-		abbr: '@mathmagicinmotion'
+		url: 'https://www.instagram.com/math_magic_in_motion?igsh=MTdjOTg5cXNjajJkNQ==',
+		abbr: '@math_magic_in_motion'
 	},
 	{
 		type: 'youtube',
 		icon: 'youtube',
 		title: 'YouTube',
-		url: 'https://youtube.com/mathmagicinmotion',
-		abbr: '/mathmagicinmotion'
+		url: 'https://www.youtube.com/@MATHMAGICINMOTION',
+		abbr: '@MATHMAGICINMOTION'
 	}
 ]
 
