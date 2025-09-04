@@ -140,7 +140,7 @@ Evaluări externe pentru progresul profesorilor.
 					ro: `
 					Elaborare de module culturale și istorice pentru a stimula dragostea pentru matematică.
 Conținut pedagogic susținut de multimedia (animații, activități gamificate, vizuale).
-11 module originale de matematică cu diversitate culturală.
+10 module originale de matematică cu diversitate culturală.
 `
 				},
 				{
@@ -162,13 +162,13 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 			results: [
 				{
 					en: `
-					11 original mathematics modules
+					10 original mathematics modules
 					`,
 					tr: `
-					11 özgün matematik modülü
+					10 özgün matematik modülü
 					`,
 					it: `
-					11 moduli matematici innovativi
+					10 moduli matematici innovativi
 					`
 				},
 				{
