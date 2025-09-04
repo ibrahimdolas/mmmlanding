@@ -4,7 +4,6 @@ import {Link} from "@inertiajs/react";
 import AboutTabs from "@/Components/AboutTabs.jsx";
 
 const About = () => {
-	const [activeTab, setActiveTab] = useState('history')
 	return (
 		<section className="vs-about--section space space-extra-bottom z-index-common parallax-wrap overflow-hidden background-image" style={{backgroundImage: `url(${aboutPageData.bg})`}}>
 			<img src={aboutPageData.palm} alt="Palm" className="vs-about--ele1 wow" data-animate="fadeInUp" data-wow-delay="0.35s"/>

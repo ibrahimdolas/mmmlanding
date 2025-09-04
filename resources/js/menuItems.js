@@ -20,7 +20,7 @@ export const menuItems = [
 	{
 		title: {
 			en: 'Work Packages',
-			tr: 'Çalışma Paketleri',
+			tr: 'İş Paketleri',
 			it: 'Pacchetti di lavoro',
 			ro: 'Pachete de lucru',
 		},

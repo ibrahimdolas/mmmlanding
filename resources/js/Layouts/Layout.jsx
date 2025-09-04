@@ -21,7 +21,7 @@ const titleTranslation = {
 		tr: 'Ortaklar'
 	},
 	"Work Packages": {
-		tr: 'Çalışma Paketleri'
+		tr: 'İş Paketleri'
 	},
 	News: {
 		tr: 'Haberler'

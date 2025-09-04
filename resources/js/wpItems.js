@@ -18,7 +18,7 @@ export const wpPageData = {
 	parallaxBg: AboutPageBG,
 	pageTitle: {
 		en: 'Work Packages',
-		tr: 'Çalışma Paketleri',
+		tr: 'İş Paketleri',
 		it: 'Pacchetti di Lavoro',
 		ro: 'Pachete de lucru'
 	},
