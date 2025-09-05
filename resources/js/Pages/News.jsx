@@ -3,17 +3,12 @@ import Layout from "@/Layouts/Layout.jsx";
 import ParallaxPageTitle from "@/Components/ParallaxPageTitle.jsx";
 import {newsPageData} from "@/newsItems.js";
 import {usePage} from "@inertiajs/react";
-import news from "@/Pages/News.jsx";
+
+import NewsCard from "@/Pages/NewsCard.jsx";
+import RecentPosts from "@/Pages/RecentPosts.jsx";
 
 const News = () => {
 	const {locale} = usePage().props
-	
-	const notFound = {
-		tr: 'Haber bulunamadı!',
-		en: 'No news found!',
-		it: 'Nessuna notiz trovata!',
-		ro: 'Nu s-au găsit știri!'
-	}
 	
 	return (
 		<Layout title="News">
@@ -29,10 +24,19 @@ const News = () => {
 				
 				
 				<div className="container">
-					<div className="row align-items-center mb-30 wow">
-						<div className="vs-title text-center title-anime animation-style2">
-							<div className="title-anime__wrap">
-								<h2 className="vs-title__main">{notFound[locale] ?? notFound.en}</h2>
+					<div className="row">
+						<div className="col-lg-8">
+							
+							{
+								newsPageData.news.sort((a, b) => b.date.localeCompare(a.date)).map(post => (
+									<NewsCard {...post} key={post.id} page={true}/>
+								))
+							}
+							
+						</div>
+						<div className="col-lg-4 d-none d-lg-block">
+							<div className="sidebar-area">
+								<RecentPosts/>
 							</div>
 						</div>
 					</div>

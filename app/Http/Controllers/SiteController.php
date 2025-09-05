@@ -28,6 +28,13 @@
 			return Inertia::render('News');
 		}
 		
+		public function singleNews($slug)
+		{
+			return Inertia::render('SingleNews', [
+				'slug' => fn () => $slug
+			]);
+		}
+		
 		public function partners()
 		{
 			return Inertia::render('Partners');

@@ -8,6 +8,8 @@ import {lang} from "@/commonFunctions.js";
 
 import moment from "moment-timezone";
 import 'moment/dist/locale/tr'
+import 'moment/dist/locale/it'
+import 'moment/dist/locale/ro'
 
 const cookies = document.cookie.split('; ').reduce((acc, cookie) => {
     const [name, value] = cookie.split('=')

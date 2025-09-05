@@ -100,7 +100,7 @@ const Layout = ({title, children}) => {
 	return (
 		<>
 			
-			<Head title={titleTranslation[title][locale] ?? titleTranslation[title].en ?? title}/>
+			<Head title={titleTranslation[title]?.[locale] ?? titleTranslation[title]?.en ?? title}/>
 			
 			{/*<Loader/>*/}
 			<MobileMenu/>
