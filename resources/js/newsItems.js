@@ -282,112 +282,134 @@ export const newsPageData = {
 					{
 						en: '🎉 A Bright and Special Day at “Căsuța Bucuriei” Extended Program Kindergarten No. 11, Brașov! 🎉',
 						ro: '🎉 Zi specială la Grădinița cu Program Prelungit „Căsuța Bucuriei” Nr. 11 Brașov! 🎉',
-						tr: '🎉 "Căsuța Bucuriei" Genişletilmiş Gündüz Bakım Merkezi No. 11 Brașov\'da özel gün! 🎉'
+						tr: '🎉 "Căsuța Bucuriei" Genişletilmiş Gündüz Bakım Merkezi No. 11 Brașov\'da özel gün! 🎉',
+						it: '🎉 Giornata speciale alla Scuola dell’Infanzia a Programma Prolungato “Căsuța Bucuriei” n. 11 Brașov! 🎉'
 					},
 					{
 						en: 'Today, we had the incredible honor of welcoming distinguished guests who came to support, encourage, and celebrate our educational journey:',
 						ro: 'Astăzi ne-am bucurat de onoarea de a primi în vizită o serie de invitați de seamă, care ne-au adus încredere, apreciere, cât și sprijin pentru eforturile noastre educaționale:',
-						tr: 'Bugün, eğitim çalışmalarımıza güven, takdir ve destek veren bir dizi seçkin konuğu ağırlamanın onurunu yaşadık:'
+						tr: 'Bugün, eğitim çalışmalarımıza güven, takdir ve destek veren bir dizi seçkin konuğu ağırlamanın onurunu yaşadık:',
+						it: 'Oggi abbiamo avuto l’onore di ricevere la visita di una serie di ospiti illustri, che ci hanno portato fiducia, apprezzamento e sostegno per i nostri sforzi educativi:'
 					},
 					{
 						en: '🟦 Ms. Roxana Mânzatu – Executive Vice President of the European Commission',
 						ro: '🟦 Doamna Roxana Mânzatu – Vicepreședinte Executiv al Comisiei Europene',
-						tr: '🟦 Sayın Roxana Mânzatu – Avrupa Komisyonu İcra Başkan Yardımcısı'
+						tr: '🟦 Sayın Roxana Mânzatu – Avrupa Komisyonu İcra Başkan Yardımcısı',
+						it: '🟦 Sig.ra Roxana Mânzatu – Vicepresidente Esecutivo della Commissione Europea'
 					},
 					{
 						en: '🟦 Mr. Cătălin Văsii – Prefect of Brașov County',
 						ro: '🟦 Domnul Cătălin Văsii – Prefect Județului Brașov',
-						tr: '🟦 Sayın Cătălin Văsii – Brașov İlçesi Valisi'
+						tr: '🟦 Sayın Cătălin Văsii – Brașov İlçesi Valisi',
+						it: '🟦 Sig. Cătălin Văsii – Prefetto della Contea di Brașov'
 					},
 					{
 						en: '🟦 Prof. Ovidiu Tripșa – General School Inspector of Brașov County',
 						ro: '🟦 Domnul Prof. Ovidiu Tripșa – Inspector Școlar General al Județului Brașov',
-						tr: '🟦 Sayın Prof. Ovidiu Tripșa – Brașov İlçesi Genel Okul Müfettişi'
+						tr: '🟦 Sayın Prof. Ovidiu Tripșa – Brașov İlçesi Genel Okul Müfettişi',
+						it: '🟦 Prof. Ovidiu Tripșa – Ispettore Scolastico Generale della Contea di Brașov'
 					},
 					{
 						en: '🟦 Prof. Nicolae Savin – Deputy General School Inspector of Brașov County',
 						ro: '🟦 Domnul Prof. Nicolae Savin – Inspector Școlar General Adjunct al Județului Brașov',
-						tr: '🟦 Sayın Prof. Nicolae Savin – Brașov İlçesi Genel Okul Müfettiş Yardımcısı'
+						tr: '🟦 Sayın Prof. Nicolae Savin – Brașov İlçesi Genel Okul Müfettiş Yardımcısı',
+						it: '🟦 Prof. Nicolae Savin – Vice Ispettore Scolastico Generale della Contea di Brașov'
 					},
 					{
 						en: '🟦 Mr. Cătălin Gheran – Member of the Vice President’s Cabinet, Country Coordinator for Romania, Bulgaria, Slovenia',
 						ro: '🟦 Domnul Cătălin Gheran – Membru al cabinetului doamnei vicepreședinte, coordonator de țară - România, Bulgaria, Slovenia',
-						tr: '🟦 Sayın Cătălin Gheran – Başkan Yardımcısı Kabinesi Üyesi, Ülke Koordinatörü - Romanya, Bulgaristan, Slovenya'
+						tr: '🟦 Sayın Cătălin Gheran – Başkan Yardımcısı Kabinesi Üyesi, Ülke Koordinatörü - Romanya, Bulgaristan, Slovenya',
+						it: '🟦 Sig. Cătălin Gheran – Membro del gabinetto della Vicepresidente, coordinatore nazionale – Romania, Bulgaria, Slovenia'
 					},
 					{
 						en: '🟦 Prof. Diana Szasz – School Inspector for Early Childhood Education',
 						ro: '🟦 Doamna Prof. Diana Szasz – Inspector școlar  pentru Educație Timpurie',
-						tr: '🟦 Sayın Prof. Diana Szasz – Erken Çocukluk Eğitimi Okul Müfettişi'
+						tr: '🟦 Sayın Prof. Diana Szasz – Erken Çocukluk Eğitimi Okul Müfettişi',
+						it: '🟦 Prof.ssa Diana Szasz – Ispettore Scolastico per l’Educazione della Prima Infanzia'
 					},
 					{
 						en: '🟦 Prof. Tatiana Benga – Expert in Erasmus+ and EEA Project Development',
 						ro: '🟦 Doamna Prof. Tatiana Benga – Expert scriere și implementare proiecte Erasmus+, SEE',
-						tr: '🟦 Sayın Prof. Tatiana Benga – Erasmus+ ve SEE projelerinin yazım ve uygulama uzmanı'
+						tr: '🟦 Sayın Prof. Tatiana Benga – Erasmus+ ve SEE projelerinin yazım ve uygulama uzmanı',
+						it: '🟦 Prof.ssa Tatiana Benga – Esperta in scrittura e implementazione di progetti Erasmus+, SEE'
 					},
 					{
 						en: 'Our director, Ms. Mihaela Popa, guided our guests on a tour of the kindergarten, showcasing the Erasmus+ projects where we are actively involved—projects designed to provide our children with high-quality, inclusive education in line with European policies:',
 						ro: 'Doamna director Popa Mihaela a avut plăcerea de a-i ghida într-un tur al grădiniței, prezentându-le proiectele Erasmus+ în care suntem activ implicați, cu scopul de a oferi copiilor noștri o educație de calitate, incluzivă și adaptată politicilor europene:',
-						tr: 'Sayın Direktör Popa Mihaela, çocuklarımıza Avrupa politikalarına uyarlanmış kaliteli ve kapsayıcı bir eğitim sunmak amacıyla aktif olarak yer aldığımız Erasmus+ projelerini tanıtarak anaokulu turunda onlara rehberlik etmekten mutluluk duydu:'
+						tr: 'Sayın Direktör Popa Mihaela, çocuklarımıza Avrupa politikalarına uyarlanmış kaliteli ve kapsayıcı bir eğitim sunmak amacıyla aktif olarak yer aldığımız Erasmus+ projelerini tanıtarak anaokulu turunda onlara rehberlik etmekten mutluluk duydu:',
+						it: 'La dirigente scolastica Mihaela Popa ha avuto il piacere di guidarli in un tour della scuola, presentando i progetti Erasmus+ in cui siamo attivamente coinvolti, con l’obiettivo di offrire ai nostri bambini un’educazione di qualità, inclusiva e in linea con le politiche europee:'
 					},
 					{
 						en: '📌 “Kindergarten – The First Step Towards an Inclusive Sustainable Society”',
 						ro: '📌 1. „Grădinița – primul pas către o societate sustenabilă incluzivă”',
-						tr: '📌 1. "Anaokulu - Sürdürülebilir ve kapsayıcı bir topluma doğru ilk adım"'
+						tr: '📌 1. "Anaokulu - Sürdürülebilir ve kapsayıcı bir topluma doğru ilk adım"',
+						it: '📌 1. “La scuola dell’infanzia – il primo passo verso una società sostenibile e inclusiva”'
 					},
 					{
 						en: '📌 “Math Magic in Motion – 3M: Culturally and Historically Responsive Adventures for Preschool Explorers” in partnership with:',
 						ro: '📌 2. „Math Magic in Motion – 3M: Culturally and Historically Responsive Adventures for Preschool Explorers”, realizat în parteneriat cu:',
-						tr: '📌 2. "Math Magic in Motion - 3M: Okul Öncesi Kaşifler için Kültürel ve Tarihsel Açıdan Duyarlı Maceralar", aşağıdaki kuruluşlarla ortaklaşa yürütülmektedir:'
+						tr: '📌 2. "Math Magic in Motion - 3M: Okul Öncesi Kaşifler için Kültürel ve Tarihsel Açıdan Duyarlı Maceralar", aşağıdaki kuruluşlarla ortaklaşa yürütülmektedir:',
+						it: '📌 2. “Math Magic in Motion – 3M: Avventure culturalmente e storicamente sensibili per esploratori della scuola dell’infanzia”, realizzato in partenariato con:'
 					},
 					{
 						en: '🇹🇷 Adiyaman University, Turkey',
 						ro: '🇹🇷 Universitatea Adiyaman, Turcia',
-						tr: '🇹🇷 Adıyaman Üniversitesi, Türkiye'
+						tr: '🇹🇷 Adıyaman Üniversitesi, Türkiye',
+						it: '🇹🇷 Università di Adıyaman, Turchia'
 					},
 					{
 						en: '🇮🇹 Scuola Paritaria dell’Infanzia e Primaria “Missionarie Catechiste del Sacro Cuore,” Portici, Italy',
 						ro: '🇮🇹 Scuola Paritaria dell’Infanzia e Primaria „Missionarie Catechiste del Sacro Cuore”, Portici, Italia',
-						tr: '🇮🇹 Scuola Paritaria dell\'Infanzia e Primaria "Missionarie Catechiste del Sacro Cuore", Portici, İtalya'
+						tr: '🇮🇹 Scuola Paritaria dell\'Infanzia e Primaria "Missionarie Catechiste del Sacro Cuore", Portici, İtalya',
+						it: '🇮🇹 Scuola Paritaria dell’Infanzia e Primaria “Missionarie Catechiste del Sacro Cuore”, Portici, Italia'
 					},
 					{
 						en: 'Teachers who participated in Erasmus+ training in Barcelona, Malaga, and Crete shared their knowledge and experiences from their first European project in preschool education in Brașov County, including:',
 						ro: 'În cadrul proiectului „Grădinița – primul pas către o societate sustenabilă incluzivă”, cadrele didactice participante la mobilitățile de formare din Barcelona, Malaga și Creta au împărtășit competențe și impresii acumulate în prima experiență Erasmus+ la nivelul învățământului preșcolar din judetul Brasov, precum:',
-						tr: '"Anaokulu - Sürdürülebilir ve kapsayıcı bir topluma doğru ilk adım" projesi kapsamında, Barselona, Malaga ve Girit\'teki eğitim hareketliliklerine katılan öğretmenler, Braşov Bölgesi\'ndeki okul öncesi eğitim düzeyindeki ilk Erasmus+ deneyiminde edindikleri beceri ve izlenimleri paylaştılar.'
+						tr: '"Anaokulu - Sürdürülebilir ve kapsayıcı bir topluma doğru ilk adım" projesi kapsamında, Barselona, Malaga ve Girit\'teki eğitim hareketliliklerine katılan öğretmenler, Braşov Bölgesi\'ndeki okul öncesi eğitim düzeyindeki ilk Erasmus+ deneyiminde edindikleri beceri ve izlenimleri paylaştılar.',
+						it: 'Nell’ambito del progetto “La scuola dell’infanzia – il primo passo verso una società sostenibile e inclusiva”, gli insegnanti che hanno partecipato alle mobilità di formazione a Barcellona, Malaga e Creta hanno condiviso le competenze e le impressioni acquisite nella loro prima esperienza Erasmus+ nel campo dell’istruzione prescolare della Contea di Brașov, come ad esempio:'
 					},
 					{
 						en: '🌱 Environmental Education – hands-on ecological learning through practical activities, sensory games, and creative recycling workshops',
 						ro: '🌱 Environmental Education – educație ecologică aplicată prin activități practice, jocuri senzoriale și ateliere de reciclare creative',
-						tr: '🌱 Çevre Eğitimi - pratik etkinlikler, duyusal oyunlar ve yaratıcı geri dönüşüm atölyeleriyle uygulanan ekolojik eğitim'
+						tr: '🌱 Çevre Eğitimi - pratik etkinlikler, duyusal oyunlar ve yaratıcı geri dönüşüm atölyeleriyle uygulanan ekolojik eğitim',
+						it: '🌱 Environmental Education – educazione ecologica applicata attraverso attività pratiche, giochi sensoriali e laboratori creativi di riciclo'
 					},
 					{
 						en: '🧩 Game-Based Learning & Gamification – modern teaching methods that motivate children through play',
 						ro: '🧩 Game-Based Learning & Gamification – metode moderne de predare prin joc și motivare, conceptul de gamificare,<br/>deja integrate în activitățile cu copiii',
-						tr: '🧩 Oyun Tabanlı Öğrenme ve Oyunlaştırma - oyun ve motivasyon yoluyla modern öğretim yöntemleri, oyunlaştırma kavramı,<br/>çocuklarla yapılan etkinliklere entegre edilmiştir'
+						tr: '🧩 Oyun Tabanlı Öğrenme ve Oyunlaştırma - oyun ve motivasyon yoluyla modern öğretim yöntemleri, oyunlaştırma kavramı,<br/>çocuklarla yapılan etkinliklere entegre edilmiştir',
+						it: '🧩 Game-Based Learning & Gamification – metodi moderni di insegnamento attraverso il gioco e la motivazione, con il concetto di gamification già integrato nelle attività con i bambini'
 					},
 					{
 						en: '🤝 All Children Are Special – strategies for including children with special educational needs, applied with empathy and professionalism',
 						ro: '🤝 All Children Are Special – strategii pentru incluziunea copiilor cu cerințe educaționale speciale, adaptate cu empatie și profesionalism',
-						tr: '🤝 Tüm Çocuklar özeldir - özel eğitime ihtiyaç duyan çocukların katılımına yönelik stratejiler, empati ve profesyonellikle uyarlanmıştır.'
+						tr: '🤝 Tüm Çocuklar özeldir - özel eğitime ihtiyaç duyan çocukların katılımına yönelik stratejiler, empati ve profesyonellikle uyarlanmıştır.',
+						it: '🤝 All Children Are Special – strategie per l’inclusione dei bambini con bisogni educativi speciali, adattate con empatia e professionalità'
 					},
 					{
 						en: 'Today’s event was a fantastic opportunity to celebrate our achievements in European projects and share best practices that give every child a fair and promising start in life. 💫',
 						ro: 'Evenimentul de astăzi a fost o oportunitate minunată de a valida rezultatele implicării noastre în proiecte europene și de a împărtăși bune practici educaționale menite să ofere fiecărui copil un start echitabil și promițător în viață. 💫',
-						tr: 'Bugünkü etkinlik, Avrupa projelerine katılımımızın sonuçlarını doğrulamak ve her çocuğa hayata adil ve umut verici bir başlangıç sağlamayı amaçlayan iyi eğitim uygulamalarını paylaşmak için harika bir fırsattı. 💫'
+						tr: 'Bugünkü etkinlik, Avrupa projelerine katılımımızın sonuçlarını doğrulamak ve her çocuğa hayata adil ve umut verici bir başlangıç sağlamayı amaçlayan iyi eğitim uygulamalarını paylaşmak için harika bir fırsattı. 💫',
+						it: 'L’evento di oggi è stata una meravigliosa opportunità per convalidare i risultati del nostro impegno nei progetti europei e per condividere buone pratiche educative volte a garantire a ogni bambino un inizio equo e promettente nella vita. 💫'
 					},
 					{
 						en: 'A huge thank you to everyone who visited and supports us in our mission to deliver STEM-focused, innovative, inclusive, and sustainable early education! 🤍',
 						ro: 'Mulțumim tuturor celor care ne-au vizitat și ne susțin în misiunea noastră de a construi o educație timpurie de calitate, bazată pe STEM, inovație, incluziune și sustenabilitate! 🤍',
-						tr: 'Bizi ziyaret eden ve STEM, inovasyon, katılım ve sürdürülebilirliğe dayalı kaliteli erken çocukluk eğitimi oluşturma misyonumuzda bizi destekleyen herkese teşekkür ederiz! 🤍'
+						tr: 'Bizi ziyaret eden ve STEM, inovasyon, katılım ve sürdürülebilirliğe dayalı kaliteli erken çocukluk eğitimi oluşturma misyonumuzda bizi destekleyen herkese teşekkür ederiz! 🤍',
+						it: 'Ringraziamo tutti coloro che ci hanno visitato e che ci sostengono nella nostra missione di costruire un’educazione della prima infanzia di qualità, basata su STEM, innovazione, inclusione e sostenibilità! 🤍'
 					},
 					{
 						en: 'Thank you, Erasmus+: More Fulfilled Lives, More Open Minds! 🇪🇺',
 						ro: 'Mulțumim Erasmus+: Vieți mai împlinite, minți mai deschise! 🇪🇺',
-						tr: 'Erasmus+\'a teşekkürler: Daha dolu dolu yaşamlar, daha açık fikirler! 🇪🇺'
+						tr: 'Erasmus+\'a teşekkürler: Daha dolu dolu yaşamlar, daha açık fikirler! 🇪🇺',
+						it: 'Grazie Erasmus+: Vite più ricche, menti più aperte! 🇪🇺'
 					},
 					{
 						en: 'Proud to be Erasmus!',
 						ro: 'Mândrii sa fim Erasmus!',
-						tr: 'Erasmusta olmaktan gurur duyuyoruz!'
+						tr: 'Erasmusta olmaktan gurur duyuyoruz!',
+						it: 'Orgogliosi di essere Erasmus!'
 					}
 				],
 				photos: Array.from({length: 26}, (_, i) => `pic${i + 1}.jpg`)
