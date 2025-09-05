@@ -59,21 +59,15 @@ Evaluări externe pentru progresul profesorilor.
 				},
 				{
 					en: `
-					Mentors and mentee teachers monitor their own development through self-assessment methods based on adult
-					learning theories. They actively participate in the process by uploading teaching videos, writing reflective
-					notes, and evaluating the modules. In addition, external evaluations conducted by academic staff and experts
-					ensure the progress of the teachers.
+					Within WP1 Project Management, the progress, quality, and level of achievement of the objectives will be monitored regularly. This process will be carried out by a team consisting of project managers, coordinators, and experts, and will be based on a preliminary evaluation conducted before the start of activities. During the project, progress will be reviewed on a monthly or quarterly basis, with semi-annual or annual evaluations taking place, and at the end, a comprehensive final report will be prepared. Quality checks will be applied at critical stages, such as curriculum development, animation production, and teacher training, while continuous feedback will be gathered through surveys and focus groups. All monitoring results will be documented and shared with partners and stakeholders, while budget and time management will be ensured through detailed planning, using adaptive and flexible approaches whenever necessary
 					`,
 					tr: `
-					Mentorlar ve mentorluk alan öğretmenler, yetişkin öğrenme teorilerine dayalı <strong>öz değerlendirme</strong> yöntemleriyle
-					kendi gelişimlerini izler. Öğretim videoları yükleyerek, yansıtıcı notlar yazarak ve modülleri değerlendirerek
-					sürece aktif katılırlar. Bunun yanı sıra, akademik personel ve uzmanlar tarafından yapılan <strong>dış değerlendirmeler</strong>
-					öğretmenlerin ilerlemesini güvence altına alır.
+					WP1 Proje Yönetimi kapsamında, proje faaliyetlerinin ilerleyişi, kalitesi ve hedeflere ulaşma düzeyi düzenli olarak izlenecektir. Bu süreç, proje yöneticileri, koordinatörler ve uzmanlardan oluşan bir ekip tarafından yürütülecek ve proje başlamadan önce yapılan ön değerlendirme ile temellendirilecektir. Proje süresince aylık veya üç aylık aralıklarla ilerleme gözden geçirilecek, yarıyıl veya yıllık değerlendirmeler yapılacak ve proje sonunda kapsamlı bir nihai rapor hazırlanacaktır. Müfredat geliştirme, animasyon üretimi ve öğretmen eğitimleri gibi kritik aşamalarda kalite kontrolleri uygulanacak, anketler ve odak grup çalışmaları aracılığıyla sürekli geri bildirim toplanacaktır. Tüm bulgular raporlanarak proje ortakları ve ilgili paydaşlarla paylaşılacak, bütçe ve zaman yönetimi ayrıntılı planlamayla sağlanacak ve gerektiğinde uyarlanabilir yönetim yaklaşımları kullanılacaktır.
 					`,
 					it: `
-					I mentori e gli insegnanti allievi monitorano il proprio percorso di sviluppo attraverso metodi di autovalutazione basati sulle teorie dell'apprendimento degli adulti. Questi ultimi partecipano attivamente al processo caricando video didattici, scrivendo note di riflessione e valutando i moduli. Inoltre, le valutazioni esterne condotte da personale accademico ed esperti garantiscono il progressi dei docenti.
+					Nell’ambito del WP1 Gestione del Progetto, i progressi, la qualità e il livello di raggiungimento degli obiettivi saranno monitorati regolarmente. Questo processo sarà realizzato da un team composto da project manager, coordinatori ed esperti, ed avrà come base una valutazione preliminare effettuata prima dell’avvio delle attività. Durante il progetto, i progressi saranno analizzati con cadenza mensile o trimestrale, saranno svolte valutazioni semestrali o annuali e, al termine, verrà redatto un rapporto complessivo. Controlli di qualità saranno applicati nelle fasi critiche, come lo sviluppo del curriculum, la produzione delle animazioni e la formazione degli insegnanti, mentre un feedback costante sarà raccolto tramite questionari e focus group. Tutti i risultati del monitoraggio saranno documentati e condivisi con i partner e le parti interessate, mentre la gestione del budget e del tempo sarà garantita da una pianificazione dettagliata, ricorrendo, se necessario, ad approcci adattivi e flessibili
 					`,
-					ro: ''
+					ro: 'În cadrul WP1 Managementul Proiectului, progresul, calitatea și nivelul de atingere a obiectivelor proiectului vor fi monitorizate periodic. Acest proces va fi realizat de o echipă formată din manageri de proiect, coordonatori și experți, fiind fundamentat pe o evaluare preliminară desfășurată înainte de începutul activităților. Pe parcursul proiectului, progresul va fi analizat lunar sau trimestrial, vor avea loc evaluări semestriale sau anuale, iar la final va fi întocmit un raport comprehensiv. Vor fi aplicate controale de calitate în etapele critice, precum elaborarea curriculumului, producerea animațiilor și formarea cadrelor didactice, iar feedbackul constant va fi colectat prin chestionare și grupuri de discuție. Toate rezultatele monitorizării vor fi documentate și comunicate partenerilor și părților interesate, iar managementul bugetului și al timpului va fi asigurat printr-o planificare detaliată, utilizându-se, dacă este necesar, abordări flexibile de adaptare'
 				}
 			],
 			results: [
@@ -206,37 +200,24 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 			paragraphs: [
 				{
 					en: `
-					WP3 establishes the evidence-based scientific dimension of the project. First, a comprehensive needs analysis
-					is conducted to identify the requirements of both new and experienced teachers. This analysis directly guides
-					the development of the modules.
+					Within WP3, the aim is to develop and report the research methodology. This package contributes to the overall and specific objectives of the project by planning the research, selecting appropriate tools, and ensuring that the process runs smoothly from start to finish. In the initial phase, data will be collected from teachers, building on the previous needs analysis to better understand the context of preschool mathematics education and multiculturalism. Data will be gathered through surveys and/or interviews, pre-tests will be applied, and teachers will engage weekly on the web portal with the training modules. The collected data will then be analyzed and used to develop the modules. The main outputs include a needs analysis, pre-tests, data collection process, national reports, a final report, and a transnational meeting to discuss the findings. Success indicators include teachers’ opinions, four national reports, the final report, and academic feedback.
 					`,
 					tr: `
-					WP3, projenin <strong>bilimsel kanıt temelli yönünü</strong> oluşturur. Öncelikle yeni ve deneyimli öğretmenlerin ihtiyaçlarını
-					belirlemek için kapsamlı bir ihtiyaç analizi yapılır. Bu analiz, modüllerin geliştirilmesine doğrudan rehberlik eder.
+					WP3 kapsamında, araştırma metodolojisinin geliştirilmesi ve raporlanması hedeflenmektedir. Bu paket, araştırmanın planlanmasını, uygun araçların belirlenmesini ve sürecin baştan sona doğru şekilde ilerlemesini sağlayarak projenin genel ve özel hedeflerine katkıda bulunur. Çalışmanın ilk aşamasında öğretmenlerden veri toplanacak, daha önce yapılan ihtiyaç analizi genişletilerek okul öncesi matematik eğitimi ve çokkültürlülük bağlamında gereksinimler ve katılımcı profilleri belirlenecektir. Bu süreçte anketler ve/veya görüşmeler yoluyla veriler toplanacak, ön testler uygulanacak ve öğretmenlerin haftalık olarak web portalındaki eğitim modülleri üzerine düşünmeleri ve etkileşimde bulunmaları sağlanacaktır. Elde edilen veriler analiz edilerek eğitim modüllerinin geliştirilmesine temel oluşturacaktır.
 					`,
 					it: `
-					Il WP3 definisce la dimensione scientifica basata su dati concretirilevati durante l’esecuzione del progetto. Innanzitutto, si condurrà  un'analisi completa dei bisogni per identificare i requisiti sia dei docenti nuovi che di quelli esperti. Questa analisi guiderà direttamente lo sviluppo dei moduli.
+					Nell’ambito del WP3, l’obiettivo è sviluppare e riportare la metodologia di ricerca. Questo pacchetto contribuisce agli obiettivi generali e specifici del progetto attraverso la pianificazione della ricerca, la scelta degli strumenti adeguati e la garanzia che il processo si svolga correttamente dall’inizio alla fine. Nella fase iniziale verranno raccolti dati dagli insegnanti, ampliando l’analisi dei bisogni già realizzata, al fine di comprendere meglio il contesto dell’educazione matematica nella scuola dell’infanzia e del multiculturalismo. I dati saranno raccolti tramite questionari e/o interviste, saranno effettuati test preliminari e gli insegnanti interagiranno settimanalmente sul portale web riguardo ai moduli formativi. I risultati saranno analizzati e utilizzati per sviluppare i moduli. I principali output previsti sono: analisi dei bisogni, test preliminari, processo di raccolta dati, rapporti nazionali, rapporto finale e un incontro internazionale per discutere i rapporti. Gli indicatori di successo includono le opinioni degli insegnanti, i quattro rapporti nazionali, il rapporto finale e il feedback degli accademici.
 					`,
 					ro: `
-					Analiză de nevoi pentru profesori.
-Colectare și analiză de date prin note reflexive și formulare de feedback.
-Rapoarte internaționale și contribuții pentru factorii de decizie.
+					În cadrul WP3, se urmărește dezvoltarea și raportarea metodologiei de cercetare. Acest pachet contribuie la obiectivele generale și specifice ale proiectului prin planificarea cercetării, alegerea instrumentelor potrivite și asigurarea desfășurării corecte a procesului de la început până la sfârșit. În prima etapă, vor fi colectate date de la cadrele didactice, extinzând analiza nevoilor realizată anterior pentru a înțelege mai bine contextul educației matematice preșcolare și multiculturalismul. Datele vor fi obținute prin chestionare și/sau interviuri, vor fi aplicate teste preliminare, iar profesorii vor interacționa săptămânal pe portalul web privind modulele de formare. Rezultatele vor fi analizate și utilizate pentru dezvoltarea modulelor. Printre rezultatele principale se numără analiza nevoilor, testele preliminare, procesul de colectare a datelor, rapoartele naționale, raportul final și o reuniune internațională pentru discutarea rapoartelor. Indicatorii de succes includ opiniile cadrelor didactice, cele patru rapoarte naționale, raportul final și feedbackul experților academici.
 `
 				},
 				{
-					en: `
-					After each session, mentors and new teachers complete reflective notes and feedback forms. These data are
-					collected and analyzed regularly. The findings contribute not only to the project but also to the academic
-					field by offering insights into the e-mentoring model in early childhood education.
-					`,
+					en: '',
 					tr: `
-					Mentorlar ve yeni öğretmenler, her oturum sonrası <strong>yansıtıcı notlar ve geribildirim formları</strong> doldurur. Bu
-					veriler düzenli olarak toplanır ve analiz edilir. Ortaya çıkan sonuçlar yalnızca proje için değil, aynı
-					zamanda erken çocukluk eğitiminde e-mentorluk modeline dair akademik dünyaya katkı sağlar.
+					Ana çıktılar arasında ihtiyaç analizi, ön testler, veri toplama süreci, ulusal raporlar, nihai rapor ve raporların tartışıldığı uluslararası bir toplantı yer almaktadır. Başarı göstergeleri, her ülkeden öğretmen görüşleri, toplam dört ulusal rapor, bir nihai rapor ve akademisyenlerden alınacak geri bildirimlerdir. Ortak kurumların sorumlulukları arasında öğretmenlerin web portalına katılımını sağlamak, akademik görüşleri toplamak, verileri derlemek ve analiz etmek, nihai raporları oluşturmak ve uluslararası toplantılarda sunmak bulunmaktadır. Bu paket, partner ülkelerin ihtiyaçlarına en uygun eğitim araçlarını geliştirmeyi hedeflediği için proje açısından kritik önemdedir.
 					`,
-					it: `
-					Dopo ogni sessione, i mentori e gli insegnanti esperti invieranno notenote di riflessione e compileranno moduli di feedback. Questi dati saranno raccolti e analizzati regolarmente. I risultati attesi contribuiscono non solo all’implementazione del  progetto, ma anche saranno fruibili in ambito  accademico, offrendo approfondimenti sul modello di e-mentoring nell'educazione della prima infanzia.
-					`,
+					it: '',
 					ro: ''
 				}
 			],
@@ -287,36 +268,43 @@ Rapoarte internaționale și contribuții pentru factorii de decizie.
 			paragraphs: [
 				{
 					en: `
-					This package builds the digital infrastructure of the project. A comprehensive web portal is developed for
-					access to all educational modules, mentor–mentee pairings, process monitoring, and evaluations.
+					Within WP4, the aim is to develop a mathematics education program suitable for preschool children and present it through engaging visual and auditory stimuli. Animations will be used to capture children’s interest and prevent the development of fear or prejudice towards mathematics. An online training program for teachers, combining multiculturalism and mathematics education, will also be designed and delivered through a dedicated web portal. This portal will facilitate communication among teachers while ensuring a cost-effective and environmentally friendly approach.
 					`,
 					tr: `
-					Bu paket, projenin <strong>dijital altyapısını</strong> inşa eder. Tüm eğitim modüllerine erişim, mentor–mentee eşleştirmeleri,
-					süreç takibi ve değerlendirmeler için kapsamlı bir <strong>web portalı</strong> geliştirilir.
+					WP4 kapsamında, okul öncesi çocuklar için uygun içeriklerle bir matematik eğitim programı hazırlanması ve bu programın öğrencilere eğlenceli, görsel-işitsel uyaranlarla sunulması hedeflenmektedir. Bu amaçla, çocukların ilgisini çekecek ve matematiğe yönelik kaygı ya da önyargı geliştirmelerini önleyecek animasyonlar kullanılacaktır. Ayrıca, öğretmenler için hem çokkültürlülük hem de matematik eğitimi konularında çevrim içi bir eğitim programı tasarlanacak ve bunun için bir web portalı geliştirilecektir. Bu portal, öğretmenler arasında iletişimi ve erişimi kolaylaştırırken ekonomik ve çevre dostu bir yaklaşım da sunacaktır.
 					`,
 					it: `
-					Questo pacchetto costituisce l'infrastruttura digitale del progetto. Viene sviluppato un portale web completo per l'accesso a tutti i moduli didattici, agli abbinamenti mentore-allievo, al monitoraggio dei processi e alle valutazioni.
+					Nell’ambito del WP4, l’obiettivo è sviluppare un programma di educazione matematica adeguato per i bambini della scuola dell’infanzia e presentarlo attraverso stimoli visivi e uditivi accattivanti. Le animazioni saranno utilizzate per catturare l’interesse dei bambini e prevenire lo sviluppo di paure o pregiudizi verso la matematica. Sarà inoltre progettato un programma di formazione online per insegnanti, che combini multiculturalismo ed educazione matematica, tramite un portale web dedicato. Il portale faciliterà la comunicazione tra insegnanti e offrirà un approccio economico ed ecologico.
 					`,
 					ro: `
-					Dezvoltarea portalului web pentru acces la module, mentorat și resurse.
-Crearea de animații și materiale interactive pentru copii.
-Comunitate internațională de învățare și resurse accesibile dintr-un portal central.
+					În cadrul WP4, scopul este elaborarea unui program de educație matematică adecvat pentru copiii de vârstă preșcolară și prezentarea acestuia prin stimuli vizuali și auditivi atractivi. Animațiile vor fi folosite pentru a capta interesul copiilor și pentru a preveni dezvoltarea fricii sau prejudecăților față de matematică. De asemenea, va fi conceput un program de formare online pentru cadrele didactice, care să îmbine multiculturalismul și educația matematică, prin intermediul unui portal web dedicat. Portalul va facilita comunicarea între cadrele didactice și va asigura o abordare prietenoasă cu mediul și sustenabilă.
 `
 				},
 				{
 					en: `
-					The portal not only enables teachers to access materials but also allows them to share their own experiences
-					and learn from one another. In this way, the project goes beyond geographical boundaries to create an
-					international learning community. In addition, animations, videos, and interactive materials become
-					accessible through the portal.
+					The main outputs include: event-based animations, multilingual animations adapted to children’s levels, integration of multicultural themes into the animations, and the creation of a web portal hosting e-learning modules. Success indicators will include an English-language web portal, animations prepared in the languages of each partner country, and English animations accessible to the wider public. Quality will be assessed by external experts.
 					`,
 					tr: `
-					Portal, öğretmenlerin sadece materyallere erişimini değil, aynı zamanda kendi deneyimlerini paylaşmalarını ve birbirlerinden öğrenmelerini de sağlar. Böylece proje, coğrafi sınırları aşarak uluslararası bir öğrenme topluluğu yaratır. Ayrıca animasyonlar, videolar ve etkileşimli materyaller bu portal üzerinden erişilebilir hale gelir.
+					Ana çıktılar arasında etkinlik temelli animasyonların hazırlanması, çocukların seviyelerine uygun çok dilli animasyonların üretilmesi, çokkültürlülük temasının animasyonlara entegre edilmesi ve e-öğrenme modüllerini barındıracak bir web portalının oluşturulması yer almaktadır. Başarı göstergeleri arasında İngilizce bir web portalı, her ülkenin kendi dilinde hazırlanmış animasyonlar, ayrıca uluslararası kullanıma açık İngilizce animasyonlar bulunmaktadır. Hazırlanan web portalı ve animasyonların kalitesi, dış uzmanlar tarafından değerlendirilecek; güncel görsel efektler ve dijital araçlarla matematiksel içerikleri aktarabilme yeterliliği esas alınacaktır.
 					`,
 					it: `
-					Il portale non solo consente agli insegnanti di accedere ai materiali, ma permette loro anche di condividere le proprie esperienze e imparare gli uni dagli altri. In questo modo, il progetto supera i confini geografici per creare una comunità di apprendimento internazionale. Inoltre, attraverso il portale è possibile accedere ad animazioni, video e materiali interattivi.
+					I principali risultati includono: animazioni basate su eventi, animazioni multilingue adeguate al livello dei bambini, l’integrazione del tema del multiculturalismo nelle animazioni e la creazione di un portale web con moduli di e-learning. Gli indicatori di successo saranno: un portale web in lingua inglese, animazioni preparate nelle lingue di ciascun paese partner e animazioni in inglese disponibili per il pubblico generale. La qualità sarà valutata da esperti esterni.
 					`,
-					ro: ''
+					ro: 'Rezultatele principale includ: animații bazate pe evenimente, animații multilingve adaptate nivelului copiilor, integrarea temei multiculturalismului în animații și crearea unui portal web cu module de e-learning. Indicatorii de succes vor fi: existența unui portal web în limba engleză, animații pregătite în limbile fiecărei țări partenere și animații în limba engleză disponibile pentru publicul larg. Calitatea va fi evaluată de experți externi.'
+				},
+				{
+					tr: `
+					Bu iş paketinde <strong>tüm sorumluluk Adıyaman Üniversitesi tarafından yürütülecektir</strong>. Web portalı ve animasyonların geliştirilmesi Adıyaman Üniversitesi tarafından üstlenilecek; Romanya ve İtalya öğretmen ve öğrenci pilot uygulamalarıyla destek verecek; Gürcistan ise matematiksel içeriklerin dijital animasyonlara dönüştürülmesi konusunda katkı sağlayacaktır. Ayrıca tüm ortaklar, web portalı ve animasyonların İngilizce’den kendi dillerine çevirisini gerçekleştirecektir.
+					`,
+					ro: `
+					Toată responsabilitatea pentru acest pachet de lucru revine <strong>Universității din Adıyaman</strong>. Universitatea va dezvolta portalul web și animațiile. România și Italia vor sprijini cu aplicarea pilot alături de cadrele didactice și copiii de vârstă preșcolară, iar Georgia va contribui la transformarea conținuturilor matematice în animații digitale. De asemenea, fiecare partener va sprijini traducerea portalului și a animațiilor în propria limbă.
+					`,
+					it: `
+					Tutta la responsabilità per questo pacchetto di lavoro sarà assunta <strong>dall’Università di Adıyaman</strong>. L’università si occuperà dello sviluppo del portale web e delle animazioni. La Romania e l’Italia forniranno supporto con sperimentazioni pilota con insegnanti e bambini della scuola dell’infanzia, mentre la Georgia contribuirà alla trasformazione dei contenuti matematici in animazioni digitali. Inoltre, ciascun partner sosterrà la traduzione del portale e delle animazioni nella propria lingua.
+					`,
+					en: `
+					All responsibility for this work package lies with <strong>Adıyaman University</strong>. The university will lead the development of the web portal and animations. Romania and Italy will support with pilot applications involving preschool teachers and children, while Georgia will contribute to transforming mathematical content into digital animations. Additionally, each partner will support the translation of the web portal and animations into their own language.
+					`
 				}
 			],
 			results: [
