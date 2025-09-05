@@ -172,7 +172,7 @@ const Header = () => {
 							<div className="col-auto">
 								<div className="vs-header__action">
 									<div className="d-none d-xxl-inline-flex">
-										<a href="https://portal.mathmagicinmotion.com" className="vs-btn">
+										<a href="https://portal.mathmagicinmotion.com" className="vs-btn" target="_blank">
 											<span className="vs-btn__border"/>
 											Web Portal
 											{/*solve: lang*/}
