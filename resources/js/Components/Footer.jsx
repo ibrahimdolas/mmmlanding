@@ -42,7 +42,7 @@ const follow = {
 const disclaim = {
 	en: `<strong>Disclaimer:</strong> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.`,
 	tr: `<strong>Yasal Uyarı:</strong> Avrupa Birliği tarafından finanse edilmiştir. Ancak, ifade edilen görüş ve düşünceler yalnızca yazar(lar)a aittir ve Avrupa Birliği veya Avrupa Eğitim ve Kültür Yürütme Ajansı'nın (EACEA) görüşlerini yansıtmaz. Avrupa Birliği veya EACEA bunlardan sorumlu tutulamaz.`,
-	// it: ``,
+	it: `<strong>Disclaimer:</strong> Finanziato dall'Unione Europea. Le opinioni e i punti di vista espressi sono tuttavia esclusivamente quelli dell’autore/i e non riflettono necessariamente quelli dell'Unione Europea o dell'Agenzia esecutiva europea per l'istruzione e la cultura (EACEA). Né l'Unione Europea né l'EACEA possono essere ritenute responsabili di tali contenuti.`,
 	// ro: ``
 }
 

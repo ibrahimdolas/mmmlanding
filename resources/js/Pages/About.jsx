@@ -16,6 +16,13 @@ const videoText = {
 	ro: 'Vezi Video',
 }
 
+const videoUrl = {
+	tr: 'https://www.youtube.com/embed/n6ZtLwINIR4?si=sKxUyBt6mbWL9U-M',
+	en: 'https://www.youtube.com/embed/hg_AbLYjvHM?si=dNmEX6nKna6UQqG7',
+	ro: 'https://www.youtube.com/embed/lTjC0m3tUyM?si=TMk1gW6C32pijG8z',
+	it: 'https://www.youtube.com/embed/LrCUACpLvsg?si=wYfrpQnjHnwfJkvi'
+}
+
 const About = () => {
 	
 	const [isOpen, setIsOpen] = useState(false);
@@ -202,7 +209,7 @@ const About = () => {
 			>
 				<span className="video-container">
 					<iframe
-						src="https://www.youtube.com/embed/9I4pTy0paX4?si=MWCJLkc8-dLUIU4R"
+						src={videoUrl[locale] ?? videoUrl.en}
 						title="Math Magic in Motion"
 						allow="autoplay; encrypted-media; picture-in-picture"
 						allowFullScreen
