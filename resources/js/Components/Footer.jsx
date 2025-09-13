@@ -5,6 +5,7 @@ import Scissors from "../../_src/img/footerElements/footer-element-2.png"
 import Bus from "../../_src/img/characters/ch7.png"
 
 import FooterLogo from "../../_src/img/logo.svg"
+import EULogo from "../../_src/img/footerElements/eu-logo-ua-tr.jpg"
 
 import {Link, usePage} from "@inertiajs/react";
 import {copyright, footerMenuItems, mailAddress, phoneNumber, socialMediaAccounts} from "@/menuItems.js";
@@ -36,6 +37,13 @@ const follow = {
 	tr: 'Takip Edin:',
 	it: 'Seguici:',
 	ro: 'Urmați-ne:'
+}
+
+const disclaim = {
+	en: `<strong>Disclaimer:</strong> Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.`,
+	tr: `<strong>Yasal Uyarı:</strong> Avrupa Birliği tarafından finanse edilmiştir. Ancak, ifade edilen görüş ve düşünceler yalnızca yazar(lar)a aittir ve Avrupa Birliği veya Avrupa Eğitim ve Kültür Yürütme Ajansı'nın (EACEA) görüşlerini yansıtmaz. Avrupa Birliği veya EACEA bunlardan sorumlu tutulamaz.`,
+	// it: ``,
+	// ro: ``
 }
 
 const Footer = () => {
@@ -94,6 +102,12 @@ const Footer = () => {
 						</div>
 						
 						<div className="col-md-6 wow" data-animate="fadeInUp" data-wow-delay="0.35s">
+							<div className="vs-footer__widget text-end">
+								<div className="vs-footer_-title mb-4">
+									<img src={EULogo} alt="Co-Founded by EU" height="48"/>
+								</div>
+								<p className="vs-footer__desc pe-0" dangerouslySetInnerHTML={{__html: disclaim[locale] ?? disclaim.en}}/>
+							</div>
 							{/*<div className="vs-footer__widget">*/}
 							{/*	<div className="vs-footer__title">Explore</div>*/}
 							{/*	<div className="vs-footer__menu">*/}

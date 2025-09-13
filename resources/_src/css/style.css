@@ -5016,10 +5016,10 @@ a.text-theme:hover,
   width: 100%;
 }
 .vs-footer__desc {
-  font-weight: 700;
+  /*font-weight: 700;*/
   color: var(--vs-text-color);
   padding-right: 9%;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   /* Small devices */
 }
 @media (max-width: 767px) {

@@ -118,7 +118,6 @@ const Header = () => {
 						<div className="col-lg-auto d-none d-lg-block">
 							<div className="social-style">
 								<span className="social-style__label" style={{cursor: 'pointer'}}>{follow[locale] ?? follow.en}</span>
-								{/*solve: lang*/}
 								{
 									socialMediaAccounts.map(account => (
 										<a
@@ -132,7 +131,6 @@ const Header = () => {
 								}
 							</div>
 						</div>
-						{/*solve: fill with languages*/}
 						<div className="col-lg-auto">
 							<Languages/>
 						</div>
@@ -147,7 +145,7 @@ const Header = () => {
 							<div className="col">
 								<div className="vs-header__logo">
 									<Link href="/">
-										<img src={Logo} alt="Math Magic in Motion" className="logo" height="60"/>
+										<img src={Logo} alt="Math Magic in Motion" className="logo" style={{minWidth: '150px'}} height="60"/>
 									</Link>
 								</div>
 							</div>
@@ -169,13 +167,12 @@ const Header = () => {
 									</ul>
 								</nav>
 							</div>
-							<div className="col-auto">
-								<div className="vs-header__action">
-									<div className="d-none d-xxl-inline-flex">
-										<a href="https://portal.mathmagicinmotion.com" className="vs-btn" target="_blank">
+							<div className="col-auto col-lg col-xxl-auto">
+								<div className="vs-header__action float-end">
+									<div className="">
+										<a href="https://portal.mathmagicinmotion.com" className="vs-btn mb-0 mb-lg-2 mb-xxl-0" target="_blank">
 											<span className="vs-btn__border"/>
 											Web Portal
-											{/*solve: lang*/}
 										</a>
 									</div>
 									<button className="vs-menu-toggle style2 d-inline-block d-lg-none" tabIndex="-1" onClick={() => toggleMobileMenu()}>
