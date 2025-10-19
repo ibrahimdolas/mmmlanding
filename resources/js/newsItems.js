@@ -424,7 +424,7 @@ export const newsPageData = {
 				ro: 'ErasmusDays 2025: Micii Broscuțe au Descoperit Secretele Numărării Preistorice! 🦴🐸'
 			},
 			date: '2025-10-18',
-			slug: 'erasmmusdays-2025-celebration-the-little-frogs-learn-to-count-like-in-prehistoric-times-2025-10-18',
+			slug: 'erasmusdays-2025-celebration-the-little-frogs-learn-to-count-like-in-prehistoric-times-2025-10-18',
 			partner: {
 				country: 'ro',
 				name: 'Căsuța Bucuriei'
