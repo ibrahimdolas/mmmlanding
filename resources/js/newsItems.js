@@ -414,6 +414,216 @@ export const newsPageData = {
 				],
 				photos: Array.from({length: 26}, (_, i) => `pic${i + 1}.jpg`)
 			}
+		},
+		{
+			id: 4,
+			title: {
+				tr: 'ErasmusDays 2025: Küçük Kurbağalar Tarih Öncesi Saymanın Sırlarını Keşfetti! 🦴🐸',
+				en: 'ErasmusDays Celebration: “The Little Frogs” Learn to Count Like in Prehistoric Times! 🦴🐸',
+				it: 'ErasmusDays 2025: Le Piccole Rane Hanno Scoperto i Segreti del Contare Preistorico! 🦴🐸',
+				ro: 'ErasmusDays 2025: Micii Broscuțe au Descoperit Secretele Numărării Preistorice! 🦴🐸'
+			},
+			date: '2025-10-18',
+			slug: 'erasmmusdays-2025-celebration-the-little-frogs-learn-to-count-like-in-prehistoric-times-2025-10-18',
+			partner: {
+				country: 'ro',
+				name: 'Căsuța Bucuriei'
+			},
+			coverPhoto: 'pic2.jpg',
+			parallaxBg: 'pic3.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `<strong>13–18 Ekim 2025</strong> tarihleri arasında düzenlenen <strong>ErasmusDays 2025</strong> kutlamaları kapsamında Romanya’daki proje ortağımız, okul öncesi öğrencileriyle matematiği kültür, tarih ve hayal gücüyle buluşturdu.`,
+						en: 'As part of the ErasmusDays 2025 celebrations (October 13–18, 2025), our Romanian partner kindergarten joyfully brought mathematics to life through culture, history, and imagination.',
+						it: `Nell’ambito delle celebrazioni degli <strong>ErasmusDays 2025</strong>, svoltesi dal <strong>13 al 18 ottobre 2025</strong>, il nostro partner rumeno ha portato la matematica nel mondo della cultura, della storia e dell’immaginazione insieme ai bambini della scuola dell’infanzia.`,
+						ro: `În perioada <strong>13–18 octombrie 2025</strong>, în cadrul evenimentelor dedicate <strong>ErasmusDays 2025</strong>, partenerii noștri din România au adus matematica mai aproape de copii prin cultură, istorie și imaginație.`
+					},
+					{
+						tr: `Căsuța Bucuriei Anaokulu No. 11 Brașov’da öğrenim gören “<strong>Küçük Kurbağalar</strong>” grubu, <strong>Erasmus+ “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong> projesinden ilham alarak <strong>“Saymayı Öğreten Tarih Öncesi Kemik”</strong> adlı hikâye aracılığıyla tarih öncesi dönemdeki sayma yöntemlerini keşfetti.`,
+						en: 'The preschool group “The Little Frogs” from Căsuța Bucuriei Kindergarten No. 11 Brașov explored the fascinating world of prehistoric counting during an engaging activity inspired by the Erasmus+ project “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.”',
+						it: `Il gruppo <strong>“Le Piccole Rane”</strong> della Scuola dell’Infanzia Căsuța Bucuriei n.11 di Brașov ha esplorato il mondo affascinante del conteggio preistorico, ispirandosi al progetto Erasmus+ <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.”</strong>`,
+						ro: `Grupa <strong>„Micii Broscuțe”</strong> de la Grădinița Căsuța Bucuriei nr. 11 Brașov a explorat lumea fascinantă a numărării din vremurile preistorice, inspirându-se din proiectul Erasmus+ <strong>„Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.”</strong>`
+					},
+					{
+						tr: 'Etkinlikte çocuklar, eski çağlarda insanların kemikler üzerine çizgi işaretleri (çetele) kullanarak hayvanları ve nesneleri nasıl saydıklarını öğrendi. Ardından hikâyedeki Edan’ın mağarasında buldukları “kemiklere” kendi işaretlerini çizerek bu yöntemi deneyimlediler.',
+						en: 'Through the story “The Prehistoric Bone That Teaches Us to Count,” children discovered how people in ancient times used tally marks carved on bones to count and keep track of animals or objects. Following the story, the young learners enthusiastically practiced this method themselves — drawing marks on “bones” they found in Edan’s cave, the little boy who often got confused while counting.',
+						it: `Attraverso la storia <strong>“L’osso preistorico che ci insegna a contare”</strong>, i bambini hanno scoperto come, nell’antichità, le persone tracciassero segni sulle ossa per contare e tenere traccia degli oggetti o degli animali. Successivamente, hanno sperimentato personalmente questo antico metodo, disegnando i propri segni sulle “ossa” trovate nella grotta di Edan, il bambino che si confondeva sempre mentre contava.`,
+						ro: `Prin povestea <strong>„Osul preistoric care ne învață să numărăm”</strong>, copiii au descoperit că în vremurile străvechi oamenii foloseau semne gravate pe oase pentru a număra și a ține evidența obiectelor sau animalelor. După poveste, cei mici au pus în practică această metodă veche, desenând propriile semne pe „oasele” găsite în peștera lui Edan, băiețelul care se încurca mereu atunci când număra.`
+					},
+					{
+						tr: `Etkinlik iki temel matematiksel kavram üzerine odaklandı:<br/>
+1️⃣ <strong>Temsil (Representation):</strong> Nesneleri veya sembolleri kullanarak miktar gösterimi.<br/>
+2️⃣ <strong>Problem Çözme (Problem Solving):</strong> Nesne–işaret eşleştirmesiyle sayma mantığını kavrama.
+`,
+						en: `The activity focused on two essential mathematical ideas:<br/>
+1️⃣ Representation — using objects or symbols to show quantity.<br/>
+2️⃣ Problem Solving — understanding one-to-one correspondence while counting.
+`,
+						it: `L’attività si è concentrata su due concetti matematici fondamentali:<br/>
+1️⃣ <strong>Rappresentazione:</strong> usare oggetti o simboli per mostrare una quantità.<br/>
+2️⃣ <strong>Risoluzione di problemi:</strong> comprendere la corrispondenza uno a uno nel conteggio.
+`,
+						ro: `Activitatea s-a concentrat pe două concepte matematice fundamentale:<br/>
+1️⃣ <strong>Reprezentare:</strong> folosirea obiectelor sau a simbolurilor pentru a exprima o cantitate.<br/>
+2️⃣ <strong>Rezolvarea problemelor:</strong> înțelegerea corespondenței unu-la-unu în procesul de numărare.
+`
+					},
+					{
+						tr: 'Çocuklar eşli ve grup çalışmalarıyla hem işbirliğini hem de bir-bir eşleme becerilerini geliştirdiler. Akıllı tahta üzerinden hikâyenin görsellerini izleyip dijital bir oyunla öğrendiklerini pekiştirdiler.',
+						en: 'Children worked in pairs and small groups, combining storytelling, creativity, and digital interaction. Using the interactive whiteboard, they observed the story’s illustrations and played an educational digital game to reinforce their learning.',
+						it: 'I bambini hanno lavorato in coppia e in gruppo, migliorando la collaborazione e le capacità di conteggio. Utilizzando la lavagna interattiva, hanno osservato le illustrazioni della storia e consolidato le loro conoscenze attraverso un gioco digitale educativo.',
+						ro: 'Copiii au lucrat în perechi și în grupuri mici, dezvoltând cooperarea și abilitățile de numărare. Cu ajutorul tablei interactive, au urmărit ilustrațiile poveștii și au consolidat ceea ce au învățat printr-un joc digital educativ.'
+					},
+					{
+						tr: `Bu etkinlik, tarih, kültür ve matematiği bir araya getirerek çocuklara <strong>öğrenmenin keyifli ve keşif dolu bir süreç</strong> olduğunu gösterdi. 🌟`,
+						en: 'The activity beautifully combined history, culture, and mathematics, showing that even the oldest counting method can spark curiosity and joy in today’s classrooms. 🌟',
+						it: `Questa attività ha unito <strong>storia, cultura e matematica</strong>, dimostrando che anche il metodo di conteggio più antico può suscitare curiosità e gioia nell’apprendimento. 🌟`,
+						ro: `Activitatea a îmbinat în mod armonios <strong>istoria, cultura și matematica,</strong> demonstrând că chiar și cea mai veche metodă de numărare poate trezi curiozitate și bucurie în procesul de învățare. 🌟`
+					},
+					{
+						tr: `<strong>Erasmus+: Hayatları zenginleştirir, zihinleri açar! 🇪🇺</strong>`,
+						en: 'Erasmus+: Enriching lives, opening minds! 🇪🇺',
+						it: `<strong>Erasmus+: Arricchisce la vita, apre le menti! 🇪🇺</strong>`,
+						ro: `<strong>Erasmus+: Îmbogățește vieți, deschide minți! 🇪🇺</strong>`
+					}
+				],
+				photos: Array.from({length: 7}, (_, i) => `pic${i + 1}.jpg`)
+			}
+		},
+		{
+			id: 5,
+			title: {
+				tr: 'Adıyaman Üniversitesi ErasmusDays 2025 Etkinliğinde Math Magic in Motion (3M) Projesi Tanıtıldı!',
+				en: 'Math Magic in Motion (3M) Project Presented at Adıyaman University ErasmusDays 2025 Event!',
+				it: 'Il Progetto Math Magic in Motion (3M) Presentato all’Evento ErasmusDays 2025 dell’Università di Adıyaman!',
+				ro: 'Proiectul Math Magic in Motion (3M) Prezentat în Cadrul Evenimentului ErasmusDays 2025 al Universității din Adıyaman!'
+			},
+			date: '2025-10-15',
+			slug: 'math-magic-in-motion-3m-project-presented-at-adiyaman-university-erasmusdays-2025-event-2025-10-15',
+			partner: {
+				country: 'tr',
+				name: 'Adıyaman Üniversitesi'
+			},
+			coverPhoto: 'pic4.jpg',
+			parallaxBg: 'pic1.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Adıyaman Üniversitesi, <strong>15 Ekim 2025</strong> tarihinde gerçekleştirilen <strong>ErasmusDays 2025</strong> etkinliğinde uluslararası iş birliklerini ve yürütmekte olduğu projeleri tanıttı.`,
+						en: `Adıyaman University showcased its international collaborations and ongoing projects during the <strong>ErasmusDays 2025</strong> event held on <strong>October 15, 2025.</strong>`,
+						it: `<strong>L’Università di Adıyaman</strong> ha presentato le proprie collaborazioni internazionali e i progetti in corso durante l’evento <strong>ErasmusDays 2025</strong>, svoltosi il <strong>15 ottobre 2025.</strong>`,
+						ro: `<strong>Universitatea din Adıyaman</strong> și-a prezentat colaborările internaționale și proiectele aflate în derulare în cadrul evenimentului <strong>ErasmusDays 2025</strong>, desfășurat la data de <strong>15 octombrie 2025.</strong>`
+					},
+					{
+						tr: `Etkinlik kapsamında, Adıyaman Üniversitesi koordinatörlüğünde yürütülen <strong>Erasmus+ “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong> projesi katılımcılarla paylaşıldı. Proje, okul öncesi dönemde kültürel miras ve tarihsel duyarlılıkla zenginleştirilmiş matematik eğitimi yaklaşımıyla dikkat çekti.`,
+						en: `Within the scope of the event, the <strong>Erasmus+ project “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, coordinated by Adıyaman University, was introduced to participants. The project attracted great attention with its approach to early childhood mathematics education enriched by cultural heritage and historical sensitivity.`,
+						it: `Nel corso dell’evento è stato illustrato ai partecipanti il progetto <strong>Erasmus+ “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, coordinato dall’Università di Adıyaman. Il progetto ha attirato grande attenzione grazie al suo approccio all’educazione matematica nella prima infanzia, arricchito dal patrimonio culturale e dalla sensibilità storica.`,
+						ro: `În cadrul evenimentului, participanților le-a fost prezentat proiectul <strong>Erasmus+ „Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, coordonat de Universitatea din Adıyaman. Proiectul a atras un interes deosebit prin abordarea sa inovatoare a educației matematice în perioada preșcolară, îmbogățită cu elemente de patrimoniu cultural și sensibilitate istorică.`
+					},
+					{
+						tr: '3M ekibi tarafından geliştirilen hikâye temelli öğrenme materyalleri, öğretmen eğitim içerikleri ve kültürel miras temalı etkinlik örnekleri ziyaretçilerin büyük ilgisini topladı. Etkinlik boyunca birçok öğretmen, öğrenci ve davetli standı ziyaret ederek proje hakkında ayrıntılı bilgi aldı.',
+						en: `The <strong>3M project team</strong> presented story-based learning materials, teacher training contents, and activity samples inspired by cultural heritage, all of which drew significant interest from visitors. Throughout the event, many teachers, students, and guests visited the stand to learn more about the project.`,
+						it: `Il team del progetto <strong>3M</strong> ha presentato materiali di apprendimento basati su storie, contenuti per la formazione degli insegnanti e esempi di attività ispirate al patrimonio culturale, che hanno suscitato notevole interesse tra i visitatori. Durante tutta la giornata, numerosi insegnanti, studenti e ospiti hanno visitato lo stand per ottenere maggiori informazioni sul progetto.`,
+						ro: `Echipa proiectului <strong>3M</strong> a prezentat materiale de învățare bazate pe povești, conținuturi pentru formarea cadrelor didactice și exemple de activități inspirate din patrimoniul cultural, care au stârnit un mare interes din partea vizitatorilor. Pe tot parcursul evenimentului, numeroși profesori, studenți și invitați au vizitat standul pentru a afla mai multe detalii despre proiect.`
+					},
+					{
+						tr: 'ErasmusDays 2025 süresince gösterilen yoğun ilgi ve destek için tüm katılımcılara teşekkür ederiz.',
+						en: `We sincerely thank all participants for their strong interest and support during <strong>ErasmusDays 2025.</strong>`,
+						it: `Ringraziamo sinceramente tutti i partecipanti per il grande interesse e il sostegno dimostrati durante gli <strong>ErasmusDays 2025.</strong>`,
+						ro: `Mulțumim sincer tuturor participanților pentru interesul și sprijinul acordat în cadrul <strong>ErasmusDays 2025.</strong>`
+					},
+					{
+						tr: 'Adıyaman Üniversitesi olarak, yenilikçi, kapsayıcı ve kültürel açıdan duyarlı eğitim yaklaşımlarıyla geleceği birlikte inşa etmeye devam ediyoruz. ',
+						en: `As <strong>Adıyaman University</strong>, we continue to build the future together through innovative, inclusive, and culturally responsive educational approaches. 🌍✨`,
+						it: `Come <strong>Università di Adıyaman</strong>, continuiamo a costruire insieme il futuro attraverso approcci educativi innovativi, inclusivi e culturalmente sensibili. 🌍✨`,
+						ro: `Ca <strong>Universitate din Adıyaman</strong>, continuăm să construim împreună viitorul prin abordări educaționale inovatoare, incluzive și sensibile din punct de vedere cultural. 🌍✨`
+					},
+					{
+						tr: `<strong>Adıyaman Üniversitesi ErasmusDays 2025</strong>`,
+						en: `<strong>Adıyaman University ErasmusDays 2025</strong>`,
+						it: `<strong>ErasmusDays 2025 – Università di Adıyaman</strong>`,
+						ro: `<strong>Universitatea din Adıyaman – ErasmusDays 2025</strong>`
+					},
+					{
+						tr: '📍 Adıyaman Üniversitesi',
+						en: '📍 Adıyaman University',
+						it: '📍 Università di Adıyaman',
+						ro: '📍 Universitatea din Adıyaman'
+					},
+					{
+						tr: '📅 15 Ekim 2025',
+						en: '📅 October 15, 2025',
+						it: '📅 15 ottobre 2025',
+						ro: '📅 15 octombrie 2025'
+					}
+				]
+			},
+			photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
+		},
+		{
+			id: 6,
+			title: {
+				tr: 'Math Magic in Motion (3M) Türkiye’nin En Büyük İnovasyon Buluşmasında!',
+				en: 'Math Magic in Motion (3M) at Türkiye’s Largest Innovation Event!',
+				it: 'Math Magic in Motion (3M) al Più Grande Evento di Innovazione della Turchia!',
+				ro: 'Math Magic in Motion (3M) la Cel Mai Mare Eveniment de Inovație din Turcia!'
+			},
+			date: '2025-10-11',
+			slug: 'math-magic-in-motion-3m-at-turkiyes-largest-innovation-event-2025-10-11',
+			partner: {
+				country: 'tr',
+				name: 'Adıyaman Üniversitesi'
+			},
+			coverPhoto: 'pic5.jpg',
+			parallaxBg: 'pic3.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Adıyaman Üniversitesi koordinatörlüğünde yürütülen <strong>Erasmus+ “Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong> projesi, <strong>Türkiye Innovation Week 2025</strong>’te büyük ilgi gördü.`,
+						en: `The Erasmus+ project <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers,”</strong> coordinated by Adıyaman University, attracted great attention at <strong>Türkiye Innovation Week 2025.</strong>`,
+						id: `Il progetto Erasmus+ <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, coordinato dall’<strong>Università di Adıyaman</strong>, ha suscitato grande interesse durante il <strong>Türkiye Innovation Week 2025.</strong>`,
+						ro: `Proiectul Erasmus+ <strong>„Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, coordonat de <strong>Universitatea din Adıyaman</strong>, a stârnit un interes deosebit în cadrul <strong>Türkiye Innovation Week 2025.</strong>`
+					},
+					{
+						tr: `<strong>📍 İstanbul Haliç Kongre Merkezi</strong>`,
+						en: `<strong>📍 İstanbul Haliç Congress Center</strong>`,
+						it: `<strong>📍 Centro Congressi Haliç, Istanbul</strong>`,
+						ro: `<strong>📍 Centrul de Congrese Haliç, Istanbul</strong>`
+					},
+					{
+						tr: `<strong>📅 9–11 Ekim 2025</strong>`,
+						en: `<strong>📅 9–11 October 2025</strong>`,
+						it: `<strong>📅 9–11 ottobre 2025</strong>`,
+						ro: `<strong>📅 9–11 octombrie 2025</strong>`
+					},
+					{
+						tr: 'Okul öncesi dönemde kültürel miras temelli ve tarihsel duyarlılıkla tasarlanmış matematik eğitimine odaklanan 3M projesi, öğretmenler ve çocuklar için geliştirdiği yenilikçi öğrenme materyalleriyle ziyaretçilerin yoğun ilgisini çekti.',
+						en: 'Focusing on early childhood mathematics education designed with cultural heritage and historical sensitivity, the 3M project captivated visitors with its innovative learning materials developed for teachers and children.',
+						it: 'Incentrato sull’educazione matematica nella prima infanzia, progettata con sensibilità culturale e storica, il progetto 3M ha affascinato i visitatori grazie ai suoi materiali di apprendimento innovativi sviluppati per insegnanti e bambini.',
+						ro: 'Axați pe educația matematică din perioada preșcolară, proiectată cu sensibilitate culturală și istorică, partenerii 3M au captivat vizitatorii prin materialele de învățare inovatoare dezvoltate pentru cadre didactice și copii.'
+					},
+					{
+						tr: `Etkinlik süresince standımıza gösterilen büyük ilgi ve destek için <strong>minnettarız.</strong>`,
+						en: 'We are deeply grateful for the great interest and support shown to our stand throughout the event.',
+						it: 'Siamo profondamente grati per il grande interesse e il sostegno dimostrati al nostro stand durante l’evento.',
+						ro: 'Suntem profund recunoscători pentru interesul și sprijinul acordat standului nostru pe parcursul evenimentului.'
+					},
+					{
+						tr: `Genç akademisyenlerimizin, öğretmen adaylarımızın ve öğrencilerimizin özverili çalışmalarıyla <strong>geleceği Adıyaman’dan birlikte inşa ediyoruz. </strong>`,
+						en: `With the dedication of our young academics, prospective teachers, and students, <strong>we continue to build the future together from Adıyaman. 🌟</strong>`,
+						it: `Con la dedizione dei nostri giovani accademici, futuri insegnanti e studenti, <strong>continuiamo a costruire insieme il futuro a partire da Adıyaman. 🌟</strong>`,
+						ro: `Cu dăruirea tinerilor noștri academicieni, a viitorilor profesori și a studenților, <strong>continuăm să construim împreună viitorul, pornind din Adıyaman. 🌟</strong>`
+					},
+					{
+						tr: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
+						en: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
+						it: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
+						ro: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
+					}
+				]
+			},
+			photos: Array.from({length: 6}, (_, i) => `pic${i + 1}.jpg`)
 		}
 	]
 }
