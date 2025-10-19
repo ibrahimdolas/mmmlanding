@@ -47,9 +47,7 @@ const NewsCard = ({slug, coverPhoto, title, partner, content, date, page = false
 				{
 					content.paragraphs.map((para, index) => {
 						if (!page || index === 0) {
-							return <p className="vs-blog__desc" key={index}>
-								{para[locale] ?? para.en}
-							</p>
+							return <p className="vs-blog__desc" key={index} dangerouslySetInnerHTML={{__html: para[locale] ?? para.en}}/>
 						}
 					})
 				}
