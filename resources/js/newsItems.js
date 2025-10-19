@@ -557,9 +557,9 @@ export const newsPageData = {
 						it: '📅 15 ottobre 2025',
 						ro: '📅 15 octombrie 2025'
 					}
-				]
+				],
+				photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
 			},
-			photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
 		},
 		{
 			id: 6,
@@ -621,9 +621,9 @@ export const newsPageData = {
 						it: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
 						ro: `<strong>Math Magic in Motion (3M) & Türkiye Innovation Week 2025</strong>`,
 					}
-				]
+				],
+				photos: Array.from({length: 6}, (_, i) => `pic${i + 1}.jpg`)
 			},
-			photos: Array.from({length: 6}, (_, i) => `pic${i + 1}.jpg`)
 		}
 	]
 }
