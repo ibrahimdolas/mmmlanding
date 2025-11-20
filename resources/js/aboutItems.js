@@ -27,7 +27,7 @@ export const aboutPageData = {
 	pageTitle: {
 		en: 'About The Project',
 		tr: 'Proje Hakkında',
-		ro: 'Despre Proiectul',
+		ro: 'Despre Project',
 		it: 'Informazioni sul Progetto'
 	},
 	paragraphs: [

@@ -50,7 +50,7 @@ const data = {
 		en: 'Follow Us:',
 		tr: 'Takip Edin:',
 		it: 'Seguici:',
-		ro: 'Urmați-ne:'
+		ro: 'Urmăriți-ne:'
 	}
 }
 
