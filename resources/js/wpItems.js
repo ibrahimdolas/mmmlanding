@@ -52,9 +52,7 @@ export const wpPageData = {
 					Questo pacchetto copre il coordinamento generale del progetto, il monitoraggio delle attività e la valutazione. Sotto la guida dell'Università di Adıyaman, tutti i partner monitorano lo stato di avanzamento del progetto attraverso riunioni periodiche. Tutte le attività vengono regolarmente pianificate, implementate e monitorate. Il processo di gestione non comprende solo il controllo della tabella di marcia del progetto, ma anche la garanzia della qualità, la gestione dei rischi e la rendicontazione periodica. I mentori e gli insegnanti tutor monitorano il potenziamento delle proprie competenze  attraverso metodi di autovalutazione basati sulle teorie dell'apprendimento degli adulti. Partecipano attivamente al processo di creazione dei contenuti anche digitali ad esempio caricando video didattici, scrivendo note di riflessione e valutando i moduli di fromazione in progress. Le valutazioni esterne saranno  condotte da esperti esterni e da un comitato di esperti garantiscono la qualità del progetto.
 					`,
 					ro: `
-					Coordonare generală, monitorizare activități, evaluare și raportare.
-Autoevaluare profesori prin note reflexive și videoclipuri.
-Evaluări externe pentru progresul profesorilor.
+					Acest pachet de lucru privește coordonarea generală a proiectului, monitorizarea activităților și evaluarea. Sub conducerea Universității din Adıyaman, toți partenerii urmăresc progresul proiectului prin întâlniri regulate. Cu Universitatea din Adıyaman în calitate de coordonator, toate activitățile sunt planificate, implementate și monitorizate în mod sistematic. Procesul de management include nu doar urmărirea graficului de lucru, ci și asigurarea calității și raportarea periodică.
 `
 				},
 				{
@@ -67,7 +65,7 @@ Evaluări externe pentru progresul profesorilor.
 					it: `
 					Nell’ambito del WP1 Gestione del Progetto, i progressi, la qualità e il livello di raggiungimento degli obiettivi saranno monitorati regolarmente. Questo processo sarà realizzato da un team composto da project manager, coordinatori ed esperti, ed avrà come base una valutazione preliminare effettuata prima dell’avvio delle attività. Durante il progetto, i progressi saranno analizzati con cadenza mensile o trimestrale, saranno svolte valutazioni semestrali o annuali e, al termine, verrà redatto un rapporto complessivo. Controlli di qualità saranno applicati nelle fasi critiche, come lo sviluppo del curriculum, la produzione delle animazioni e la formazione degli insegnanti, mentre un feedback costante sarà raccolto tramite questionari e focus group. Tutti i risultati del monitoraggio saranno documentati e condivisi con i partner e le parti interessate, mentre la gestione del budget e del tempo sarà garantita da una pianificazione dettagliata, ricorrendo, se necessario, ad approcci adattivi e flessibili
 					`,
-					ro: 'În cadrul WP1 Managementul Proiectului, progresul, calitatea și nivelul de atingere a obiectivelor proiectului vor fi monitorizate periodic. Acest proces va fi realizat de o echipă formată din manageri de proiect, coordonatori și experți, fiind fundamentat pe o evaluare preliminară desfășurată înainte de începutul activităților. Pe parcursul proiectului, progresul va fi analizat lunar sau trimestrial, vor avea loc evaluări semestriale sau anuale, iar la final va fi întocmit un raport comprehensiv. Vor fi aplicate controale de calitate în etapele critice, precum elaborarea curriculumului, producerea animațiilor și formarea cadrelor didactice, iar feedbackul constant va fi colectat prin chestionare și grupuri de discuție. Toate rezultatele monitorizării vor fi documentate și comunicate partenerilor și părților interesate, iar managementul bugetului și al timpului va fi asigurat printr-o planificare detaliată, utilizându-se, dacă este necesar, abordări flexibile de adaptare'
+					ro: 'În cadrul pachetului de lucru nr. 1 – Managementul proiectului, progresul, calitatea și nivelul de atingere a obiectivelor vor fi monitorizate în mod regulat. Acest proces va fi realizat de o echipă formată din manageri de proiect, coordonatori și experți, pe baza unei evaluări preliminare efectuate înainte de începerea activităților. Pe parcursul proiectului, progresul va fi analizat lunar sau trimestrial, vor avea loc evaluări semestriale sau anuale, iar la final va fi elaborat un raport final cuprinzător. Verificări ale calității vor fi aplicate în etape critice, precum dezvoltarea curriculumului, producția animațiilor și formarea profesorilor, iar feedbackul continuu va fi colectat prin chestionare și grupuri de discuție. Toate rezultatele monitorizării vor fi documentate și comunicate partenerilor și părților interesate, în timp ce gestionarea bugetului și a timpului va fi asigurată printr-o planificare detaliată, utilizând abordări flexibile și ușor adaptabile atunci când este necesar.'
 				}
 			],
 			results: [
@@ -80,7 +78,8 @@ Evaluări externe pentru progresul profesorilor.
 					`,
 					it: `
 					Attuazione dell'intero processo del progetto in modo trasparente e verificabile
-					`
+					`,
+					ro: 'Implementarea întregului process de funcționare al proiectului într-un mod transparent și măsurabil'
 				},
 				{
 					en: `
@@ -91,7 +90,8 @@ Evaluări externe pentru progresul profesorilor.
 					`,
 					it: `
 					Documentazione dello sviluppo degli insegnanti attraverso l'autovalutazione e le osservazioni degli esperti
-					`
+					`,
+					ro: 'Documentarea dezvoltării profesionale a profesorilor prin autoevaluare și observații realizate de experți'
 				},
 				{
 					en: `
@@ -102,7 +102,8 @@ Evaluări externe pentru progresul profesorilor.
 					`,
 					it: `
 					Mantenimento degli standard di qualità durante tutto il progetto
-					`
+					`,
+					ro: 'Menținerea standardelor de calitate pe tot parcursul proiectului'
 				}
 			]
 		},
@@ -132,9 +133,7 @@ Evaluări externe pentru progresul profesorilor.
 					Questo pacchetto prevede lo sviluppo di moduli sviluppati secondo  punto di vista culturale e storico, progettati per promuovere l'amore per la matematica da parte dei bambini. I moduli sono arricchiti da storie provenienti da culture diverse, oltre a concentrarsi sulla trasmissione di competenze fondamentali quali la numerazione, la sequenzialità, la misurazione e la risoluzione dei problemi. Ad esempio, vengono utilizzate storie matematiche provenienti da Roma, dall'Anatolia o dall'Estremo Oriente per rendere concreti concetti astratti.
 					`,
 					ro: `
-					Elaborare de module culturale și istorice pentru a stimula dragostea pentru matematică.
-Conținut pedagogic susținut de multimedia (animații, activități gamificate, vizuale).
-10 module originale de matematică cu diversitate culturală.
+					Acest pachet de lucru include elaborarea unor module adecvate din punct de vedere cultural și istoric, concepute pentru a cultiva copiilor dragostea pentru matematică. Modulele sunt îmbogățite cu povești din diverse culturi, concentrându-se în același timp pe abilități fundamentale precum numărarea, ordonarea, măsurarea și rezolvarea de probleme, spre exemplu, povești matematice din Roma, Anatolia sau Asia de Est sunt folosite pentru a face conceptele abstracte mai ușor de înțeles.
 `
 				},
 				{
@@ -150,7 +149,7 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					it: `
 					Sotto la guida del personale accademico dell'Università di Adıyaman, i contenuti sono preparati in modo da essere pedagogicamente appropriati e supportati da contenuti multimediali (animazioni, attività ludiche, immagini). I moduli fungono da guida pratica per gli insegnanti.
 					`,
-					ro: ''
+					ro: 'Sub coordonarea personalului academic al Universității din Adıyaman, conținutul este pregătit astfel încât să fie adecvat din punct de vedere pedagogic și susținut de materiale multimedia (animații, activități gamificate, elemente vizuale). Modulele funcționează ca un ghid practic pentru profesori.'
 				}
 			],
 			results: [
@@ -163,7 +162,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					10 moduli matematici innovativi
-					`
+					`,
+					ro: '10 module originale cu activități matematice'
 				},
 				{
 					en: `
@@ -174,7 +174,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Materiali che includono la diversità culturale e il contesto storico
-					`
+					`,
+					ro: 'Materiale care integrează diversitatea culturală și contextul istoric'
 				},
 				{
 					en: `
@@ -185,7 +186,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Contenuti che aiutano i bambini a sviluppare un atteggiamento positivo nei confronti della matematica
-					`
+					`,
+					ro: 'Conținut care ajută copiii să dezvolte o atitudine pozitivă față de matematică'
 				}
 			]
 		},
@@ -195,7 +197,7 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 				en: 'WP3: Research Metodology and Report',
 				tr: 'WP3: Araştırma Metodolojisi ve Rapor',
 				it: 'WP3: Metodologia di ricerca e relazione',
-				ro: 'WP3: Metodologie de cercetare și raport'
+				ro: 'WP3: Metodologia de cercetare și raportul'
 			},
 			paragraphs: [
 				{
@@ -209,7 +211,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					Nell’ambito del WP3, l’obiettivo è sviluppare e riportare la metodologia di ricerca. Questo pacchetto contribuisce agli obiettivi generali e specifici del progetto attraverso la pianificazione della ricerca, la scelta degli strumenti adeguati e la garanzia che il processo si svolga correttamente dall’inizio alla fine. Nella fase iniziale verranno raccolti dati dagli insegnanti, ampliando l’analisi dei bisogni già realizzata, al fine di comprendere meglio il contesto dell’educazione matematica nella scuola dell’infanzia e del multiculturalismo. I dati saranno raccolti tramite questionari e/o interviste, saranno effettuati test preliminari e gli insegnanti interagiranno settimanalmente sul portale web riguardo ai moduli formativi. I risultati saranno analizzati e utilizzati per sviluppare i moduli. I principali output previsti sono: analisi dei bisogni, test preliminari, processo di raccolta dati, rapporti nazionali, rapporto finale e un incontro internazionale per discutere i rapporti. Gli indicatori di successo includono le opinioni degli insegnanti, i quattro rapporti nazionali, il rapporto finale e il feedback degli accademici.
 					`,
 					ro: `
-					În cadrul WP3, se urmărește dezvoltarea și raportarea metodologiei de cercetare. Acest pachet contribuie la obiectivele generale și specifice ale proiectului prin planificarea cercetării, alegerea instrumentelor potrivite și asigurarea desfășurării corecte a procesului de la început până la sfârșit. În prima etapă, vor fi colectate date de la cadrele didactice, extinzând analiza nevoilor realizată anterior pentru a înțelege mai bine contextul educației matematice preșcolare și multiculturalismul. Datele vor fi obținute prin chestionare și/sau interviuri, vor fi aplicate teste preliminare, iar profesorii vor interacționa săptămânal pe portalul web privind modulele de formare. Rezultatele vor fi analizate și utilizate pentru dezvoltarea modulelor. Printre rezultatele principale se numără analiza nevoilor, testele preliminare, procesul de colectare a datelor, rapoartele naționale, raportul final și o reuniune internațională pentru discutarea rapoartelor. Indicatorii de succes includ opiniile cadrelor didactice, cele patru rapoarte naționale, raportul final și feedbackul experților academici.
+					În cadrul pachetului de lucru nr. 3, scopul este de a dezvolta și raporta metodologia de cercetare. Acest pachet contribuie la obiectivele generale și specifice ale proiectului prin planificarea cercetării, selectarea instrumentelor adecvate și asigurarea unei desfășurări fluente a procesului de la început până la sfârșit. În faza inițială, vor fi colectate date de la profesori, pe baza analizei anterioare a nevoilor, pentru a înțelege mai bine contextul educației matematice preșcolare și al multiculturalismului. Datele vor fi colectate prin chestionare și/sau interviuri, vor fi aplicate pre-teste, iar profesorii vor utiliza săptămânal portalul web pentru a lucra cu modulele de formare. Datele colectate vor fi ulterior analizate și folosite pentru dezvoltarea modulelor.
+
 `
 				},
 				{
@@ -218,7 +221,7 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					Ana çıktılar arasında ihtiyaç analizi, ön testler, veri toplama süreci, ulusal raporlar, nihai rapor ve raporların tartışıldığı uluslararası bir toplantı yer almaktadır. Başarı göstergeleri, her ülkeden öğretmen görüşleri, toplam dört ulusal rapor, bir nihai rapor ve akademisyenlerden alınacak geri bildirimlerdir. Ortak kurumların sorumlulukları arasında öğretmenlerin web portalına katılımını sağlamak, akademik görüşleri toplamak, verileri derlemek ve analiz etmek, nihai raporları oluşturmak ve uluslararası toplantılarda sunmak bulunmaktadır. Bu paket, partner ülkelerin ihtiyaçlarına en uygun eğitim araçlarını geliştirmeyi hedeflediği için proje açısından kritik önemdedir.
 					`,
 					it: '',
-					ro: ''
+					ro: 'Principalele rezultate includ analiza nevoilor, pre-testele, procesul de colectare a datelor, rapoarte naționale, raportul final, precum și o întâlnire transnațională pentru discutarea concluziilor. Indicatorii de succes includ opiniile profesorilor, cele patru rapoarte naționale, raportul final și feedbackul academic.'
 				}
 			],
 			results: [
@@ -231,7 +234,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Un database che rivela le esigenze degli insegnanti e i processi di sviluppo
-					`
+					`,
+					ro: 'O bază de date care evidențiază nevoile profesorilor și procesele lor de dezvoltare'
 				},
 				{
 					en: `
@@ -242,7 +246,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Relazioni di ricerca disponibili per la diffusione internazionale
-					`
+					`,
+					ro: 'Rapoarte de cercetare disponibile pentru diseminare internațională'
 				},
 				{
 					en: `
@@ -253,7 +258,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Risultati guida per i responsabili politici e le autorità educative
-					`
+					`,
+					ro: 'Concluzii orientative pentru factorii de decizie și autoritățile educaționale'
 				}
 			]
 		},
@@ -277,7 +283,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					Nell’ambito del WP4, l’obiettivo è sviluppare un programma di educazione matematica adeguato per i bambini della scuola dell’infanzia e presentarlo attraverso stimoli visivi e uditivi accattivanti. Le animazioni saranno utilizzate per catturare l’interesse dei bambini e prevenire lo sviluppo di paure o pregiudizi verso la matematica. Sarà inoltre progettato un programma di formazione online per insegnanti, che combini multiculturalismo ed educazione matematica, tramite un portale web dedicato. Il portale faciliterà la comunicazione tra insegnanti e offrirà un approccio economico ed ecologico.
 					`,
 					ro: `
-					În cadrul WP4, scopul este elaborarea unui program de educație matematică adecvat pentru copiii de vârstă preșcolară și prezentarea acestuia prin stimuli vizuali și auditivi atractivi. Animațiile vor fi folosite pentru a capta interesul copiilor și pentru a preveni dezvoltarea fricii sau prejudecăților față de matematică. De asemenea, va fi conceput un program de formare online pentru cadrele didactice, care să îmbine multiculturalismul și educația matematică, prin intermediul unui portal web dedicat. Portalul va facilita comunicarea între cadrele didactice și va asigura o abordare prietenoasă cu mediul și sustenabilă.
+					În cadrul pachetului de lucru nr. 4, obiectivul este de a dezvolta un program de educație matematică adecvat copiilor de vârstă preșcolară și de a-l prezenta prin stimuli vizuali și auditivi atractivi. Vor fi utilizate animații pentru a capta interesul copiilor și pentru a preveni apariția fricii sau a prejudecăților față de matematică. De asemenea, va fi proiectat un program online de formare pentru profesori, care combină multiculturalismul cu educația matematică, și care va fi oferit printr-un portal web dedicat. Acest portal va facilita comunicarea dintre profesori și va asigura o abordare eficientă din punct de vedere al costurilor și prietenoasă cu mediul.
+
 `
 				},
 				{
@@ -290,14 +297,14 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					it: `
 					I principali risultati includono: animazioni basate su eventi, animazioni multilingue adeguate al livello dei bambini, l’integrazione del tema del multiculturalismo nelle animazioni e la creazione di un portale web con moduli di e-learning. Gli indicatori di successo saranno: un portale web in lingua inglese, animazioni preparate nelle lingue di ciascun paese partner e animazioni in inglese disponibili per il pubblico generale. La qualità sarà valutata da esperti esterni.
 					`,
-					ro: 'Rezultatele principale includ: animații bazate pe evenimente, animații multilingve adaptate nivelului copiilor, integrarea temei multiculturalismului în animații și crearea unui portal web cu module de e-learning. Indicatorii de succes vor fi: existența unui portal web în limba engleză, animații pregătite în limbile fiecărei țări partenere și animații în limba engleză disponibile pentru publicul larg. Calitatea va fi evaluată de experți externi.'
+					ro: 'Principalele rezultate includ: animații bazate pe scenarii educaționale, animații multilingve adaptate nivelului copiilor, integrarea temelor multiculturale în animații și crearea unui portal web care găzduiește module e-learning. Indicatorii de succes vor include un portal web în limba engleză, animații pregătite în limbile fiecărei țări partenere și animații în limba engleză accesibile publicului larg. Calitatea va fi evaluată de experți externi.'
 				},
 				{
 					tr: `
 					Bu iş paketinde <strong>tüm sorumluluk Adıyaman Üniversitesi tarafından yürütülecektir</strong>. Web portalı ve animasyonların geliştirilmesi Adıyaman Üniversitesi tarafından üstlenilecek; Romanya ve İtalya öğretmen ve öğrenci pilot uygulamalarıyla destek verecek; Gürcistan ise matematiksel içeriklerin dijital animasyonlara dönüştürülmesi konusunda katkı sağlayacaktır. Ayrıca tüm ortaklar, web portalı ve animasyonların İngilizce’den kendi dillerine çevirisini gerçekleştirecektir.
 					`,
 					ro: `
-					Toată responsabilitatea pentru acest pachet de lucru revine <strong>Universității din Adıyaman</strong>. Universitatea va dezvolta portalul web și animațiile. România și Italia vor sprijini cu aplicarea pilot alături de cadrele didactice și copiii de vârstă preșcolară, iar Georgia va contribui la transformarea conținuturilor matematice în animații digitale. De asemenea, fiecare partener va sprijini traducerea portalului și a animațiilor în propria limbă.
+					Întreaga responsabilitate pentru acest pachet de lucru revine Universității din Adıyaman. Universitatea va coordona dezvoltarea portalului web și a animațiilor. România și Italia vor sprijini implementarea pilot cu profesori și copii de vârstă preșcolară, în timp ce Georgia va contribui la transformarea conținutului matematic în animații digitale. De asemenea, fiecare partener va sprijini traducerea portalului web și a animațiilor în propria limbă.
 					`,
 					it: `
 					Tutta la responsabilità per questo pacchetto di lavoro sarà assunta <strong>dall’Università di Adıyaman</strong>. L’università si occuperà dello sviluppo del portale web e delle animazioni. La Romania e l’Italia forniranno supporto con sperimentazioni pilota con insegnanti e bambini della scuola dell’infanzia, mentre la Georgia contribuirà alla trasformazione dei contenuti matematici in animazioni digitali. Inoltre, ciascun partner sosterrà la traduzione del portale e delle animazioni nella propria lingua.
@@ -317,7 +324,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Contenuti animati adatti ai bambini in età prescolare che rendono i concetti matematici divertenti e facili da comprendere
-					`
+					`,
+					ro: 'Conținut animat adecvat copiilor de vârstă preșcolară, care face conceptele matematice distractive și ușor de înțeles'
 				},
 				{
 					en: `
@@ -328,7 +336,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Materiali didattici digitali che consentono agli insegnanti di accedere facilmente ai moduli
-					`
+					`,
+					ro: 'Materiale educaționale digitale care permit profesorilor să acceseze cu ușurință modulele'
 				},
 				{
 					en: `
@@ -339,7 +348,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Ampia diffusione e accessibilità grazie alla disponibilità di tutti i contenuti su un portale centrale
-					`
+					`,
+					ro: 'Utilizare largă și accesibilitate datorită faptului că tot conținutul este disponibil într-un portal centralizat'
 				},
 				{
 					en: `
@@ -350,7 +360,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					`,
 					it: `
 					Ambienti di apprendimento più motivanti per insegnanti e studenti che utilizzano la tecnologia in modo efficace a fini pedagogici
-					`
+					`,
+					ro: 'Medii de învățare mai motivante pentru profesori și elevi, prin utilizarea eficientă a tehnologiei în scopuri pedagogice'
 				}
 			]
 		},
@@ -375,9 +386,8 @@ Conținut pedagogic susținut de multimedia (animații, activități gamificate,
 					Il pacchetto finale garantisce che i risultati del progetto 3M non siano limitati alla durata del progetto. I risultati vengono condivisi con insegnanti, accademici, famiglie e responsabili politici attraverso workshop, seminari, opuscoli, pubblicazioni online e conferenze.
 					`,
 					ro: `
-					Organizarea de ateliere, seminarii, conferințe și publicații online.
-Materiale accesibile și după finalizarea proiectului.
-Contribuție la agenda educațională europeană.
+					Acest ultim pachet de lucru asigură faptul că rezultatele proiectului 3M nu se limitează la perioada de implementare. Concluziile sunt împărtășite profesorilor, cadrelor universitare, familiilor și factorilor de decizie prin ateliere, seminare, broșuri, publicații online și conferințe.
+
 `
 				},
 				{
@@ -390,7 +400,7 @@ Contribuție la agenda educațională europeană.
 					it: `
 					Inoltre, tutti i materiali, le animazioni e i manuali sviluppati rimangono accessibili dopo il completamento del progetto, garantendone la sostenibilità. I risultati del progetto sono strutturati in modo da far luce sulle politiche di istruzione prescolare in tutta Europa.
 					`,
-					ro: ''
+					ro: 'În plus, toate materialele dezvoltate — animații, ghiduri și resurse — rămân accesibile și după încheierea proiectului, garantând sustenabilitatea acestuia. Rezultatele proiectului sunt structurate astfel încât să ofere orientări pentru politicile de educație preșcolară din întreaga Europă.'
 				}
 			],
 			results: [
@@ -403,7 +413,8 @@ Contribuție la agenda educațională europeană.
 					`,
 					it: `
 					Ampia sensibilizzazione a livello locale, nazionale e internazionale
-					`
+					`,
+					ro: 'Creșterea nivelului de conștientizare la nivel local, național și internațional'
 				},
 				{
 					en: `
@@ -414,7 +425,8 @@ Contribuție la agenda educațională europeană.
 					`,
 					it: `
 					Materiali e guide permanenti per gli educatori
-					`
+					`,
+					ro: 'Materiale și ghiduri permanente pentru cadrele didactice'
 				},
 				{
 					en: `
@@ -425,7 +437,8 @@ Contribuție la agenda educațională europeană.
 					`,
 					it: `
 					Contributo del progetto all'agenda europea in materia di istruzione
-					`
+					`,
+					ro: 'Contribuția proiectului la agenda europeană în domeniul educației'
 				},
 			]
 		}

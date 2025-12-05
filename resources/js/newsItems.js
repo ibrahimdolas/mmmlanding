@@ -624,6 +624,52 @@ export const newsPageData = {
 				],
 				photos: Array.from({length: 6}, (_, i) => `pic${i + 1}.jpg`)
 			},
+		},
+		{
+			id: 7,
+			title: {
+				tr: 'Math Magic in Motion Brașov’da: Erken Çocukluk Eğitiminde Yenilikçi Yaklaşımlar Tanıtıldı',
+				en: 'Math Magic in Motion in Brașov: Innovative Approaches to Early Childhood Education Introduced',
+				ro: 'Magic Math in Motion la Brașov: Au fost prezentate abordări inovatoare în educația timpurie',
+				it: 'Math Magic in Motion a Brașov: Presentati approcci innovativi per l’educazione della prima infanzia '
+			},
+			date: '2025-11-27',
+			slug: 'math-magic-in-motion-in-brasov-innovative-approaches-to-early-childhood-education-introduced',
+			partner: {
+				country: 'ro',
+				name: 'Căsuța Bucuriei'
+			},
+			coverPhoto: 'pic7.jpg',
+			parallaxBg: 'pic10.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: '27 Kasım\'da, Căsuța Bucuriei Anaokulu\'nun ev sahipliğinde düzenlenen ve "Öğretim yaklaşımını planlama sürecinde erken çocukluk eğitiminde temel ölçütlerin kullanılması" temalı pedagojik toplantıda, Erasmus+ Math Magic in Motion projesinin sonuçlarını ve sunduğu fırsatları ve eğitimcilere yönelik uygulamalı eğitim programı hakkında ayrıntıları sunmaktan mutluluk duyduk.',
+						en: 'On November 27, during the pedagogical meeting hosted by Căsuța Bucuriei Kindergarten, with the theme “Using fundamental benchmarks in early childhood education in the process of planning the teaching approach”, we had the pleasure of presenting the results and opportunities offered by the Erasmus+ Math Magic in Motion project, as well as details about the practical training program dedicated to educators.',
+						ro: 'Pe 27 noiembrie, în cadrul întâlnirii pedagogice găzduite de Grădinița Căsuța Bucuriei, cu tema „Utilizarea reperelor fundamentale în educația timpurie în procesul de planificare a demersului didactic”, am avut plăcerea de a prezenta rezultatele și oportunitățile oferite de proiectul Erasmus+ Math Magic in Motion, precum și detalii despre programul de formare practică dedicat cadrelor didactice.',
+						it: 'Il 27 novembre, durante l’incontro pedagogico ospitato dalla Scuola dell’Infanzia Căsuța Bucuriei, dal tema “L’utilizzo dei riferimenti fondamentali nell’educazione della prima infanzia nel processo di pianificazione dell’approccio didattico”, abbiamo avuto il piacere di presentare i risultati e le opportunità offerte dal progetto Erasmus+ Math Magic in Motion, insieme ai dettagli sul programma di formazione pratica dedicato agli insegnanti.'
+					},
+					{
+						tr: 'Brașov Bölgesi\'ndeki 9 kamu ve özel anaokulundan 30 öğretmenin katıldığı yaygınlaştırma oturumuna, okul müdürü Popa Mihaela liderlik etti. Mihaela, erken çocukluk eğitiminde inovasyonun önemini ve projenin, hem kültürlerarası 🌍 hem de pedagojik açıdan modern, dinamik ve etkileşimli matematik öğretim yöntemlerini ➕📐 entegre ederek öğretim yeterliliklerinin 🧠 geliştirilmesine nasıl katkıda bulunduğunu vurguladı.',
+						en: 'The dissemination session, attended by 30 teachers from 9 public and private kindergartens in Brașov County 📍, was led by principal Popa Mihaela, who highlighted the importance of innovation in early childhood education and the way in which the project contributes to the development of teaching competences 🧠 by integrating modern, dynamic, and interactive methods of teaching mathematics ➕📐, both from an intercultural 🌍 and pedagogical perspective.',
+						ro: 'Sesiunea de diseminare, la care au participat 30 de cadre didactice din 9 grădinițe publice și private din județul Brașov 📍, a fost moderată de directoarea Popa Mihaela, care a subliniat importanța inovației în educația timpurie și modul în care proiectul contribuie la dezvoltarea competențelor didactice 🧠 prin integrarea unor metode moderne, dinamice și interactive de predare a matematicii ➕📐, atât din perspectivă interculturală 🌍, cât și pedagogică.',
+						it: 'La sessione di disseminazione, alla quale hanno partecipato 30 insegnanti provenienti da 9 scuole dell’infanzia pubbliche e private della Contea di Brașov 📍, è stata guidata dalla dirigente Popa Mihaela, che ha sottolineato l’importanza dell’innovazione nell’educazione della prima infanzia e il modo in cui il progetto contribuisce allo sviluppo delle competenze didattiche 🧠 attraverso l’integrazione di metodi moderni, dinamici e interattivi per l’insegnamento della matematica ➕📐, sia da una prospettiva interculturale 🌍 che pedagogica.'
+					},
+					{
+						tr: 'Tüm katılımcılara ilgileri, açıklıkları ve yapıcı diyalogları için teşekkür ederiz! 🌟🤝',
+						en: 'We thank all participants for their interest, openness, and constructive dialogue! 🌟🤝',
+						ro: 'Le mulțumim tuturor participanților pentru interes, deschidere și dialogul constructiv! 🌟🤝',
+						it: 'Ringraziamo tutti i partecipanti per l’interesse, l’apertura e il dialogo costruttivo! 🌟🤝'
+					},
+					{
+						tr: 'Birlikte, öğrenmeyi çocuklar için büyülü ve anlamlı bir deneyime dönüştürüyoruz.',
+						en: 'Together, we transform learning into a magical and meaningful experience for children.',
+						ro: 'Împreună transformăm învățarea într-o experiență magică și plină de sens pentru copii.',
+						it: 'Insieme trasformiamo l’apprendimento in un’esperienza magica e significativa per i bambini.'
+					}
+				],
+				photos: Array.from({length: 12}, (_, i) => `pic${i + 1}.jpg`)
+			}
 		}
 	]
 }
