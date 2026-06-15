@@ -769,8 +769,8 @@ export const newsPageData = {
 				country: 'it',
 				name: 'Scuola Sacro Cuore'
 			},
-			coverPhoto: 'pic1.jpg',
-			parallaxBg: 'pic5.jpg',
+			coverPhoto: 'pic1.JPG',
+			parallaxBg: 'pic5.JPG',
 			content: {
 				paragraphs: [
 					{
@@ -848,7 +848,7 @@ export const newsPageData = {
 						`
 					}
 				],
-				photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
+				photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.JPG`)
 			}
 		},
 		{
