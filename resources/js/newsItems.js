@@ -670,6 +670,282 @@ export const newsPageData = {
 				],
 				photos: Array.from({length: 12}, (_, i) => `pic${i + 1}.jpg`)
 			}
+		},
+		{
+			id: 8,
+			title: {
+				tr: 'Math Magic in Motion (3M) Projesinin İlk Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT1) Adıyaman’da Gerçekleştirildi',
+				en: 'The First Learning, Teaching and Training Activity (LTT1) of the Math Magic in Motion (3M) Project Successfully Held in Türkiye',
+				ro: 'Prima Activitate Internațională de Învățare, Predare și Formare (LTT1) a Proiectului Math Magic in Motion (3M) a fost Desfășurată cu Succes în Turcia',
+				it: 'La Prima Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT1) del Progetto Math Magic in Motion (3M) si è Svolta con Successo in Turchia'
+			},
+			date: '2025-09-18',
+			slug: 'the-first-learning-teaching-and-training-activity-ltt1-of-the-math-magic-in-motion-3m-project-successfully-held-in-turkey',
+			partner: {
+				country: 'tr',
+				name: 'Adıyaman Üniversitesi'
+			},
+			coverPhoto: 'pic1.jpg',
+			parallaxBg: 'pic4.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Erasmus+ KA220-SCH programı kapsamında yürütülen <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> adlı projenin ilk Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT1), 17–18 Eylül 2025 tarihlerinde Adıyaman’da başarıyla gerçekleştirildi.`,
+						en: `The first Learning, Teaching and Training Activity (LTT1) of the Erasmus+ KA220-SCH project <em>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</em> was successfully held in Adıyaman, Türkiye, on 17–18 September 2025.`,
+						ro: `Prima Activitate Internațională de Învățare, Predare și Formare (LTT1) din cadrul proiectului Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> a fost organizată cu succes în Adıyaman, Turcia, în perioada 17–18 septembrie 2025.`,
+						it: `La prima Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT1) del progetto Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> si è svolta con successo ad Adıyaman, in Turchia, il 17 e 18 settembre 2025.`
+					},
+					{
+						tr: 'Adıyaman Üniversitesi koordinatörlüğünde yürütülen proje kapsamında Türkiye, Romanya ve İtalya’dan proje ortakları bir araya gelerek erken çocukluk döneminde matematik eğitimini kültürel ve tarihsel açıdan zenginleştirmeyi amaçlayan proje faaliyetleri üzerinde çalıştı. İki gün süren program boyunca katılımcılar çeşitli eğitim oturumlarına, atölye çalışmalarına ve proje toplantılarına katılarak proje çıktılarının geliştirilmesine yönelik fikir alışverişinde bulundu.',
+						en: 'The event brought together project partners from Türkiye, Romania, and Italy to collaboratively advance the project\'s mission of enriching early childhood mathematics education through culturally and historically responsive approaches. During the two-day programme, participants engaged in a series of workshops, presentations, and collaborative discussions focused on the development of innovative learning materials and teaching strategies for preschool mathematics education.',
+						ro: 'În cadrul acestui eveniment, partenerii proiectului din Turcia, România și Italia s-au reunit pentru a colabora la dezvoltarea unor abordări inovatoare destinate educației matematice timpurii, bazate pe perspective culturale și istorice. Pe parcursul celor două zile, participanții au luat parte la sesiuni de formare, ateliere de lucru și întâlniri de proiect menite să sprijine dezvoltarea rezultatelor proiectului și consolidarea cooperării internaționale.',
+						it: 'L’evento ha riunito i partner del progetto provenienti da Turchia, Romania e Italia con l’obiettivo di collaborare allo sviluppo di approcci innovativi per l’educazione matematica nella prima infanzia, ispirati a prospettive culturali e storiche. Nel corso delle due giornate, i partecipanti hanno preso parte a sessioni di formazione, workshop e incontri di progetto finalizzati allo sviluppo dei risultati progettuali e al rafforzamento della cooperazione internazionale.'
+					},
+					{
+						tr: 'Faaliyet süresince proje ortakları, erken matematik öğretiminde kültürel ve tarihsel mirasın kullanımına ilişkin yaklaşımları değerlendirmiş, geliştirilen öğretim materyallerini incelemiş ve proje kapsamında yürütülecek sonraki çalışmaların planlamasını gerçekleştirmiştir. Katılımcılar ayrıca farklı ülkelerdeki iyi uygulama örneklerini paylaşarak erken çocukluk matematik eğitiminin geliştirilmesine yönelik ortak bir bakış açısı oluşturmuştur.',
+						en: 'The training sessions provided opportunities for partners to exchange experiences, discuss project progress, and explore effective ways of integrating cultural heritage, historical perspectives, and child-centred pedagogies into early mathematics learning. Participants also reviewed the project\'s initial outputs and jointly planned future activities to ensure the successful implementation of upcoming work packages.',
+						ro: 'Activitățile desfășurate au oferit oportunități valoroase pentru schimbul de experiențe și bune practici privind integrarea patrimoniului cultural și istoric în procesul de predare a matematicii la vârste timpurii. Participanții au analizat materialele educaționale aflate în dezvoltare și au planificat următoarele etape ale proiectului pentru a asigura implementarea eficientă a activităților viitoare.',
+						it: 'Le attività hanno offerto preziose opportunità di confronto e scambio di buone pratiche sull’integrazione del patrimonio culturale e storico nell’insegnamento della matematica per i bambini in età prescolare. I partner hanno esaminato i materiali educativi in fase di sviluppo e pianificato le attività future per garantire una realizzazione efficace degli obiettivi del progetto.'
+					},
+					{
+						tr: 'Eğitim faaliyetlerinin yanı sıra uluslararası katılımcılar Adıyaman’ın zengin tarihî ve kültürel mirasını tanıma fırsatı da bulmuştur. Gerçekleştirilen kültürel ziyaretler sayesinde proje ortakları bölgenin tarihî değerlerini yakından inceleme imkânı elde etmiş, böylece projenin kültür ve matematik arasındaki ilişkiyi güçlendirmeyi amaçlayan yaklaşımı somut bir deneyimle desteklenmiştir.',
+						en: 'In addition to the academic and professional activities, the mobility programme included cultural visits that introduced international participants to the rich historical and cultural heritage of the Adıyaman region. These experiences further supported the project\'s philosophy of connecting mathematics learning with cultural and historical contexts.',
+						ro: 'Pe lângă sesiunile de lucru, participanții internaționali au avut ocazia să descopere patrimoniul cultural și istoric al regiunii Adıyaman. Vizitele culturale organizate în cadrul mobilității au contribuit la o mai bună înțelegere a relației dintre matematică, cultură și istorie, element central al filozofiei proiectului.',
+						it: 'Oltre alle attività formative, i partecipanti internazionali hanno avuto l’opportunità di conoscere il ricco patrimonio storico e culturale della regione di Adıyaman. Le visite culturali organizzate durante la mobilità hanno permesso ai partecipanti di esplorare il legame tra matematica, cultura e storia, elemento centrale della filosofia educativa del progetto.'
+					},
+					{
+						tr: 'LTT1 faaliyeti, proje ortakları arasındaki iş birliğinin güçlendirilmesi, ortak çalışma kültürünün geliştirilmesi ve proje hedeflerine yönelik ortak bir vizyon oluşturulması açısından önemli bir kilometre taşı olmuştur. Toplantı boyunca gerçekleştirilen verimli çalışmalar, projenin ilerleyen aşamalarında geliştirilecek eğitim materyalleri, öğretmen eğitimleri ve öğrenme etkinlikleri için güçlü bir temel oluşturmuştur.',
+						en: 'The first LTT activity represented an important milestone for the project, strengthening cooperation among partner institutions and establishing a shared vision for the development of high-quality educational resources. The collaborative work carried out during the meeting laid a strong foundation for the subsequent phases of the project.',
+						ro: 'Activitatea LTT1 a reprezentat un moment important pentru proiect, consolidând cooperarea dintre instituțiile partenere și contribuind la dezvoltarea unei viziuni comune asupra obiectivelor și rezultatelor urmărite. Colaborarea realizată în cadrul întâlnirii a creat o bază solidă pentru viitoarele activități, materiale educaționale și programe de formare care vor fi dezvoltate în cadrul proiectului.',
+						it: 'L’attività LTT1 ha rappresentato una tappa fondamentale per il progetto, contribuendo a rafforzare la collaborazione tra le istituzioni partner e a sviluppare una visione condivisa degli obiettivi e dei risultati attesi. Il lavoro svolto durante l’incontro ha posto solide basi per le future attività, i materiali didattici e i percorsi formativi che saranno realizzati nell’ambito del progetto.'
+					},
+					{
+						tr: 'Adıyaman Üniversitesi olarak faaliyet kapsamında katkı sunan tüm proje ortaklarına, eğitmenlere ve katılımcılara teşekkür eder; projenin sonraki aşamalarında gerçekleştirilecek çalışmaların da aynı başarıyla sürdürülmesini temenni ederiz.',
+						en: 'We would like to thank all partner institutions, trainers, teachers, and participants for their valuable contributions and commitment. We look forward to continuing our collaborative journey and achieving the project’s objectives together.',
+						ro: 'Mulțumim tuturor partenerilor, formatorilor și participanților pentru contribuțiile valoroase și implicarea lor activă. Așteptăm cu interes următoarele etape ale proiectului și continuarea colaborării internaționale.',
+						it: 'Ringraziamo tutti i partner, i formatori e i partecipanti per il loro prezioso contributo e il loro impegno. Attendiamo con entusiasmo le prossime fasi del progetto e il proseguimento della nostra proficua collaborazione internazionale.'
+					},
+					{
+						tr: `
+						<strong>Proje Adı:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Proje Numarası:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Tarih:</strong> 17-18 Eylül 2025<br/>
+						<strong>Yer:</strong> Adıyaman, Türkiye
+						`,
+						en: `
+						<strong>Project:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Project Number:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Dates:</strong> 17-18 September 2025<br/>
+						<strong>Location:</strong> Adıyaman, Türkiye
+						`,
+						ro: `
+						<strong>Titlul proiectului:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Număr proiect:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Perioada:</strong> 17-18 septembrie 2025<br/>
+						<strong>Locația:</strong> Adıyaman, Turcia
+						`,
+						it: `
+						<strong>Titolo del progetto:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Numero del progetto:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Date:</strong> 17-18 settembre  2025<br/>
+						<strong>Luogo:</strong> Adıyaman, Turchia
+						`
+					}
+				],
+				photos: Array.from({length: 8}, (_, i) => `pic${i + 1}.jpg`)
+			}
+		},
+		{
+			id: 9,
+			title: {
+				tr: 'Math Magic in Motion (3M) Projesinin İkinci Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT2) İtalya’da Gerçekleştirildi',
+				en: 'The Second Learning, Teaching and Training Activity (LTT2) of the Math Magic in Motion (3M) Project Successfully Held in Italy',
+				ro: 'A Doua Activitate Internațională de Învățare, Predare și Formare (LTT2) a Proiectului Math Magic in Motion (3M) a Fost Organizată cu Succes în Italia',
+				it: 'La Seconda Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT2) del Progetto Math Magic in Motion (3M) si è Svolta con Successo in Italia'
+			},
+			date: '2026-05-15',
+			slug: 'the-second-learning-teaching-and-training-activity-ltt2-of-the-math-magic-in-motion-3m-project-successfully-held-in-italy',
+			partner: {
+				country: 'it',
+				name: 'Scuola Sacro Cuore'
+			},
+			coverPhoto: 'pic1.jpg',
+			parallaxBg: 'pic5.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Erasmus+ KA220-SCH programı kapsamında yürütülen <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> projesinin ikinci Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT2), 11–15 Mayıs 2026 tarihleri arasında İtalya’da başarıyla gerçekleştirildi.`,
+						en: `The second Learning, Teaching and Training Activity (LTT2) of the Erasmus+ KA220-SCH project <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> was successfully hosted in Italy from 11th to 15th May 2026.`,
+						ro: `A doua Activitate Internațională de Învățare, Predare și Formare (LTT2) din cadrul proiectului Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> s-a desfășurat cu succes în Italia, în perioada 11–15 mai 2026.`,
+						it: `La seconda Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT2) del progetto Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> si è svolta con successo in Italia dall'11 al 15 maggio 2026.`
+					},
+					{
+						tr: 'İtalya’daki proje ortağının ev sahipliğinde düzenlenen beş günlük faaliyet, proje ortaklarını yeniden bir araya getirerek erken çocukluk matematik eğitimi alanında geliştirilen çalışmaların değerlendirilmesine ve yeni uygulamaların planlanmasına önemli katkılar sağladı. Program boyunca katılımcılar hem proje çıktıları üzerinde çalıştı hem de farklı eğitim ortamlarında gerçekleştirilen uygulamaları yerinde inceleme fırsatı buldu.',
+						en: 'The five-day international mobility brought together project partners from Türkiye, Romania, and Italy to further strengthen collaboration and advance the development of innovative approaches to early childhood mathematics education. Hosted by the Italian partner institution, the event provided a valuable opportunity to review project progress, exchange experiences, and explore new perspectives on culturally and historically responsive mathematics teaching.',
+						ro: 'Această mobilitate internațională de cinci zile a reunit partenerii proiectului din Turcia, România și Italia, oferind un cadru valoros pentru consolidarea cooperării și pentru continuarea activităților dedicate dezvoltării unor abordări inovatoare în educația matematică timpurie. Găzduită de partenerul italian, întâlnirea a facilitat schimbul de experiențe, evaluarea progresului proiectului și explorarea unor noi perspective privind integrarea dimensiunilor culturale și istorice în învățarea matematicii.',
+						it: 'Questa mobilità internazionale di cinque giorni ha riunito i partner del progetto provenienti da Turchia, Romania e Italia, offrendo un\'importante opportunità per rafforzare la collaborazione e proseguire il lavoro volto allo sviluppo di approcci innovativi per l\'educazione matematica nella prima infanzia. Ospitato dal partner italiano, l\'evento ha favorito lo scambio di esperienze, la valutazione dei progressi del progetto e l\'esplorazione di nuove prospettive sull\'integrazione delle dimensioni culturali e storiche nell\'apprendimento della matematica.'
+					},
+					{
+						tr: 'Faaliyet süresince proje ortakları tarafından geliştirilen modüller, öğretmen eğitim materyalleri ve öğrenme etkinlikleri ele alınarak uygulama süreçlerine ilişkin deneyimler paylaşıldı. Ortaklar, farklı ülkelerde yürütülen pilot çalışmaların sonuçlarını değerlendirerek erken matematik öğrenimini destekleyen yenilikçi yaklaşımlar üzerine görüş alışverişinde bulundu. Özellikle kültürel miras, hikâyeleştirme, oyun temelli öğrenme ve keşfetmeye dayalı etkinliklerin okul öncesi matematik eğitimindeki rolü üzerine verimli tartışmalar gerçekleştirildi.',
+						en: 'Throughout the programme, participants engaged in collaborative workshops, project meetings, and professional discussions focusing on the educational materials, teacher training resources, and learning activities developed within the project. Partners shared their experiences from the implementation process and reflected on how cultural heritage, storytelling, play-based learning, and inquiry-oriented activities can enrich young children\'s mathematical understanding.',
+						ro: 'Pe parcursul programului, participanții au luat parte la ateliere de lucru, întâlniri de proiect și sesiuni de reflecție profesională dedicate materialelor educaționale, resurselor pentru formarea cadrelor didactice și activităților de învățare dezvoltate în cadrul proiectului. Partenerii au discutat experiențele rezultate din implementarea activităților și au analizat modalitățile prin care patrimoniul cultural, povestirea, jocul și învățarea prin explorare pot contribui la dezvoltarea gândirii matematice a copiilor.',
+						it: 'Nel corso del programma, i partecipanti hanno preso parte a workshop collaborativi, riunioni di progetto e momenti di riflessione professionale dedicati ai materiali educativi, alle risorse per la formazione degli insegnanti e alle attività didattiche sviluppate nell\'ambito del progetto. I partner hanno condiviso le proprie esperienze di implementazione e discusso il ruolo del patrimonio culturale, della narrazione, del gioco e dell\'apprendimento basato sull\'esplorazione nello sviluppo del pensiero matematico dei bambini.'
+					},
+					{
+						tr: 'LTT2 faaliyetinin önemli yönlerinden biri de katılımcıların İtalya’daki eğitim kurumlarını ve kültürel öğrenme ortamlarını yakından inceleme fırsatı bulması oldu. Eğitim ve kültürün bir araya geldiği bu ziyaretler, projenin temel yaklaşımını oluşturan kültürel ve tarihsel olarak duyarlı matematik eğitimi anlayışına yeni bakış açıları kazandırdı. Katılımcılar müzeler, kültürel mekânlar ve eğitim merkezlerinde yürütülen uygulamaları gözlemleyerek farklı öğrenme ortamlarının matematik eğitimine nasıl entegre edilebileceğini değerlendirdi.',
+						en: 'A distinctive feature of the mobility was the opportunity to explore educational and cultural institutions in Italy. Participants visited learning environments and cultural venues that demonstrated how local history, art, and culture can be integrated into educational practice. These experiences provided valuable inspiration for developing meaningful mathematical learning opportunities connected to children’s cultural experiences and everyday lives.',
+						ro: 'Un aspect distinctiv al acestei mobilități a fost oportunitatea de a vizita instituții educaționale și culturale din Italia. Participanții au explorat medii de învățare și spații culturale care demonstrează modul în care istoria locală, arta și cultura pot fi valorificate în procesul educațional. Aceste experiențe au oferit inspirație pentru dezvoltarea unor activități matematice autentice și relevante pentru experiențele cotidiene ale copiilor.',
+						it: 'Uno degli aspetti più significativi della mobilità è stata l\'opportunità di visitare istituzioni educative e culturali italiane. I partecipanti hanno esplorato ambienti di apprendimento e spazi culturali che mostrano come la storia locale, l\'arte e la cultura possano essere integrate efficacemente nei percorsi educativi. Queste esperienze hanno offerto nuove idee e ispirazioni per progettare attività matematiche autentiche e significative, strettamente collegate alle esperienze quotidiane dei bambini.'
+					},
+					{
+						tr: 'Beş gün boyunca gerçekleştirilen toplantılar ve ortak çalışmalar, proje ortakları arasındaki iş birliğini daha da güçlendirmiş, proje hedeflerine yönelik ortak anlayışın gelişmesine katkı sağlamıştır. Aynı zamanda geliştirilen materyallerin niteliğini artırmaya yönelik kararlar alınmış ve projenin sonraki aşamalarında gerçekleştirilecek faaliyetler ayrıntılı biçimde planlanmıştır.',
+						en: 'The mobility also served as an important platform for evaluating completed project outputs and planning future activities. Through constructive dialogue and collaborative reflection, project partners identified strategies to enhance the quality, accessibility, and impact of the resources being developed. Discussions focused on strengthening the connection between mathematics, culture, history, and children\'s natural curiosity about the world around them.',
+						ro: 'Activitatea a constituit, de asemenea, un moment important pentru evaluarea rezultatelor deja realizate și pentru planificarea etapelor următoare ale proiectului. Prin dialog și colaborare, partenerii au identificat modalități de îmbunătățire a calității și impactului resurselor educaționale dezvoltate, consolidând legătura dintre matematică, cultură, istorie și învățarea activă.',
+						it: 'L\'attività ha inoltre rappresentato un momento importante per valutare i risultati già raggiunti e pianificare le fasi successive del progetto. Attraverso il dialogo e la collaborazione, i partner hanno individuato strategie per migliorare ulteriormente la qualità e l\'impatto delle risorse educative sviluppate, rafforzando il legame tra matematica, cultura, storia e apprendimento attivo.'
+					},
+					{
+						tr: 'LTT2 faaliyeti, yalnızca proje çıktılarının geliştirilmesine değil, aynı zamanda farklı ülkelerden gelen eğitimciler arasında sürdürülebilir bir öğrenme topluluğunun oluşmasına da katkı sağlamıştır. Bu yönüyle faaliyet, projenin Avrupa düzeyindeki iş birliği ruhunu ve ortak öğrenme kültürünü güçlendiren önemli bir adım olmuştur.',
+						en: 'Beyond the formal programme, the activity fostered stronger relationships among partner institutions and encouraged the exchange of ideas across different educational contexts. The collaborative atmosphere reinforced the project\'s commitment to building a shared European perspective on innovative and inclusive early mathematics education.',
+						ro: 'Dincolo de activitățile oficiale, mobilitatea a contribuit la întărirea relațiilor dintre instituțiile partenere și la dezvoltarea unei comunități internaționale de învățare. Schimbul de idei și experiențe între participanți a susținut obiectivul proiectului de a promova o perspectivă europeană comună asupra educației matematice timpurii, incluzive și inovatoare.',
+						it: 'Oltre agli aspetti formali del programma, la mobilità ha contribuito a consolidare le relazioni tra le istituzioni partner e a promuovere una comunità internazionale di apprendimento. Lo scambio di idee e di buone pratiche tra i partecipanti ha sostenuto l\'obiettivo del progetto di sviluppare una visione europea condivisa di un\'educazione matematica innovativa, inclusiva e culturalmente significativa.'
+					},
+					{
+						tr: '',
+						en: 'The successful completion of LTT2 represents another important milestone in the implementation of the Math Magic in Motion (3M) project. The knowledge, experiences, and partnerships strengthened during the mobility will continue to support the project\'s future activities and contribute to the development of high-quality educational resources for young learners and educators.',
+						ro: 'Finalizarea cu succes a activității LTT2 reprezintă un nou pas important în implementarea proiectului Math Magic in Motion (3M). Cunoștințele, experiențele și colaborările dezvoltate în cadrul acestei mobilități vor contribui la realizarea următoarelor activități și la dezvoltarea unor resurse educaționale de înaltă calitate pentru copii și educatori.',
+						it: 'Il completamento con successo della LTT2 rappresenta un altro importante traguardo nel percorso del progetto Math Magic in Motion (3M). Le conoscenze, le esperienze e le collaborazioni rafforzate durante questa mobilità contribuiranno allo sviluppo delle future attività progettuali e alla realizzazione di risorse educative di alta qualità per bambini ed educatori.'
+					},
+					{
+						tr: 'Tüm proje ortaklarına ev sahiplikleri, katkıları ve özverili çalışmaları için teşekkür eder; projenin ilerleyen aşamalarında gerçekleştirilecek faaliyetlerde yeniden bir araya gelmeyi sabırsızlıkla bekleriz.',
+						en: 'We would like to express our sincere gratitude to the Italian host institution, all project partners, educators, and participants for their valuable contributions, hospitality, and commitment throughout the event.',
+						ro: 'Mulțumim instituției gazdă din Italia, tuturor partenerilor și participanților pentru implicarea, profesionalismul și contribuțiile valoroase aduse pe parcursul acestei activități.',
+						it: 'Desideriamo ringraziare sinceramente l\'istituzione ospitante italiana, tutti i partner del progetto, gli educatori e i partecipanti per il loro prezioso contributo, la loro ospitalità e il loro costante impegno.'
+					},
+					{
+						tr: `
+						<strong>Proje Adı:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Proje Numarası:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Tarih:</strong> 11-15 Mayıs 2026<br/>
+						<strong>Yer:</strong> İtalya
+						`,
+						en: `
+						<strong>Project:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Project Number:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Dates:</strong> 11-15 May 2026<br/>
+						<strong>Location:</strong> Italy
+						`,
+						ro: `
+						<strong>Titlul proiectului:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Număr proiect:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Perioada:</strong> 11-15 mai 2026<br/>
+						<strong>Locația:</strong> Italia
+						`,
+						it: `
+						<strong>Titolo del progetto:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Numero del progetto:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Date:</strong> 11-15 maggio  2026<br/>
+						<strong>Luogo:</strong> Italia
+						`
+					}
+				],
+				photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
+			}
+		},
+		{
+			id: 10,
+			title: {
+				tr: 'Math Magic in Motion (3M) Projesinin Üçüncü Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT3) Romanya’da Gerçekleştirildi',
+				en: 'The Third Learning, Teaching and Training Activity (LTT3) of the Math Magic in Motion (3M) Project Successfully Held in Romania',
+				ro: 'A Treia Activitate Internațională de Învățare, Predare și Formare (LTT3) a Proiectului Math Magic in Motion (3M) a Fost Desfășurată cu Succes în România',
+				it: 'La Terza Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT3) del Progetto Math Magic in Motion (3M) si è Svolta con Successo in Romania'
+			},
+			date: '2026-05-16',
+			slug: 'the-third-learning-teaching-and-training-activity-ltt3-of-the-math-magic-in-motion-3m-project-successfully-held-in-romania',
+			partner: {
+				country: 'ro',
+				name: 'Căsuța Bucuriei'
+			},
+			coverPhoto: 'pic12.jpg',
+			parallaxBg: 'pic18.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Erasmus+ KA220-SCH programı kapsamında yürütülen <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> projesinin üçüncü Uluslararası Öğrenme, Öğretme ve Eğitim Faaliyeti (LTT3), 11–15 Mayıs 2026 tarihleri arasında Romanya’da başarıyla gerçekleştirildi.`,
+						en: `The third Learning, Teaching and Training Activity (LTT3) of the Erasmus+ KA220-SCH project <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> was successfully held in Romania from 11th to 15th May 2026.`,
+						ro: `A treia Activitate Internațională de Învățare, Predare și Formare (LTT3) din cadrul proiectului Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> s-a desfășurat cu succes în România, în perioada 11–15 mai 2026.`,
+						it: `La terza Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT3) del progetto Erasmus+ KA220-SCH <strong>Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers</strong> si è svolta con successo in Romania dall'11 al 15 maggio 2026.`
+					},
+					{
+						tr: 'Romanyalı proje ortağının ev sahipliğinde düzenlenen bu faaliyet, proje kapsamında geliştirilen modüllerin ve öğrenme etkinliklerinin uygulama süreçlerinin değerlendirilmesine odaklandı. Farklı ülkelerde yürütülen uygulamalardan elde edilen deneyimlerin paylaşılması, proje çıktılarının etkililiğinin incelenmesi ve gelecekte yapılacak iyileştirmelerin planlanması toplantının temel gündemini oluşturdu.',
+						en: 'Hosted by the Romanian partner institution, this international mobility focused on reviewing and evaluating the implementation process of the project activities carried out in the participating countries. The meeting provided an important opportunity for project partners to reflect on the experiences gained during the pilot applications and to discuss the educational impact of the materials and activities developed within the project.',
+						ro: 'Găzduită de partenerul român, această mobilitate internațională a fost dedicată în principal evaluării activităților implementate în cadrul proiectului și analizării rezultatelor obținute în diferitele contexte educaționale ale țărilor partenere. Întâlnirea a oferit un cadru valoros pentru reflecție asupra experiențelor acumulate în timpul procesului de implementare și pentru identificarea unor direcții de îmbunătățire a activităților viitoare.',
+						it: 'Ospitata dal partner rumeno, questa mobilità internazionale è stata dedicata principalmente alla valutazione delle attività implementate nell\'ambito del progetto e all\'analisi dei risultati ottenuti nei diversi contesti educativi dei Paesi partner. L\'incontro ha rappresentato un\'importante occasione per riflettere sulle esperienze maturate durante la fase di sperimentazione e per individuare possibili strategie di miglioramento.'
+					},
+					{
+						tr: 'Beş gün süren program boyunca proje ortakları, öğretmenlerden ve uygulama süreçlerinden elde edilen geri bildirimleri ayrıntılı biçimde değerlendirdi. Uygulanan etkinliklerin çocukların matematiksel düşünme süreçlerine, katılımlarına ve öğrenme deneyimlerine katkıları ele alınırken, karşılaşılan güçlükler ve geliştirilebilecek yönler de tartışıldı. Bu değerlendirmeler sayesinde proje materyallerinin niteliğini artırmaya yönelik önemli kararlar alındı.',
+						en: 'Throughout the week, participants examined the implementation results of the project modules, shared classroom experiences, and discussed feedback collected from teachers and children. Special attention was given to identifying strengths, challenges, and opportunities for improvement in order to enhance the quality and effectiveness of future project outputs. These discussions enabled partners to make evidence-based decisions regarding the refinement of educational resources and teaching strategies.',
+						ro: 'Pe parcursul celor cinci zile, partenerii au analizat feedbackul colectat de la cadrele didactice și observațiile rezultate din aplicarea modulelor și activităților educaționale dezvoltate în cadrul proiectului. Discuțiile s-au concentrat asupra eficienței resurselor create, a nivelului de implicare a copiilor și a contribuției activităților la dezvoltarea gândirii matematice în educația timpurie.',
+						it: 'Nel corso della settimana, i partner hanno esaminato attentamente i feedback raccolti dagli insegnanti e le osservazioni emerse durante l\'applicazione dei moduli e delle attività educative. Le discussioni si sono concentrate sull\'efficacia delle risorse sviluppate, sul coinvolgimento dei bambini nei processi di apprendimento e sul contributo delle attività alla costruzione delle competenze matematiche nella prima infanzia.'
+					},
+					{
+						tr: 'Toplantı süresince gerçekleştirilen ortak çalışma oturumlarında, kültürel ve tarihsel olarak duyarlı matematik etkinliklerinin farklı eğitim ortamlarında nasıl uygulandığı incelendi. Ortaklar, kendi ülkelerindeki deneyimlerini paylaşarak iyi uygulama örneklerini ortaya koydu ve etkinliklerin farklı bağlamlara uyarlanabilmesine yönelik öneriler geliştirdi. Bu süreç, proje ortaklarının birbirlerinden öğrenmelerine ve uluslararası deneyimlerden yararlanmalarına önemli katkı sağladı.',
+						en: 'A significant part of the programme was dedicated to collaborative evaluation sessions. Project partners analysed how culturally and historically responsive mathematical activities were received in different educational settings and explored ways to adapt resources to diverse learning contexts. The exchange of experiences highlighted the value of international collaboration in developing educational practices that are both innovative and meaningful for young learners.',
+						ro: 'Un rol important l-au avut sesiunile de evaluare colaborativă, în cadrul cărora partenerii au prezentat experiențele din propriile instituții și au discutat punctele forte, provocările întâlnite și posibilele îmbunătățiri. Schimbul de experiențe a evidențiat valoarea cooperării internaționale în dezvoltarea unor practici educaționale relevante, inovatoare și adaptate nevoilor copiilor.',
+						it: 'Particolare attenzione è stata dedicata all\'analisi delle pratiche educative realizzate nei diversi Paesi partecipanti. Attraverso sessioni collaborative di confronto e riflessione, i partner hanno condiviso esperienze, punti di forza e sfide incontrate durante l\'implementazione. Questo processo ha consentito di identificare buone pratiche e di formulare proposte per rendere i materiali e le attività ancora più efficaci e adattabili a differenti contesti educativi.'
+					},
+					{
+						tr: 'Faaliyet kapsamında ayrıca Romanya’daki okul öncesi eğitim uygulamaları ve öğrenme ortamları da incelendi. Katılımcılar farklı eğitim yaklaşımlarını gözlemleme fırsatı bulurken, erken çocukluk eğitiminde kültürel unsurların öğrenme süreçlerine nasıl entegre edildiğine ilişkin değerli bilgiler edindi.',
+						en: 'Participants also had the opportunity to observe educational practices in Romania and learn more about local approaches to early childhood education. These visits encouraged professional dialogue and provided valuable insights into different pedagogical traditions and learning environments.',
+						ro: 'Participanții au avut, de asemenea, oportunitatea de a cunoaște exemple de bune practici din sistemul educațional românesc și de a observa diferite medii de învățare destinate copiilor de vârstă preșcolară. Aceste activități au contribuit la consolidarea dialogului profesional și la înțelegerea diversității abordărilor pedagogice existente la nivel european.',
+						it: 'La mobilità ha inoltre offerto ai partecipanti l\'opportunità di conoscere da vicino alcune realtà educative rumene e di approfondire approcci innovativi all\'educazione della prima infanzia. Le visite e gli scambi professionali hanno favorito un dialogo costruttivo tra i partner, contribuendo ad ampliare le prospettive pedagogiche e a rafforzare la dimensione internazionale del progetto.'
+					},
+					{
+						tr: 'LTT3 yalnızca mevcut uygulamaların değerlendirilmesine değil, aynı zamanda projenin son aşamalarına yönelik planlamaların yapılmasına da olanak sağlamıştır. Yaygınlaştırma faaliyetleri, öğretmen eğitimleri, proje çıktılarının sürdürülebilirliği ve elde edilen sonuçların daha geniş kitlelere ulaştırılması konularında ortak kararlar alınmıştır.',
+						en: 'In addition to evaluating completed activities, partners worked together to plan the final stages of the project. Discussions focused on dissemination activities, sustainability strategies, teacher training resources, and the broader impact of the project on early mathematics education. The meeting reaffirmed the shared commitment of all partners to ensuring that project outcomes remain relevant, accessible, and beneficial for educators and children beyond the project duration.',
+						ro: 'Pe lângă evaluarea activităților deja implementate, întâlnirea a fost dedicată și planificării etapelor finale ale proiectului. Partenerii au discutat despre activitățile de diseminare, sustenabilitatea rezultatelor proiectului și strategiile prin care resursele dezvoltate pot continua să fie utilizate și după încheierea finanțării.',
+						it: 'Oltre alla valutazione delle attività già realizzate, l\'incontro è stato dedicato anche alla pianificazione delle fasi finali del progetto. I partner hanno discusso le future attività di disseminazione, la sostenibilità dei risultati ottenuti e le strategie per garantire un impatto duraturo delle risorse sviluppate sulle pratiche educative e sulla formazione degli insegnanti.'
+					},
+					{
+						tr: 'Romanya’da gerçekleştirilen bu hareketlilik, proje ortaklarının uygulama deneyimlerini sistematik biçimde değerlendirmelerine ve bu deneyimleri yeni öğrenme fırsatlarına dönüştürmelerine imkân sağlamıştır. Böylece proje sürecinde elde edilen bilgi ve deneyimler ortak bir bakış açısıyla yeniden ele alınmış, proje çıktılarının kalitesinin artırılmasına yönelik önemli adımlar atılmıştır.',
+						en: 'The Romanian mobility marked an important stage in the project lifecycle by transforming implementation experiences into collective learning opportunities. Through reflection, evaluation, and collaborative planning, the partners strengthened both the quality of the project outputs and the international partnership that supports them.',
+						ro: 'LTT3 a reprezentat un moment important de reflecție, învățare reciprocă și dezvoltare profesională. Prin analiza comună a experiențelor și rezultatelor obținute, partenerii au contribuit la îmbunătățirea calității proiectului și la consolidarea colaborării internaționale dintre instituțiile participante.',
+						it: 'La LTT3 ha rappresentato un momento fondamentale di riflessione, apprendimento reciproco e miglioramento continuo. Attraverso la valutazione condivisa delle esperienze realizzate, il partenariato ha rafforzato ulteriormente la qualità del progetto e la collaborazione tra le istituzioni coinvolte.'
+					},
+					{
+						tr: 'Ev sahipliği ve başarılı organizasyonları için Romanyalı proje ortağımıza, ayrıca katkı sunan tüm katılımcılara teşekkür ederiz. Bu faaliyet sırasında gerçekleştirilen değerlendirme ve planlamaların, projenin kalan süreçlerine önemli katkılar sağlayacağına inanıyoruz.',
+						en: 'We sincerely thank our Romanian partner for their warm hospitality and excellent organisation of the event. We also extend our appreciation to all participants whose dedication and contributions continue to support the success of the Math Magic in Motion (3M) project.',
+						ro: 'Mulțumim partenerului român pentru organizarea excelentă și ospitalitatea oferită, precum și tuturor participanților pentru implicarea și contribuțiile lor valoroase la succesul proiectului.',
+						it: 'Desideriamo ringraziare il partner rumeno per l\'eccellente organizzazione e la calorosa ospitalità, nonché tutti i partecipanti per il loro contributo e il loro impegno costante nel successo del progetto.'
+					},
+					{
+						tr: `
+						<strong>Proje Adı:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Proje Numarası:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Tarih:</strong> 11-15 Mayıs 2025<br/>
+						<strong>Yer:</strong> Romanya
+						`,
+						en: `
+						<strong>Project:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Project Number:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Dates:</strong> 11-15 May 2025<br/>
+						<strong>Location:</strong> Romania
+						`,
+						ro: `
+						<strong>Titlul proiectului:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Număr proiect:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Perioada:</strong> 11-15 mai 2025<br/>
+						<strong>Locația:</strong> România
+						`,
+						it: `
+						<strong>Titolo del progetto:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
+						<strong>Numero del progetto:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
+						<strong>Date:</strong> 11-15 maggio  2025<br/>
+						<strong>Luogo:</strong> Romania
+						`
+					}
+				],
+				photos: Array.from({length: 18}, (_, i) => `pic${i + 1}.jpg`)
+			}
 		}
 	]
 }
