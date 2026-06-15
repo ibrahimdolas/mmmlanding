@@ -763,7 +763,7 @@ export const newsPageData = {
 				ro: 'A Doua Activitate Internațională de Învățare, Predare și Formare (LTT2) a Proiectului Math Magic in Motion (3M) a Fost Organizată cu Succes în Italia',
 				it: 'La Seconda Attività Internazionale di Apprendimento, Insegnamento e Formazione (LTT2) del Progetto Math Magic in Motion (3M) si è Svolta con Successo in Italia'
 			},
-			date: '2026-05-15',
+			date: '2025-12-19',
 			slug: 'the-second-learning-teaching-and-training-activity-ltt2-of-the-math-magic-in-motion-3m-project-successfully-held-in-italy',
 			partner: {
 				country: 'it',
@@ -825,25 +825,25 @@ export const newsPageData = {
 						tr: `
 						<strong>Proje Adı:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Proje Numarası:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Tarih:</strong> 11-15 Mayıs 2026<br/>
+						<strong>Tarih:</strong> 17-19 Aralık 2025<br/>
 						<strong>Yer:</strong> İtalya
 						`,
 						en: `
 						<strong>Project:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Project Number:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Dates:</strong> 11-15 May 2026<br/>
+						<strong>Dates:</strong> 17-19 December 2025<br/>
 						<strong>Location:</strong> Italy
 						`,
 						ro: `
 						<strong>Titlul proiectului:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Număr proiect:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Perioada:</strong> 11-15 mai 2026<br/>
+						<strong>Perioada:</strong> 17-19 decembrie 2025<br/>
 						<strong>Locația:</strong> Italia
 						`,
 						it: `
 						<strong>Titolo del progetto:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Numero del progetto:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Date:</strong> 11-15 maggio  2026<br/>
+						<strong>Date:</strong> 17-19 dicembre 2025<br/>
 						<strong>Luogo:</strong> Italia
 						`
 					}
@@ -921,25 +921,25 @@ export const newsPageData = {
 						tr: `
 						<strong>Proje Adı:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Proje Numarası:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Tarih:</strong> 11-15 Mayıs 2025<br/>
+						<strong>Tarih:</strong> 11-15 Mayıs 2026<br/>
 						<strong>Yer:</strong> Romanya
 						`,
 						en: `
 						<strong>Project:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Project Number:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Dates:</strong> 11-15 May 2025<br/>
+						<strong>Dates:</strong> 11-15 May 2026<br/>
 						<strong>Location:</strong> Romania
 						`,
 						ro: `
 						<strong>Titlul proiectului:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Număr proiect:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Perioada:</strong> 11-15 mai 2025<br/>
+						<strong>Perioada:</strong> 11-15 mai 2026<br/>
 						<strong>Locația:</strong> România
 						`,
 						it: `
 						<strong>Titolo del progetto:</strong> Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers.<br/>
 						<strong>Numero del progetto:</strong> 2024-1-TR01-KA220-SCH-000254193<br/>
-						<strong>Date:</strong> 11-15 maggio  2025<br/>
+						<strong>Date:</strong> 11-15 maggio 2026<br/>
 						<strong>Luogo:</strong> Romania
 						`
 					}
