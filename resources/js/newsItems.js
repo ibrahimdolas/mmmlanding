@@ -946,6 +946,70 @@ export const newsPageData = {
 				],
 				photos: Array.from({length: 18}, (_, i) => `pic${i + 1}.jpg`)
 			}
+		},
+		{
+			id: 11,
+			title: {
+				tr: 'Math Magic in Motion (3M) Projesinin Dördüncü Uluslararası LTT Etkinliği Adıyaman’da Gerçekleştirildi',
+				en: 'The Fourth International Learning, Teaching and Training Activity (LTT4) of the Math Magic in Motion (3M) Project Held in Adıyaman',
+				ro: 'Cea de-a Patra Activitate Internațională de Învățare, Predare și Formare (LTT4) a Proiectului Math Magic in Motion (3M) s-a Desfășurat la Adıyaman',
+				it: 'Il Quarto Evento Internazionale di Apprendimento, Insegnamento e Formazione (LTT4) del Progetto Math Magic in Motion (3M) si è Svolto ad Adıyaman'
+			},
+			date: '2026-10-14',
+			slug: 'the-fourth-international-learning-teaching-and-training-activity-ltt4-of-the-math-magic-in-motion-3m-project-held-in-adiyaman',
+			partner: {
+				country: 'tr',
+				name: 'Adıyaman Üniversitesi'
+			},
+			coverPhoto: 'pic2.jpg',
+			parallaxBg: 'pic8.jpg',
+			content: {
+				paragraphs: [
+					{
+						tr: `Erasmus+ KA220-SCH programı kapsamında Adıyaman Üniversitesi koordinatörlüğünde yürütülen <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong> projesinin dördüncü ve son Öğrenme, Öğretme ve Eğitim (LTT4) etkinliği, 13–14 Ekim 2026 tarihlerinde Adıyaman’da gerçekleştirildi.`,
+						en: `The fourth and final Learning, Teaching and Training Activity (LTT4) of the <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong> project, implemented under the Erasmus+ KA220-SCH programme and coordinated by Adıyaman University, was held on 13–14 October 2026 in Adıyaman, Türkiye.`,
+						ro: `Cea de-a patra și ultima activitate de învățare, predare și formare (LTT4) din cadrul proiectului <strong>„Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, implementat în cadrul programului Erasmus+ KA220-SCH și coordonat de Universitatea Adıyaman, s-a desfășurat în perioada 13–14 octombrie 2026, la Adıyaman, Turcia.`,
+						it: `Il quarto e ultimo evento di apprendimento, insegnamento e formazione (LTT4) del progetto <strong>“Math Magic in Motion (3M): Culturally and Historically Responsive Adventures for Preschool Explorers”</strong>, realizzato nell'ambito del programma Erasmus+ KA220-SCH e coordinato dall'Università di Adıyaman, si è svolto il 13 e 14 ottobre 2026 ad Adıyaman, in Turchia.`
+					},
+					{
+						tr: 'Türkiye, İtalya ve Romanya’dan proje ortaklarını bir araya getiren etkinlikte, proje kapsamında yürütülen çalışmalar kapsamlı biçimde değerlendirildi. Geliştirilen 10 eğitim modülü, 80 matematik etkinliği, eğitsel animasyonlar ve öğretmen rehber materyalleri ele alınarak uygulama sürecinde edinilen deneyimler ve proje çıktılarının sürdürülebilirliği üzerine görüş alışverişinde bulunuldu.',
+						en: 'The event brought together project partners from Türkiye, Italy, and Romania, providing an important opportunity to jointly evaluate the activities carried out and the results achieved throughout the project. During the meetings, the partners reviewed the 10 educational modules, 80 mathematics activities, educational animations, and teacher guidance materials developed within the project. Participants also shared their experiences from the implementation phase and discussed the sustainability and future use of the project outcomes.',
+						ro: 'Evenimentul a reunit partenerii proiectului din Turcia, Italia și România, oferind o oportunitate importantă de evaluare comună a activităților desfășurate și a rezultatelor obținute. În cadrul întâlnirilor au fost analizate cele 10 module educaționale, cele 80 de activități matematice, animațiile educaționale și materialele de îndrumare pentru cadrele didactice dezvoltate în cadrul proiectului. Participanții au împărtășit, de asemenea, experiențele acumulate în etapa de implementare și au discutat perspectivele privind sustenabilitatea și utilizarea viitoare a rezultatelor proiectului.',
+						it: 'L\'evento ha riunito i partner del progetto provenienti da Turchia, Italia e Romania, offrendo un\'importante opportunità per valutare congiuntamente le attività svolte e i risultati raggiunti. Durante gli incontri sono stati esaminati i 10 moduli educativi, le 80 attività matematiche, le animazioni didattiche e i materiali guida per gli insegnanti sviluppati nell\'ambito del progetto. I partecipanti hanno inoltre condiviso le esperienze maturate durante la fase di implementazione e discusso le prospettive di sostenibilità e utilizzo futuro dei risultati progettuali.'
+					},
+					{
+						tr: 'Program kapsamında uluslararası proje ortakları, Adıyaman Üniversitesi yöneticileriyle bir araya gelerek mevcut çalışmaların sonuçlarını ve gelecekte gerçekleştirilebilecek akademik iş birliklerini değerlendirdi. Ayrıca okul öncesi eğitim kurumlarına yapılan ziyaretlerde, proje yaklaşımının eğitim ortamlarına yansımaları üzerine paylaşımlarda bulunuldu.',
+						en: 'As part of the programme, international project partners met with representatives of Adıyaman University to discuss the results of the activities undertaken and explore opportunities for future academic collaboration. Visits to preschool educational institutions were also organised, providing opportunities to exchange experiences and reflections on the application of the project\'s educational approach in learning environments.',
+						ro: 'În cadrul programului, partenerii internaționali s-au întâlnit cu reprezentanții Universității Adıyaman pentru a discuta rezultatele activităților realizate și oportunitățile de dezvoltare a unor viitoare colaborări academice. De asemenea, au fost organizate vizite la instituții de învățământ preșcolar, în cadrul cărora au fost împărtășite reflecții privind aplicarea abordării educaționale a proiectului în mediile de învățare.',
+						it: 'Nell\'ambito del programma, i partner internazionali hanno incontrato i rappresentanti dell\'Università di Adıyaman per discutere i risultati delle attività realizzate e le opportunità di future collaborazioni accademiche. Sono state inoltre organizzate visite presso istituzioni educative prescolari, durante le quali sono state condivise riflessioni sull\'applicazione dell\'approccio educativo del progetto nei contesti di apprendimento.'
+					},
+					{
+						tr: 'TEtkinliğin kültürel programı kapsamında Göbeklitepe, Şanlıurfa ve Diyarbakır’a ziyaretler gerçekleştirilerek katılımcılara bölgenin tarihsel ve kültürel mirasını yakından tanıma fırsatı sunuldu. Bu ziyaretler, projenin matematik eğitiminde kültürel ve tarihsel bağlamlardan yararlanma yaklaşımıyla da örtüştü.',
+						en: 'The cultural programme included visits to Göbeklitepe, Şanlıurfa, and Diyarbakır, offering participants the opportunity to explore the region\'s rich historical and cultural heritage. These experiences also reflected the project\'s emphasis on integrating cultural and historical contexts into mathematics education.',
+						ro: 'Programul cultural a inclus vizite la Göbeklitepe, Șanlıurfa și Diyarbakır, oferindu-le participanților posibilitatea de a descoperi îndeaproape bogatul patrimoniu istoric și cultural al regiunii. Aceste experiențe au reprezentat, totodată, o oportunitate de valorificare a abordării proiectului, bazată pe integrarea contextelor culturale și istorice în educația matematică.',
+						it: 'Il programma culturale ha incluso visite a Göbeklitepe, Şanlıurfa e Diyarbakır, offrendo ai partecipanti l\'opportunità di conoscere da vicino il ricco patrimonio storico e culturale della regione. Queste esperienze hanno rappresentato anche un\'occasione per valorizzare l\'approccio del progetto, basato sull\'integrazione di riferimenti culturali e storici nell\'educazione matematica.'
+					},
+					{
+						tr: 'Dördüncü LTT etkinliği, proje ortaklarının bugüne kadar yürüttükleri çalışmaları birlikte değerlendirmelerine, elde edilen kazanımları paylaşmalarına ve proje sonrasında geliştirilen eğitim materyallerinin kullanımına yönelik ortak bir yaklaşım oluşturmalarına olanak sağladı.',
+						en: 'The fourth LTT activity enabled the project partners to reflect collectively on their work, share the outcomes achieved, and establish common perspectives on the continued use and dissemination of the educational materials developed beyond the project\'s completion.',
+						ro: 'Cea de-a patra activitate LTT le-a oferit partenerilor posibilitatea de a reflecta împreună asupra activităților desfășurate, de a împărtăși rezultatele obținute și de a contura perspective comune privind utilizarea și diseminarea materialelor educaționale dezvoltate, inclusiv după încheierea proiectului.',
+						it: 'Il quarto evento LTT ha consentito ai partner di riflettere congiuntamente sulle attività realizzate, condividere i risultati e delineare prospettive comuni per l\'utilizzo e la diffusione dei materiali educativi sviluppati anche dopo la conclusione del progetto.'
+					},
+					{
+						tr: '24 ay süreli ve 250.000 avro bütçeli 3M projesi, okul öncesi dönemde matematik öğrenimini çocukların yaşadıkları kültürel çevre ve tarihsel mirasla ilişkilendirerek matematiksel düşünme, keşfetme ve anlamlandırma süreçlerini desteklemeyi amaçlamaktadır.',
+						en: 'The 3M project, with a duration of 24 months and a total budget of €250,000, aims to promote early childhood mathematics learning through a culturally and historically responsive approach by connecting mathematical concepts with cultural heritage, history, and children\'s everyday experiences. Its primary objective is to support the development of mathematical thinking, exploration, and meaning-making from an early age.',
+						ro: 'Proiectul 3M, cu o durată de 24 de luni și un buget total de 250.000 de euro, urmărește să promoveze învățarea matematicii în educația timpurie printr-o abordare receptivă la dimensiunile culturale și istorice, conectând conceptele matematice cu patrimoniul cultural, istoria și experiențele cotidiene ale copiilor. Obiectivul principal este de a sprijini dezvoltarea gândirii matematice, explorarea și construirea sensului încă din primii ani de viață.',
+						it: 'Il progetto 3M, della durata di 24 mesi e con un finanziamento complessivo di 250.000 euro, mira a promuovere l\'apprendimento della matematica nella prima infanzia attraverso un approccio culturalmente e storicamente responsivo, collegando i concetti matematici al patrimonio culturale, alla storia e alle esperienze quotidiane dei bambini. L\'obiettivo è sostenere lo sviluppo del pensiero matematico, dell\'esplorazione e della costruzione di significati fin dalla prima infanzia.'
+					},
+					{
+						tr: 'Dördüncü LTT etkinliğiyle projenin uluslararası öğrenme ve eğitim toplantıları tamamlanmış olup, proje çıktılarının yaygınlaştırılmasına ve nihai raporlama çalışmalarına devam edilmektedir.',
+						en: 'With the completion of the fourth LTT activity, the series of international learning, teaching, and training events planned within the project has concluded. Activities related to the dissemination of project outcomes and the preparation of final project documentation are ongoing.',
+						ro: 'Odată cu finalizarea celei de-a patra activități LTT, s-a încheiat seria întâlnirilor internaționale de învățare și formare planificate în cadrul proiectului. Activitățile de diseminare a rezultatelor și de pregătire a documentației finale continuă.',
+						it: 'Con il completamento del quarto evento LTT si è concluso il ciclo degli incontri internazionali di apprendimento e formazione previsti dal progetto. Proseguono le attività di disseminazione dei risultati e di preparazione della documentazione finale.'
+					},
+				],
+				photos: Array.from({length: 10}, (_, i) => `pic${i + 1}.jpg`)
+			}
 		}
 	]
 }
